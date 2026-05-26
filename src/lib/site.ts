@@ -1,7 +1,7 @@
 export const site = {
   name: "Sam",
   handle: "ifeelsam",
-  title: "Developer & builder",
+  title: "Full-stack Solana engineer & builder",
   tagline:
     "I build products where privacy, on-chain systems, and polished interfaces meet — from credit scoring APIs to vault frontends and agent tooling.",
   building: {
@@ -117,6 +117,24 @@ export type Experience = {
 };
 
 export const experiences: Experience[] = [
+  {
+    org: "Superteam",
+    role: "Member · 2× grant recipient",
+    period: "2024 — Present",
+    location: "Remote",
+    href: "https://superteam.fun",
+    detail:
+      "Active in the Solana ecosystem through projects, collaborations, and community initiatives — awarded two Superteam grants.",
+  },
+  {
+    org: "Solana Turbin3",
+    role: "Cohort graduate",
+    period: "2024",
+    location: "Remote",
+    href: "https://turbin3.org",
+    detail:
+      "Completed the Turbin3 builder cohort — Solana architecture, runtime internals, and shipping to mainnet.",
+  },
   {
     org: "PikaVault",
     role: "Frontend engineer",
