@@ -7,11 +7,13 @@ export const site = {
   building: {
     label: "PikaVault",
     href: "https://www.pikavault.xyz/",
+    logo: "/logos/pikavault.png",
     description: "vault frontend — wallet flows, deposits, production UI",
   },
   github: "https://github.com/ifeelsam",
   x: "https://x.com/ifeelsam",
-  email: "mailto:hello@ifeelsam.dev",
+  avatar: "/avatar.jpg",
+  email: "mailto:sanskarsharma9005@gmail.com",
   repoCount: 103,
   memberSince: "2023",
 } as const;
@@ -27,6 +29,7 @@ export type Project = {
   tags: string[];
   status: ProjectStatus;
   highlight?: string;
+  logo?: string;
 };
 
 export const featuredHero: Project = {
@@ -39,6 +42,7 @@ export const featuredHero: Project = {
   tags: ["Web3", "Privacy", "API"],
   status: "live",
   highlight: "Start here — the problem I'm most focused on solving.",
+  logo: "/logos/cipherscore.png",
 };
 
 export const featuredSecondary: Project[] = [
@@ -50,6 +54,7 @@ export const featuredSecondary: Project[] = [
     language: "TypeScript",
     tags: ["DeFi", "Next.js"],
     status: "live",
+    logo: "/logos/pikavault.png",
   },
   {
     name: "Vynix",
@@ -59,6 +64,7 @@ export const featuredSecondary: Project[] = [
     language: "TypeScript",
     tags: ["RWA", "Marketplace"],
     status: "live",
+    logo: "/logos/vynix.png",
   },
   {
     name: "Tracer",
@@ -67,6 +73,7 @@ export const featuredSecondary: Project[] = [
     language: "TypeScript",
     tags: ["AI Agents", "EVM"],
     status: "live",
+    logo: "/logos/github.png",
   },
 ];
 
@@ -114,6 +121,8 @@ export type Experience = {
   location?: string;
   href?: string;
   detail: string;
+  logo: string;
+  badge?: string;
 };
 
 export const experiences: Experience[] = [
@@ -123,6 +132,8 @@ export const experiences: Experience[] = [
     period: "2024 — Present",
     location: "Remote",
     href: "https://superteam.fun",
+    logo: "/logos/superteam.png",
+    badge: "2× grants",
     detail:
       "Active in the Solana ecosystem through projects, collaborations, and community initiatives — awarded two Superteam grants.",
   },
@@ -132,6 +143,7 @@ export const experiences: Experience[] = [
     period: "2024",
     location: "Remote",
     href: "https://turbin3.org",
+    logo: "/logos/turbin3.png",
     detail:
       "Completed the Turbin3 builder cohort — Solana architecture, runtime internals, and shipping to mainnet.",
   },
@@ -141,6 +153,8 @@ export const experiences: Experience[] = [
     period: "2024 — Present",
     location: "Remote",
     href: "https://www.pikavault.xyz/",
+    logo: "/logos/pikavault.png",
+    badge: "Live",
     detail:
       "Wallet flows, deposit UX, and a production Next.js frontend for a live vault product.",
   },
@@ -150,6 +164,8 @@ export const experiences: Experience[] = [
     period: "2024 — Present",
     location: "Remote",
     href: "https://cipherscore.xyz",
+    logo: "/logos/cipherscore.png",
+    badge: "Live",
     detail:
       "Privacy-first credit scoring API — verifiable scores without exposing raw financial data.",
   },
@@ -159,6 +175,7 @@ export const experiences: Experience[] = [
     period: "2023 — Present",
     location: "Remote",
     href: "https://github.com/ifeelsam",
+    logo: "/logos/github.png",
     detail:
       "103+ public repos spanning DeFi, AI agent observability, Android (OuterTune), and protocol docs.",
   },

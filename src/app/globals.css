@@ -182,3 +182,39 @@ body {
   border-radius: 9999px;
   background: hsl(var(--live));
 }
+
+.site-avatar-ring {
+  box-shadow:
+    0 0 0 1px hsl(var(--border)),
+    0 12px 32px -12px rgb(0 0 0 / 0.55);
+}
+
+.site-building-card {
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.site-building-card:hover {
+  border-color: hsl(0 0% 100% / 0.14);
+  background: hsl(var(--muted) / 0.4);
+}
+
+.site-feature-card {
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.site-feature-card:hover {
+  border-color: hsl(0 0% 100% / 0.14);
+  box-shadow: 0 16px 40px -24px rgb(0 0 0 / 0.6);
+}
+
+.site-feature-glow {
+  background: linear-gradient(
+    180deg,
+    hsl(0 0% 100% / 0.06) 0%,
+    transparent 100%
+  );
+}
+
+.site-experience-card {
+  will-change: border-color, background;
+}

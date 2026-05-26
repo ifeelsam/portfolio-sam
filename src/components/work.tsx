@@ -1,3 +1,4 @@
+import { OrgLogo } from "@/components/org-logo";
 import { Section } from "@/components/section";
 import {
   featuredHero,
@@ -51,6 +52,41 @@ function ProjectLinks({ project }: { project: Project }) {
   );
 }
 
+function ProjectHeader({
+  project,
+  large = false,
+}: {
+  project: Project;
+  large?: boolean;
+}) {
+  return (
+    <div className="flex items-start gap-4">
+      {project.logo && (
+        <OrgLogo
+          src={project.logo}
+          alt={project.name}
+          size={large ? "lg" : "md"}
+        />
+      )}
+      <div className="min-w-0 flex-1">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h3
+            className={`font-bold tracking-tight text-foreground ${large ? "text-lg" : ""}`}
+          >
+            {project.name}
+          </h3>
+          <StatusBadge status={project.status} />
+        </div>
+        {project.highlight && (
+          <p className="mt-2 text-sm font-medium text-foreground/80">
+            {project.highlight}
+          </p>
+        )}
+      </div>
+    </div>
+  );
+}
+
 export function Work() {
   return (
     <Section
@@ -60,34 +96,28 @@ export function Work() {
       intro="One flagship project, three strong follow-ups, then the rest if you want depth."
       className="site-divider px-6 md:px-8"
     >
-      <article className="rounded-xl border border-border bg-muted/20 p-6 md:p-8">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <h3 className="text-lg font-bold tracking-tight text-foreground">
-            {featuredHero.name}
-          </h3>
-          <StatusBadge status={featuredHero.status} />
+      <article className="site-feature-card relative overflow-hidden rounded-xl border border-border bg-muted/20 p-6 md:p-8">
+        <div className="site-feature-glow pointer-events-none absolute inset-x-0 top-0 h-24" />
+        <ProjectHeader project={featuredHero} large />
+        <p className="site-body mt-4 sm:pl-[4.25rem]">
+          {featuredHero.description}
+        </p>
+        <div className="sm:pl-[4.25rem]">
+          <ProjectLinks project={featuredHero} />
         </div>
-        {featuredHero.highlight && (
-          <p className="mt-2 text-sm font-medium text-foreground/80">
-            {featuredHero.highlight}
-          </p>
-        )}
-        <p className="site-body mt-4">{featuredHero.description}</p>
-        <ProjectLinks project={featuredHero} />
       </article>
 
-      <ul className="mt-6 space-y-4">
+      <ul className="mt-6 space-y-3">
         {featuredSecondary.map((project) => (
           <li key={project.name}>
-            <article className="rounded-xl border border-border p-5 transition-colors hover:bg-muted/20">
-              <div className="flex flex-wrap items-center justify-between gap-2">
-                <h3 className="font-bold tracking-tight text-foreground">
-                  {project.name}
-                </h3>
-                <StatusBadge status={project.status} />
+            <article className="rounded-xl border border-border bg-muted/10 p-5 transition-all hover:border-foreground/10 hover:bg-muted/25 hover:shadow-md hover:shadow-black/10">
+              <ProjectHeader project={project} />
+              <p className="site-body mt-3 text-sm sm:pl-[3.75rem]">
+                {project.description}
+              </p>
+              <div className="sm:pl-[3.75rem]">
+                <ProjectLinks project={project} />
               </div>
-              <p className="site-body mt-2 text-sm">{project.description}</p>
-              <ProjectLinks project={project} />
             </article>
           </li>
         ))}
@@ -103,9 +133,14 @@ export function Work() {
                   href={project.demo ?? project.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex items-center justify-between gap-4 px-5 py-4 transition-colors hover:bg-muted/20"
+                  className="group flex items-center gap-4 px-5 py-4 transition-colors hover:bg-muted/20"
                 >
-                  <span>
+                  <OrgLogo
+                    src="/logos/github.png"
+                    alt={project.name}
+                    size="sm"
+                  />
+                  <span className="min-w-0 flex-1">
                     <span className="block font-medium text-foreground">
                       {project.name}
                     </span>

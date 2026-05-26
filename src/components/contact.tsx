@@ -6,7 +6,7 @@ import { Mail } from "lucide-react";
 const channels = [
   {
     label: "Email",
-    value: "hello@ifeelsam.dev",
+    value: "sanskarsharma9005@gmail.com",
     href: site.email,
     icon: Mail,
   },
