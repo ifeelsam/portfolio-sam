@@ -1,0 +1,102 @@
+{
+  "/Users/sam/Projects/portfolio-sam/postcss.config.mjs": {
+    "mtime": 1779795898.072636,
+    "hash": "239f3ebf717465dc636818a1a619398d"
+  },
+  "/Users/sam/Projects/portfolio-sam/next-env.d.ts": {
+    "mtime": 1779799822.8208315,
+    "hash": "d0f8375ae1199dc7acd3977fc33b78b8"
+  },
+  "/Users/sam/Projects/portfolio-sam/eslint.config.mjs": {
+    "mtime": 1779795898.0720482,
+    "hash": "dfa1f5f6a7037bf39dc510f30b180002"
+  },
+  "/Users/sam/Projects/portfolio-sam/next.config.ts": {
+    "mtime": 1779800041.29614,
+    "hash": "daad32b4de0b92afe04301ebf0a6cc76"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/app/layout.tsx": {
+    "mtime": 1779799449.9506414,
+    "hash": "53bb6990973a0881f4cddf50d014f62c"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/app/page.tsx": {
+    "mtime": 1779799718.0376794,
+    "hash": "439da4a86bbd411ea5e194c814840e07"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/projects.tsx": {
+    "mtime": 1779799717.4894671,
+    "hash": "fad8dc5189be05013e445e4f14402b0d"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/hero.tsx": {
+    "mtime": 1779800041.5380242,
+    "hash": "71325ee35b03cefca51ddea5ac8892d0"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/palette.tsx": {
+    "mtime": 1779799716.0897555,
+    "hash": "cdc75ea76e5adfaf0721961201ad38cf"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/contact.tsx": {
+    "mtime": 1779799718.9597986,
+    "hash": "b39458f772ac70a177d5fbcef93598e4"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/footer.tsx": {
+    "mtime": 1779799459.120554,
+    "hash": "6646cfb20d7d46c2d2d67e66526f9670"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/icons.tsx": {
+    "mtime": 1779798077.345319,
+    "hash": "0a9262466f9cbf875affaa831f7c5fb3"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/header.tsx": {
+    "mtime": 1779799718.2703693,
+    "hash": "a524ea25d6ff55ac4ec116be18a06418"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/about.tsx": {
+    "mtime": 1779799456.5523744,
+    "hash": "e583df7c9ff53b4e9b73986f8cce80c2"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/lib/pikavault-palette.ts": {
+    "mtime": 1779799707.5879948,
+    "hash": "2624e949aa87c0249d0a1d43fdac3737"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/lib/site.ts": {
+    "mtime": 1779800041.2961044,
+    "hash": "99962017fb636eaeebd87faa77040ee7"
+  },
+  "/Users/sam/Projects/portfolio-sam/brand.md": {
+    "mtime": 1779799709.882897,
+    "hash": "5d443555166ca5a6b1e8145c7caec7ca"
+  },
+  "/Users/sam/Projects/portfolio-sam/README.md": {
+    "mtime": 1779796012.4432554,
+    "hash": "d426ebcbc0aee06568ec31eceea8f0e1"
+  },
+  "/Users/sam/Projects/portfolio-sam/AGENTS.md": {
+    "mtime": 1779795983.1503465,
+    "hash": "9e09241799026ac05be315a2f0b50055"
+  },
+  "/Users/sam/Projects/portfolio-sam/CLAUDE.md": {
+    "mtime": 1779795983.1504345,
+    "hash": "5c27369b226fcf2be8a6cfe52224e767"
+  },
+  "/Users/sam/Projects/portfolio-sam/public/file.svg": {
+    "mtime": 1779795898.0726392,
+    "hash": "d09f95206c3fa0bb9bd9fefabfd0ea71"
+  },
+  "/Users/sam/Projects/portfolio-sam/public/vercel.svg": {
+    "mtime": 1779795898.0727613,
+    "hash": "c0af2f507b369b085b35ef4bbe3bcf1e"
+  },
+  "/Users/sam/Projects/portfolio-sam/public/next.svg": {
+    "mtime": 1779795898.0722697,
+    "hash": "8e061864f388b47f33a1c3780831193e"
+  },
+  "/Users/sam/Projects/portfolio-sam/public/globe.svg": {
+    "mtime": 1779795898.0725586,
+    "hash": "2aaafa6a49b6563925fe440891e32717"
+  },
+  "/Users/sam/Projects/portfolio-sam/public/window.svg": {
+    "mtime": 1779795898.0726533,
+    "hash": "a2760511c65806022ad20adf74370ff3"
+  }
+}
