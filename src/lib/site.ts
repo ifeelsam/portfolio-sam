@@ -166,6 +166,17 @@ export const experiences: Experience[] = [
       "Active in the Solana ecosystem through projects, collaborations, and community initiatives — awarded two Superteam grants.",
   },
   {
+    org: "Arcium",
+    role: "Fellowship recipient",
+    period: "Jul — Aug 2025",
+    location: "Remote",
+    href: "https://www.arcium.com",
+    logo: "/logos/arcium.png",
+    badge: "Fellowship",
+    detail:
+      "Selected for the Arcium Fellowship — built privacy-preserving applications on Solana using confidential MPC, with mentorship from the Arcium team.",
+  },
+  {
     org: "Solana Turbin3",
     role: "Cohort graduate",
     period: "2024",

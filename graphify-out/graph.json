@@ -619,7 +619,7 @@
       "label": "stack",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L212",
+      "source_location": "L223",
       "id": "lib_site_stack",
       "community": 7,
       "norm_label": "stack"
@@ -628,7 +628,7 @@
       "label": "proofStats",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L223",
+      "source_location": "L234",
       "id": "lib_site_proofstats",
       "community": 7,
       "norm_label": "proofstats"
@@ -2834,5 +2834,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2c03fb31891bca27e741932ea1410694307dc5ae"
+  "built_at_commit": "4b27741268d97e4d6f58eeeca4222c82f3604a49"
 }

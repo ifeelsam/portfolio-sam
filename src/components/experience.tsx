@@ -8,7 +8,7 @@ import { useState } from "react";
 
 function ExperienceBadge({ label }: { label: string }) {
   const lower = label.toLowerCase();
-  if (lower.includes("grant")) {
+  if (lower.includes("grant") || lower.includes("fellowship")) {
     return (
       <span className="rounded-full border border-foreground/10 bg-foreground/5 px-2 py-0.5 text-[0.625rem] font-bold uppercase tracking-wider text-foreground/80">
         {label}

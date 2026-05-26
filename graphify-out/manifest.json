@@ -20,7 +20,7 @@
     "hash": "c7f3b5fcd9506130360318f5b1ed8124"
   },
   "/Users/sam/Projects/portfolio-sam/src/app/page.tsx": {
-    "mtime": 1779800789.4861429,
+    "mtime": 1779829043.2881052,
     "hash": "5e2f75d3eefdd17d3b81a703945495a5"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/hero.tsx": {
@@ -28,8 +28,8 @@
     "hash": "4541bdc5c3f61c87f380741f49ee0580"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/experience.tsx": {
-    "mtime": 1779805627.9168642,
-    "hash": "15bbd5f84d8b19bb469b87df07752939"
+    "mtime": 1779829115.9996357,
+    "hash": "dea63fef6f7dc0640767835b29a51e83"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/work.tsx": {
     "mtime": 1779805616.7417948,
@@ -40,8 +40,8 @@
     "hash": "2c3d9baa83346dfed4b6385a2e28fec2"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/site-shell.tsx": {
-    "mtime": 1779820227.1903455,
-    "hash": "2a2a6350303069d6dc14366254f9e12f"
+    "mtime": 1779820462.305432,
+    "hash": "34b8d3e1ce8c3dac39d5828c32dc07e8"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/contact.tsx": {
     "mtime": 1779805174.0665526,
@@ -84,8 +84,8 @@
     "hash": "886f3b652bea3fcf2778612e1094bd64"
   },
   "/Users/sam/Projects/portfolio-sam/src/lib/site.ts": {
-    "mtime": 1779818562.148616,
-    "hash": "0d8a90e5282b3a6dd6c12492b9bd187a"
+    "mtime": 1779829112.8294225,
+    "hash": "8d9d6a8b6f4029120a234a946f96b88d"
   },
   "/Users/sam/Projects/portfolio-sam/brand.md": {
     "mtime": 1779800798.1081297,
@@ -146,6 +146,10 @@
   "/Users/sam/Projects/portfolio-sam/public/logos/superteam.png": {
     "mtime": 1779805668.3220422,
     "hash": "7a9545769d8c40c7789156137e0ac1ee"
+  },
+  "/Users/sam/Projects/portfolio-sam/public/logos/arcium.png": {
+    "mtime": 1779829113.612968,
+    "hash": "f7fa03f39564582af03857b7c4c07c0e"
   },
   "/Users/sam/Projects/portfolio-sam/public/logos/pikavault.png": {
     "mtime": 1779804643.6966894,
