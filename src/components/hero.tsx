@@ -20,7 +20,12 @@ export function Hero() {
       <p className="site-body mt-8 max-w-xl">{site.tagline}</p>
 
       <div className="site-building-card mt-6 flex items-center gap-3 rounded-xl border border-border bg-muted/25 p-4">
-        <OrgLogo src={site.building.logo} alt={site.building.label} size="sm" />
+        <OrgLogo
+          src={site.building.logo}
+          alt={site.building.label}
+          size="sm"
+          shape={site.building.logoShape}
+        />
         <p className="text-sm text-muted-foreground">
           Currently building{" "}
           <a

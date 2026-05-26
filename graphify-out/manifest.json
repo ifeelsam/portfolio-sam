@@ -4,8 +4,8 @@
     "hash": "239f3ebf717465dc636818a1a619398d"
   },
   "/Users/sam/Projects/portfolio-sam/next-env.d.ts": {
-    "mtime": 1779804872.2228036,
-    "hash": "d0f8375ae1199dc7acd3977fc33b78b8"
+    "mtime": 1779805618.697984,
+    "hash": "2a74d3909800ca5467fa83b0ab4a4890"
   },
   "/Users/sam/Projects/portfolio-sam/eslint.config.mjs": {
     "mtime": 1779795898.0720482,
@@ -24,24 +24,24 @@
     "hash": "5e2f75d3eefdd17d3b81a703945495a5"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/hero.tsx": {
-    "mtime": 1779804976.5937083,
-    "hash": "1b4c869bf3b16b76989f806db6aadf3b"
+    "mtime": 1779805604.700415,
+    "hash": "4541bdc5c3f61c87f380741f49ee0580"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/experience.tsx": {
-    "mtime": 1779804976.6043935,
-    "hash": "b6df08610d0a615bf3e8c5cfe754dc65"
+    "mtime": 1779805604.9174297,
+    "hash": "ed1062ed7df9e21787bde4fa1d97361e"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/work.tsx": {
-    "mtime": 1779804976.5941787,
-    "hash": "420b1cb9a4bbb10629e3c4a060c0e4b7"
+    "mtime": 1779805616.7417948,
+    "hash": "81d6f7d53aac1d5ac28dbafd5c7d545e"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/site-shell.tsx": {
     "mtime": 1779800789.0435967,
     "hash": "6103026d15d6053e1e562494af33dffc"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/contact.tsx": {
-    "mtime": 1779800787.9200878,
-    "hash": "c090f8d49c5a9ee98c21126d40e4660c"
+    "mtime": 1779805174.0665526,
+    "hash": "3dd9e2604d327274d8a1fccac1ef9b1b"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/section.tsx": {
     "mtime": 1779800773.8735793,
@@ -68,16 +68,16 @@
     "hash": "d217186d1e8f29bc9798d884aa878137"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/org-logo.tsx": {
-    "mtime": 1779805023.7863724,
-    "hash": "e87b174db15a3320f5052e52a4cb159f"
+    "mtime": 1779805598.936315,
+    "hash": "6c4350a9b024b0216150368aaa2a9dec"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/about.tsx": {
     "mtime": 1779804460.800133,
     "hash": "886f3b652bea3fcf2778612e1094bd64"
   },
   "/Users/sam/Projects/portfolio-sam/src/lib/site.ts": {
-    "mtime": 1779804976.5941708,
-    "hash": "09af90b8143ea74ad766fac1369be3c7"
+    "mtime": 1779805604.0915904,
+    "hash": "47ca6caf2275d0e3d82e571505a97ce7"
   },
   "/Users/sam/Projects/portfolio-sam/brand.md": {
     "mtime": 1779800798.1081297,
@@ -127,6 +127,10 @@
     "mtime": 1779804644.231974,
     "hash": "81addaa406504038756c8f1613668203"
   },
+  "/Users/sam/Projects/portfolio-sam/public/logos/mortem.png": {
+    "mtime": 1779805591.0217464,
+    "hash": "c43fee3d662dffb85ddb38a4497a4279"
+  },
   "/Users/sam/Projects/portfolio-sam/public/logos/cipherscore.png": {
     "mtime": 1779804643.9456637,
     "hash": "32b3539dc106aabc5c3c81ebea8b0ff1"
@@ -142,5 +146,9 @@
   "/Users/sam/Projects/portfolio-sam/public/logos/turbin3.png": {
     "mtime": 1779804643.443482,
     "hash": "91a3cdb23f4af822891dbef9e754f95f"
+  },
+  "/Users/sam/Projects/portfolio-sam/public/logos/mortem.svg": {
+    "mtime": 1779805595.6825752,
+    "hash": "6d71d4db08efebb7b76d73222d3ec7ac"
   }
 }

@@ -36,7 +36,7 @@ function ProjectLinks({ project }: { project: Project }) {
           rel="noopener noreferrer"
           className="site-link font-medium"
         >
-          Live demo
+          {project.status === "building" ? "Visit site" : "Live demo"}
         </a>
       )}
       <a
@@ -66,6 +66,7 @@ function ProjectHeader({
           src={project.logo}
           alt={project.name}
           size={large ? "lg" : "md"}
+          shape={project.logoShape}
         />
       )}
       <div className="min-w-0 flex-1">

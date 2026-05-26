@@ -4,6 +4,7 @@ type OrgLogoProps = {
   src: string;
   alt: string;
   size?: "sm" | "md" | "lg";
+  shape?: "circle" | "square";
   className?: string;
 };
 
@@ -17,13 +18,16 @@ export function OrgLogo({
   src,
   alt,
   size = "md",
+  shape = "circle",
   className = "",
 }: OrgLogoProps) {
   const dim = sizes[size];
+  const radius = shape === "square" ? "rounded-lg" : "rounded-full";
+  const isSvg = src.endsWith(".svg");
 
   return (
     <div
-      className={`relative flex shrink-0 items-center justify-center overflow-hidden rounded-full border border-border bg-muted/50 shadow-sm ring-1 ring-white/5 ${className}`}
+      className={`relative flex shrink-0 items-center justify-center overflow-hidden border border-border bg-muted/50 shadow-sm ring-1 ring-white/5 ${radius} ${className}`}
       style={{ width: dim.box, height: dim.box }}
     >
       <Image
@@ -31,7 +35,7 @@ export function OrgLogo({
         alt={alt}
         width={dim.image}
         height={dim.image}
-        className="object-contain"
+        className={isSvg ? "h-[70%] w-[70%] object-contain" : "object-contain"}
       />
     </div>
   );

@@ -3,12 +3,14 @@ export const site = {
   handle: "ifeelsam",
   title: "Full-stack Solana engineer & builder",
   tagline:
-    "I build products where privacy, on-chain systems, and polished interfaces meet — from credit scoring APIs to vault frontends and agent tooling.",
+    "I build products where privacy, on-chain systems, and polished interfaces meet — from agent observability on Solana to vault frontends and protocol tooling.",
   building: {
-    label: "PikaVault",
-    href: "https://www.pikavault.xyz/",
-    logo: "/logos/pikavault.png",
-    description: "vault frontend — wallet flows, deposits, production UI",
+    label: "Mortem",
+    href: "https://www.mortemlabs.com/",
+    logo: "/logos/mortem.svg",
+    logoShape: "square" as const,
+    description:
+      "catch bad agent trading decisions, trace failures, fix the logic",
   },
   github: "https://github.com/ifeelsam",
   x: "https://x.com/ifeelsam",
@@ -30,22 +32,35 @@ export type Project = {
   status: ProjectStatus;
   highlight?: string;
   logo?: string;
+  logoShape?: "circle" | "square";
 };
 
 export const featuredHero: Project = {
-  name: "CipherScore",
+  name: "Mortem Protocol",
   description:
-    "Decentralized, privacy-first credit scoring — verifiable scores without exposing raw financial data.",
-  href: "https://github.com/ifeelsam/CipherScore",
-  demo: "https://cipherscore.xyz",
+    "Helps Solana trading teams catch bad agent decisions, trace what caused them, and fix the logic before the same loss repeats.",
+  href: "https://github.com/mortemlabs/mortem-protocol",
+  demo: "https://www.mortemlabs.com",
   language: "TypeScript",
-  tags: ["Web3", "Privacy", "API"],
-  status: "live",
-  highlight: "Start here — the problem I'm most focused on solving.",
-  logo: "/logos/cipherscore.png",
+  tags: ["Solana", "AI Agents", "Protocol"],
+  status: "building",
+  highlight: "Start here — what I'm building right now.",
+  logo: "/logos/mortem.svg",
+  logoShape: "square",
 };
 
 export const featuredSecondary: Project[] = [
+  {
+    name: "CipherScore",
+    description:
+      "Decentralized, privacy-first credit scoring — verifiable scores without exposing raw financial data.",
+    href: "https://github.com/ifeelsam/CipherScore",
+    demo: "https://cipherscore.xyz",
+    language: "TypeScript",
+    tags: ["Web3", "Privacy", "API"],
+    status: "live",
+    logo: "/logos/cipherscore.png",
+  },
   {
     name: "Pika Vault",
     description: "Vault frontend with wallet flows and production-ready deposits.",
@@ -123,9 +138,22 @@ export type Experience = {
   detail: string;
   logo: string;
   badge?: string;
+  logoShape?: "circle" | "square";
 };
 
 export const experiences: Experience[] = [
+  {
+    org: "Mortem Labs",
+    role: "Builder · mortem-protocol",
+    period: "2025 — Present",
+    location: "Remote",
+    href: "https://www.mortemlabs.com",
+    logo: "/logos/mortem.svg",
+    badge: "Building",
+    logoShape: "square",
+    detail:
+      "Building Mortem — agent observability for Solana trading teams. Trace bad decisions, prove root cause, patch the logic before capital gets buried.",
+  },
   {
     org: "Superteam",
     role: "Member · 2× grant recipient",

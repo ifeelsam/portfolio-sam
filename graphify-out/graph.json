@@ -196,7 +196,7 @@
       "label": "Work()",
       "file_type": "code",
       "source_file": "src/components/work.tsx",
-      "source_location": "L90",
+      "source_location": "L91",
       "id": "components_work_work",
       "community": 1,
       "norm_label": "work()"
@@ -412,7 +412,7 @@
       "label": "sizes",
       "file_type": "code",
       "source_file": "src/components/org-logo.tsx",
-      "source_location": "L10",
+      "source_location": "L11",
       "id": "components_org_logo_sizes",
       "community": 15,
       "norm_label": "sizes"
@@ -421,7 +421,7 @@
       "label": "OrgLogo()",
       "file_type": "code",
       "source_file": "src/components/org-logo.tsx",
-      "source_location": "L16",
+      "source_location": "L17",
       "id": "components_org_logo_orglogo",
       "community": 15,
       "norm_label": "orglogo()"
@@ -466,7 +466,7 @@
       "label": "ProjectStatus",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L21",
+      "source_location": "L23",
       "id": "lib_site_projectstatus",
       "community": 7,
       "norm_label": "projectstatus"
@@ -475,7 +475,7 @@
       "label": "Project",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L23",
+      "source_location": "L25",
       "id": "lib_site_project",
       "community": 7,
       "norm_label": "project"
@@ -484,7 +484,7 @@
       "label": "featuredHero",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L35",
+      "source_location": "L38",
       "id": "lib_site_featuredhero",
       "community": 7,
       "norm_label": "featuredhero"
@@ -493,7 +493,7 @@
       "label": "featuredSecondary",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L48",
+      "source_location": "L52",
       "id": "lib_site_featuredsecondary",
       "community": 7,
       "norm_label": "featuredsecondary"
@@ -502,7 +502,7 @@
       "label": "moreProjects",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L80",
+      "source_location": "L95",
       "id": "lib_site_moreprojects",
       "community": 7,
       "norm_label": "moreprojects"
@@ -511,7 +511,7 @@
       "label": "Experience",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L117",
+      "source_location": "L132",
       "id": "lib_site_experience",
       "community": 7,
       "norm_label": "experience"
@@ -520,7 +520,7 @@
       "label": "experiences",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L128",
+      "source_location": "L144",
       "id": "lib_site_experiences",
       "community": 15,
       "norm_label": "experiences"
@@ -529,7 +529,7 @@
       "label": "stack",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L184",
+      "source_location": "L212",
       "id": "lib_site_stack",
       "community": 14,
       "norm_label": "stack"
@@ -538,7 +538,7 @@
       "label": "proofStats",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L195",
+      "source_location": "L223",
       "id": "lib_site_proofstats",
       "community": 14,
       "norm_label": "proofstats"
@@ -1180,9 +1180,9 @@
       "source_file": "src/components/hero.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_hero_tsx",
-      "target": "src_components_avatar_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_avatar_tsx"
     },
     {
       "relation": "imports",
@@ -1191,9 +1191,9 @@
       "source_file": "src/components/hero.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_hero_tsx",
-      "target": "components_avatar_avatar",
-      "confidence_score": 1.0
+      "target": "components_avatar_avatar"
     },
     {
       "relation": "imports_from",
@@ -1202,9 +1202,9 @@
       "source_file": "src/components/hero.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_hero_tsx",
-      "target": "src_components_org_logo_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_org_logo_tsx"
     },
     {
       "relation": "imports",
@@ -1213,9 +1213,9 @@
       "source_file": "src/components/hero.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_hero_tsx",
-      "target": "components_org_logo_orglogo",
-      "confidence_score": 1.0
+      "target": "components_org_logo_orglogo"
     },
     {
       "relation": "imports_from",
@@ -1311,9 +1311,9 @@
       "source_file": "src/components/experience.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_experience_tsx",
-      "target": "src_components_org_logo_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_org_logo_tsx"
     },
     {
       "relation": "imports",
@@ -1322,9 +1322,9 @@
       "source_file": "src/components/experience.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_experience_tsx",
-      "target": "components_org_logo_orglogo",
-      "confidence_score": 1.0
+      "target": "components_org_logo_orglogo"
     },
     {
       "relation": "imports_from",
@@ -1376,9 +1376,9 @@
       "source_file": "src/components/experience.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_experience_tsx",
-      "target": "components_experience_experiencebadge",
-      "confidence_score": 1.0
+      "target": "components_experience_experiencebadge"
     },
     {
       "relation": "contains",
@@ -1397,9 +1397,9 @@
       "source_file": "src/components/work.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_work_tsx",
-      "target": "src_components_org_logo_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_org_logo_tsx"
     },
     {
       "relation": "imports",
@@ -1408,9 +1408,9 @@
       "source_file": "src/components/work.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_work_tsx",
-      "target": "components_org_logo_orglogo",
-      "confidence_score": 1.0
+      "target": "components_org_logo_orglogo"
     },
     {
       "relation": "imports_from",
@@ -1515,9 +1515,9 @@
       "source_file": "src/components/work.tsx",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_work_tsx",
-      "target": "components_work_projectheader",
-      "confidence_score": 1.0
+      "target": "components_work_projectheader"
     },
     {
       "relation": "contains",
@@ -1814,9 +1814,9 @@
       "source_file": "src/components/avatar.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_avatar_tsx",
-      "target": "src_lib_site_ts",
-      "confidence_score": 1.0
+      "target": "src_lib_site_ts"
     },
     {
       "relation": "imports",
@@ -1825,9 +1825,9 @@
       "source_file": "src/components/avatar.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_avatar_tsx",
-      "target": "lib_site_site",
-      "confidence_score": 1.0
+      "target": "lib_site_site"
     },
     {
       "relation": "contains",
@@ -1835,9 +1835,9 @@
       "source_file": "src/components/avatar.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_avatar_tsx",
-      "target": "components_avatar_avatar",
-      "confidence_score": 1.0
+      "target": "components_avatar_avatar"
     },
     {
       "relation": "contains",
@@ -1950,9 +1950,9 @@
       "source_file": "src/components/org-logo.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_org_logo_tsx",
-      "target": "components_org_logo_orglogoprops",
-      "confidence_score": 1.0
+      "target": "components_org_logo_orglogoprops"
     },
     {
       "relation": "contains",
@@ -1960,9 +1960,9 @@
       "source_file": "src/components/org-logo.tsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_org_logo_tsx",
-      "target": "components_org_logo_sizes",
-      "confidence_score": 1.0
+      "target": "components_org_logo_sizes"
     },
     {
       "relation": "contains",
@@ -1970,9 +1970,9 @@
       "source_file": "src/components/org-logo.tsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_org_logo_tsx",
-      "target": "components_org_logo_orglogo",
-      "confidence_score": 1.0
+      "target": "components_org_logo_orglogo"
     },
     {
       "relation": "imports_from",
@@ -2424,5 +2424,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "11280499a713bbb2cfdc0e5fa2af8ce1d8bc0ef1"
+  "built_at_commit": "55b3e088f3bc0acb086aefc7b3901b2afac5ba27"
 }
