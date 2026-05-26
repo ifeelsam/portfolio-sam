@@ -1,6 +1,6 @@
 "use client";
 
-import { GitHubIcon } from "@/components/icons";
+import { GitHubIcon, XIcon } from "@/components/icons";
 import { site } from "@/lib/site";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
@@ -8,8 +8,8 @@ import { useState } from "react";
 
 const nav = [
   { label: "Work", href: "#work" },
-  { label: "About", href: "#about" },
-  { label: "Palette", href: "#palette" },
+  { label: "Proof", href: "#proof" },
+  { label: "Experience", href: "#experience" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -17,40 +17,30 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b-[3px] border-pv-yellow bg-pv-dark/95 backdrop-blur-sm">
-      <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
+    <header className="sticky top-0 z-50 border-b border-border bg-card/90 backdrop-blur-md">
+      <div className="flex h-14 items-center justify-between px-6 md:px-8">
         <Link
           href="/"
-          className="font-display text-sm tracking-widest text-pv-yellow transition-colors hover:text-pv-cyan"
+          className="text-sm font-bold tracking-tight text-foreground"
         >
-          {site.handle.toUpperCase()}
+          {site.name}
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-6 md:flex">
           {nav.map((item) => (
             <a
               key={item.href}
               href={item.href}
-              className="text-sm font-bold uppercase tracking-wide text-muted-foreground transition-colors hover:text-pv-cyan"
+              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
               {item.label}
             </a>
           ))}
-          <a
-            href={site.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="pv-btn-outline py-2 text-xs"
-            aria-label="GitHub profile"
-          >
-            <GitHubIcon className="h-4 w-4" />
-            GitHub
-          </a>
         </nav>
 
         <button
           type="button"
-          className="border-2 border-pv-yellow p-2 text-pv-yellow md:hidden"
+          className="rounded-md p-2 text-muted-foreground md:hidden"
           onClick={() => setOpen(!open)}
           aria-expanded={open}
           aria-label="Toggle menu"
@@ -60,33 +50,46 @@ export function Header() {
       </div>
 
       {open && (
-        <nav className="border-t-[3px] border-pv-cyan bg-pv-dark px-6 py-4 md:hidden">
-          <ul className="flex flex-col gap-4">
+        <nav className="border-t border-border px-6 py-4 md:hidden">
+          <ul className="flex flex-col gap-3">
             {nav.map((item) => (
               <li key={item.href}>
                 <a
                   href={item.href}
-                  className="block font-bold uppercase tracking-wide text-foreground"
+                  className="block text-sm font-medium text-foreground"
                   onClick={() => setOpen(false)}
                 >
                   {item.label}
                 </a>
               </li>
             ))}
-            <li>
-              <a
-                href={site.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 font-bold text-pv-yellow"
-              >
-                <GitHubIcon className="h-4 w-4" />
-                GitHub
-              </a>
-            </li>
           </ul>
         </nav>
       )}
     </header>
+  );
+}
+
+export function SocialPills() {
+  const links = [
+    { label: "GitHub", href: site.github, icon: GitHubIcon },
+    { label: "X", href: site.x, icon: XIcon },
+  ];
+
+  return (
+    <div className="flex flex-wrap gap-2">
+      {links.map((link) => (
+        <a
+          key={link.label}
+          href={link.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="site-pill"
+        >
+          <link.icon className="h-3.5 w-3.5" />
+          {link.label}
+        </a>
+      ))}
+    </div>
   );
 }

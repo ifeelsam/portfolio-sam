@@ -1,23 +1,22 @@
 import { About } from "@/components/about";
 import { Contact } from "@/components/contact";
+import { Experience } from "@/components/experience";
 import { Footer } from "@/components/footer";
-import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
-import { Palette } from "@/components/palette";
-import { Projects } from "@/components/projects";
+import { Proof } from "@/components/proof";
+import { SiteShell } from "@/components/site-shell";
+import { Work } from "@/components/work";
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <Projects />
-        <About />
-        <Palette />
-        <Contact />
-      </main>
+    <SiteShell>
+      <Hero />
+      <Proof />
+      <Work />
+      <Experience />
+      <About />
+      <Contact />
       <Footer />
-    </>
+    </SiteShell>
   );
 }

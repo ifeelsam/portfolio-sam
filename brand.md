@@ -1,41 +1,30 @@
-# PikaVault brand palette (portfolio)
+# Portfolio brand
 
-Colors extracted from [ifeelsam/pika-fe](https://github.com/ifeelsam/pika-fe) and [pikavault.xyz](https://www.pikavault.xyz/).
+Focused, narrative-driven portfolio — neutral dark palette with a single accent (foreground white) used only for emphasis and CTAs.
 
-## Core brand
+## Palette
 
-| Name   | Hex       | Usage                          |
-|--------|-----------|--------------------------------|
-| Yellow | `#F6FF00` | Primary CTAs, headings, legendary |
-| Cyan   | `#00F5FF` | Accent, rare tier, modals      |
-| Pink   | `#FF2D55` | Secondary, epic tier           |
-| Dark   | `#0A0A0A` | Page background                |
+| Token | Value | Usage |
+|-------|-------|--------|
+| Background | `#0a0a0a` | Page canvas |
+| Card | `#0f0f0f` | Main content shell |
+| Foreground | `#f5f5f5` | Headings, primary text, CTA fill |
+| Muted | `#858585` | Body copy, labels |
+| Border | `#292929` | Dividers, cards |
+| Live | `#3d9a6a` | Status badge only |
 
-## Semantic (shadcn)
+## Typography
 
-| Token              | HSL           | Hex       |
-|--------------------|---------------|-----------|
-| background         | `0 0% 4%`     | `#0A0A0A` |
-| foreground         | `0 0% 100%`   | `#FFFFFF` |
-| primary            | `60 100% 50%` | `#F6FF00` |
-| secondary          | `340 100% 56%`| `#FF2D55` |
-| accent             | `180 100% 50%`| `#00F5FF` |
-| muted              | `0 0% 15%`    | `#262626` |
-| muted-foreground   | `0 0% 70%`    | `#B3B3B3` |
-| border             | `0 0% 20%`    | `#333333` |
+- **Sans:** Space Grotesk — body, headings, UI
+- No display/uppercase font — hierarchy via size and weight only
 
-## Card rarity
+## Voice
 
-| Tier       | Hex       |
-|------------|-----------|
-| Common     | `#FFFFFF` |
-| Uncommon   | `#00FF88` |
-| Rare       | `#00F5FF` |
-| Epic       | `#FF2D55` |
-| Ultra rare | `#FF6B35` |
-| Legendary  | `#F6FF00` |
+- Direct, first-person
+- Numbered sections guide the reader: Proof → Work → Experience → About → Contact
+- One hero project, then tiered depth
 
 ## Code
 
 - CSS variables: `src/app/globals.css`
-- TypeScript: `src/lib/pikavault-palette.ts`
+- Content & structure: `src/lib/site.ts`

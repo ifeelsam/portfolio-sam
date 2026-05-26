@@ -1,14 +1,5 @@
 @import "tailwindcss";
 
-/* PikaVault theme — ifeelsam/pika-fe app/globals.css + tailwind.config.ts */
-@font-face {
-  font-family: "Monument Extended";
-  src: url("/fonts/MonumentExtended-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
 @font-face {
   font-family: "Space Grotesk";
   src: url("/fonts/SpaceGrotesk-Regular.woff2") format("woff2");
@@ -26,46 +17,18 @@
 }
 
 :root {
-  /* shadcn semantic (HSL channels) */
   --background: 0 0% 4%;
-  --foreground: 0 0% 100%;
-  --card: 0 0% 4%;
-  --card-foreground: 0 0% 100%;
-  --popover: 0 0% 4%;
-  --popover-foreground: 0 0% 100%;
-  --primary: 60 100% 50%;
-  --primary-foreground: 0 0% 4%;
-  --secondary: 340 100% 56%;
-  --secondary-foreground: 0 0% 100%;
-  --accent: 180 100% 50%;
-  --accent-foreground: 0 0% 4%;
-  --muted: 0 0% 15%;
-  --muted-foreground: 0 0% 70%;
-  --destructive: 0 100% 50%;
-  --destructive-foreground: 0 0% 100%;
-  --border: 0 0% 20%;
-  --input: 0 0% 20%;
-  --ring: 60 100% 50%;
-  --radius: 0;
-
-  /* pikavault.* brand hex */
-  --pv-yellow: #f6ff00;
-  --pv-pink: #ff2d55;
-  --pv-cyan: #00f5ff;
-  --pv-dark: #0a0a0a;
-  --pv-green: #00ff85;
-  --pv-green-alt: #00ff88;
-  --pv-orange: #ff6b35;
-  --pv-white: #ffffff;
-  --pv-black: #000000;
-
-  /* glows (pika-card rarity) */
-  --pv-glow-yellow: rgb(246 255 0 / 0.6);
-  --pv-glow-cyan: rgb(0 245 255 / 0.4);
-  --pv-glow-pink: rgb(255 45 85 / 0.5);
-  --pv-glow-green: rgb(0 255 136 / 0.4);
-  --pv-glow-orange: rgb(255 107 53 / 0.6);
-  --pv-glow-white: rgb(255 255 255 / 0.3);
+  --foreground: 0 0% 96%;
+  --card: 0 0% 6%;
+  --card-foreground: 0 0% 96%;
+  --muted: 0 0% 12%;
+  --muted-foreground: 0 0% 52%;
+  --border: 0 0% 16%;
+  --ring: 0 0% 80%;
+  --accent: 0 0% 96%;
+  --accent-muted: 0 0% 72%;
+  --live: 142 45% 45%;
+  --radius: 0.5rem;
 }
 
 @theme inline {
@@ -73,30 +36,13 @@
   --color-foreground: hsl(var(--foreground));
   --color-card: hsl(var(--card));
   --color-card-foreground: hsl(var(--card-foreground));
-  --color-primary: hsl(var(--primary));
-  --color-primary-foreground: hsl(var(--primary-foreground));
-  --color-secondary: hsl(var(--secondary));
-  --color-secondary-foreground: hsl(var(--secondary-foreground));
-  --color-accent: hsl(var(--accent));
-  --color-accent-foreground: hsl(var(--accent-foreground));
   --color-muted: hsl(var(--muted));
   --color-muted-foreground: hsl(var(--muted-foreground));
-  --color-destructive: hsl(var(--destructive));
   --color-border: hsl(var(--border));
-  --color-input: hsl(var(--input));
   --color-ring: hsl(var(--ring));
-
-  --color-pv-yellow: var(--pv-yellow);
-  --color-pv-pink: var(--pv-pink);
-  --color-pv-cyan: var(--pv-cyan);
-  --color-pv-dark: var(--pv-dark);
-  --color-pv-green: var(--pv-green);
-  --color-pv-green-alt: var(--pv-green-alt);
-  --color-pv-orange: var(--pv-orange);
-  --color-pv-white: var(--pv-white);
-  --color-pv-black: var(--pv-black);
-
-  --font-display: "Monument Extended", "Arial Black", sans-serif;
+  --color-accent: hsl(var(--accent));
+  --color-accent-muted: hsl(var(--accent-muted));
+  --color-live: hsl(var(--live));
   --font-sans: "Space Grotesk", system-ui, sans-serif;
 }
 
@@ -105,171 +51,134 @@ html {
 }
 
 body {
-  background: var(--pv-dark);
+  background: hsl(var(--background));
   color: hsl(var(--foreground));
   font-family: "Space Grotesk", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-  background: rgb(246 255 0 / 0.45);
-  color: var(--pv-black);
-}
-
-.font-display {
-  font-family: "Monument Extended", "Arial Black", sans-serif;
-  font-weight: 900;
-}
-
-.pv-box {
-  position: relative;
-  border: 3px solid var(--pv-yellow);
-  background: var(--pv-dark);
-}
-
-.pv-box::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border: 3px solid var(--pv-cyan);
-  transform: translate(6px, 6px);
-  z-index: -1;
-  pointer-events: none;
-}
-
-.pv-box-pink::after {
-  border-color: var(--pv-pink);
-}
-
-.pv-box-orange::after {
-  border-color: var(--pv-orange);
-}
-
-.pv-box-green::after {
-  border-color: var(--pv-green-alt);
-}
-
-.pv-btn-primary {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  border: 3px solid var(--pv-yellow);
-  background: var(--pv-yellow);
-  color: var(--pv-black);
-  padding: 0.75rem 1.5rem;
-  font-family: "Monument Extended", sans-serif;
-  font-weight: 900;
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-
-.pv-btn-primary:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 var(--pv-cyan);
-}
-
-.pv-btn-outline {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  border: 3px solid hsl(var(--border));
-  background: transparent;
+  background: hsl(0 0% 100% / 0.15);
   color: hsl(var(--foreground));
-  padding: 0.75rem 1.5rem;
+}
+
+.site-dot-grid {
+  background-image: radial-gradient(
+    hsl(0 0% 100% / 0.07) 1px,
+    transparent 1px
+  );
+  background-size: 20px 20px;
+}
+
+.site-divider {
+  border-top: 1px dashed hsl(var(--border));
+}
+
+.site-label {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: hsl(var(--muted-foreground));
+}
+
+.site-section-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: hsl(var(--foreground));
+}
+
+.site-body {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: hsl(var(--muted-foreground));
+}
+
+.site-link {
+  color: hsl(var(--foreground));
+  text-decoration: underline;
+  text-decoration-color: hsl(var(--border));
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s ease;
+}
+
+.site-link:hover {
+  text-decoration-color: hsl(var(--foreground));
+}
+
+.site-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  background: hsl(var(--foreground));
+  color: hsl(var(--background));
+  padding: 0.625rem 1.25rem;
   font-size: 0.875rem;
   font-weight: 700;
+  transition: opacity 0.15s ease;
+}
+
+.site-btn-primary:hover {
+  opacity: 0.88;
+}
+
+.site-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  border: 1px solid hsl(var(--border));
+  background: transparent;
+  color: hsl(var(--foreground));
+  padding: 0.625rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.site-btn-secondary:hover {
+  border-color: hsl(var(--muted-foreground));
+  background: hsl(var(--muted) / 0.5);
+}
+
+.site-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 9999px;
+  border: 1px solid hsl(var(--border));
+  padding: 0.375rem 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: hsl(var(--muted-foreground));
   transition: border-color 0.15s ease, color 0.15s ease;
 }
 
-.pv-btn-outline:hover {
-  border-color: var(--pv-cyan);
-  color: var(--pv-cyan);
+.site-pill:hover {
+  border-color: hsl(var(--muted-foreground));
+  color: hsl(var(--foreground));
 }
 
-.pv-label {
-  font-family: "Monument Extended", sans-serif;
-  font-size: 0.65rem;
-  font-weight: 900;
-  letter-spacing: 0.25em;
+.site-badge-live {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 9999px;
+  background: hsl(var(--live) / 0.12);
+  padding: 0.2rem 0.625rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--pv-cyan);
+  color: hsl(var(--live));
 }
 
-.pv-heading {
-  font-family: "Monument Extended", sans-serif;
-  font-weight: 900;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  line-height: 1.05;
-}
-
-.pv-grid-bg {
-  background-image:
-    linear-gradient(to right, rgb(246 255 0 / 0.06) 1px, transparent 1px),
-    linear-gradient(to bottom, rgb(246 255 0 / 0.06) 1px, transparent 1px);
-  background-size: 48px 48px;
-}
-
-/* Rarity border utilities (pika-card.tsx) */
-.pv-border-common {
-  border-color: var(--pv-white);
-}
-.pv-border-uncommon {
-  border-color: var(--pv-green-alt);
-}
-.pv-border-rare {
-  border-color: var(--pv-cyan);
-}
-.pv-border-epic {
-  border-color: var(--pv-pink);
-}
-.pv-border-ultra {
-  border-color: var(--pv-orange);
-}
-.pv-border-legendary {
-  border-color: var(--pv-yellow);
-}
-
-@keyframes pv-scan {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(200%);
-  }
-}
-
-.pv-scan-line {
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-  pointer-events: none;
-}
-
-.pv-scan-line::after {
+.site-badge-live::before {
   content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--pv-cyan), transparent);
-  animation: pv-scan 4s linear infinite;
-}
-
-@keyframes pv-pulse-border {
-  0% {
-    box-shadow: 0 0 0 0 var(--pv-glow-yellow);
-  }
-  70% {
-    box-shadow: 0 0 0 10px rgb(246 255 0 / 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgb(246 255 0 / 0);
-  }
-}
-
-.pv-card-hover:hover {
-  animation: pv-pulse-border 2s infinite;
+  width: 0.375rem;
+  height: 0.375rem;
+  border-radius: 9999px;
+  background: hsl(var(--live));
 }

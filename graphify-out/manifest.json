@@ -4,8 +4,8 @@
     "hash": "239f3ebf717465dc636818a1a619398d"
   },
   "/Users/sam/Projects/portfolio-sam/next-env.d.ts": {
-    "mtime": 1779799822.8208315,
-    "hash": "d0f8375ae1199dc7acd3977fc33b78b8"
+    "mtime": 1779800793.6379068,
+    "hash": "2a74d3909800ca5467fa83b0ab4a4890"
   },
   "/Users/sam/Projects/portfolio-sam/eslint.config.mjs": {
     "mtime": 1779795898.0720482,
@@ -16,56 +16,64 @@
     "hash": "daad32b4de0b92afe04301ebf0a6cc76"
   },
   "/Users/sam/Projects/portfolio-sam/src/app/layout.tsx": {
-    "mtime": 1779799449.9506414,
-    "hash": "53bb6990973a0881f4cddf50d014f62c"
+    "mtime": 1779800790.1021733,
+    "hash": "c7f3b5fcd9506130360318f5b1ed8124"
   },
   "/Users/sam/Projects/portfolio-sam/src/app/page.tsx": {
-    "mtime": 1779799718.0376794,
-    "hash": "439da4a86bbd411ea5e194c814840e07"
-  },
-  "/Users/sam/Projects/portfolio-sam/src/components/projects.tsx": {
-    "mtime": 1779799717.4894671,
-    "hash": "fad8dc5189be05013e445e4f14402b0d"
+    "mtime": 1779800789.4861429,
+    "hash": "5e2f75d3eefdd17d3b81a703945495a5"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/hero.tsx": {
-    "mtime": 1779800041.5380242,
-    "hash": "71325ee35b03cefca51ddea5ac8892d0"
+    "mtime": 1779800778.5850763,
+    "hash": "04addd6e6cc16f2c475533a72804c51a"
   },
-  "/Users/sam/Projects/portfolio-sam/src/components/palette.tsx": {
-    "mtime": 1779799716.0897555,
-    "hash": "cdc75ea76e5adfaf0721961201ad38cf"
+  "/Users/sam/Projects/portfolio-sam/src/components/experience.tsx": {
+    "mtime": 1779800785.198448,
+    "hash": "ad45a5c5d51871056b4a0fc51bdd771e"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/work.tsx": {
+    "mtime": 1779800783.1932023,
+    "hash": "93aa33dcf0f3b620fdcd58b26126b840"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/site-shell.tsx": {
+    "mtime": 1779800789.0435967,
+    "hash": "6103026d15d6053e1e562494af33dffc"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/contact.tsx": {
-    "mtime": 1779799718.9597986,
-    "hash": "b39458f772ac70a177d5fbcef93598e4"
+    "mtime": 1779800787.9200878,
+    "hash": "c090f8d49c5a9ee98c21126d40e4660c"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/section.tsx": {
+    "mtime": 1779800773.8735793,
+    "hash": "7fd51a66155fa3c6d89466ed265bd403"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/proof.tsx": {
+    "mtime": 1779800779.7795088,
+    "hash": "deda1a62513206ba6e4cf5e8ec8e6344"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/footer.tsx": {
-    "mtime": 1779799459.120554,
-    "hash": "6646cfb20d7d46c2d2d67e66526f9670"
+    "mtime": 1779800788.5879302,
+    "hash": "2b013275cc0969a829f890f39006a5a8"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/icons.tsx": {
     "mtime": 1779798077.345319,
     "hash": "0a9262466f9cbf875affaa831f7c5fb3"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/header.tsx": {
-    "mtime": 1779799718.2703693,
-    "hash": "a524ea25d6ff55ac4ec116be18a06418"
+    "mtime": 1779800777.2285872,
+    "hash": "d217186d1e8f29bc9798d884aa878137"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/about.tsx": {
-    "mtime": 1779799456.5523744,
-    "hash": "e583df7c9ff53b4e9b73986f8cce80c2"
-  },
-  "/Users/sam/Projects/portfolio-sam/src/lib/pikavault-palette.ts": {
-    "mtime": 1779799707.5879948,
-    "hash": "2624e949aa87c0249d0a1d43fdac3737"
+    "mtime": 1779800786.525676,
+    "hash": "886f3b652bea3fcf2778612e1094bd64"
   },
   "/Users/sam/Projects/portfolio-sam/src/lib/site.ts": {
-    "mtime": 1779800041.2961044,
-    "hash": "99962017fb636eaeebd87faa77040ee7"
+    "mtime": 1779800773.1588635,
+    "hash": "3afeceb1cf2073a4846127499d99ca67"
   },
   "/Users/sam/Projects/portfolio-sam/brand.md": {
-    "mtime": 1779799709.882897,
-    "hash": "5d443555166ca5a6b1e8145c7caec7ca"
+    "mtime": 1779800798.1081297,
+    "hash": "eb1901771b59ad387bda19bb261cd908"
   },
   "/Users/sam/Projects/portfolio-sam/README.md": {
     "mtime": 1779796012.4432554,
