@@ -218,3 +218,88 @@ body {
 .site-experience-card {
   will-change: border-color, background;
 }
+
+@keyframes trace-beam-pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes trace-node-glow {
+  0%,
+  100% {
+    border-color: hsl(var(--border));
+    color: hsl(var(--muted-foreground));
+    box-shadow: none;
+  }
+  50% {
+    border-color: hsl(var(--live) / 0.6);
+    color: hsl(var(--foreground));
+    box-shadow: 0 0 12px hsl(var(--live) / 0.25);
+  }
+}
+
+@keyframes trace-pulse-dot {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(0.85);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.trace-beam {
+  animation: trace-beam-pulse 2.4s ease-in-out infinite;
+}
+
+.trace-beam::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    hsl(var(--live) / 0.8),
+    transparent
+  );
+  animation: trace-beam-travel 2.4s ease-in-out infinite;
+}
+
+@keyframes trace-beam-travel {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  30%,
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.trace-node {
+  animation: trace-node-glow 2.4s ease-in-out infinite;
+}
+
+.trace-pulse-dot {
+  animation: trace-pulse-dot 1.8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trace-beam,
+  .trace-beam::after,
+  .trace-node,
+  .trace-pulse-dot {
+    animation: none;
+  }
+}

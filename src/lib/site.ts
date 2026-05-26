@@ -3,7 +3,7 @@ export const site = {
   handle: "ifeelsam",
   title: "Full-stack Solana engineer & builder",
   tagline:
-    "I build products where privacy, on-chain systems, and polished interfaces meet — from agent observability on Solana to vault frontends and protocol tooling.",
+    "I build products where privacy, on-chain systems, and polished interfaces meet, from agent observability on Solana to RWA and protocol tooling.",
   building: {
     label: "Mortem",
     href: "https://www.mortemlabs.com/",

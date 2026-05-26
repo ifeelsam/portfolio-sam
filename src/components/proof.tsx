@@ -7,7 +7,6 @@ export function Proof() {
       id="proof"
       label="01 — Proof"
       title="Consistency >>> Hype"
-      intro="A quick read on whether I actually ship — public repos, live demos, and steady output."
       className="site-divider px-6 md:px-8"
     >
       <div className="overflow-hidden rounded-xl border border-border bg-muted/30">
