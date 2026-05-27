@@ -181,7 +181,7 @@ export const experiences: Experience[] = [
     role: "Cohort graduate",
     period: "2024",
     location: "Remote",
-    href: "https://turbin3.org",
+    href: "https://github.com/ifeelsam/ifeelsam_pow",
     logo: "/logos/turbin3.png",
     detail:
       "Completed the Turbin3 builder cohort — Solana architecture, runtime internals, and shipping to mainnet.",
