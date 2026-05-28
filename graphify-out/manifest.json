@@ -4,7 +4,7 @@
     "hash": "239f3ebf717465dc636818a1a619398d"
   },
   "/Users/sam/Projects/portfolio-sam/next-env.d.ts": {
-    "mtime": 1779806058.5184813,
+    "mtime": 1779967518.3659825,
     "hash": "2a74d3909800ca5467fa83b0ab4a4890"
   },
   "/Users/sam/Projects/portfolio-sam/eslint.config.mjs": {
@@ -12,28 +12,28 @@
     "hash": "dfa1f5f6a7037bf39dc510f30b180002"
   },
   "/Users/sam/Projects/portfolio-sam/next.config.ts": {
-    "mtime": 1779800041.29614,
-    "hash": "daad32b4de0b92afe04301ebf0a6cc76"
+    "mtime": 1779967513.6394324,
+    "hash": "38179730fa452dd2717391a965539aac"
   },
   "/Users/sam/Projects/portfolio-sam/src/app/layout.tsx": {
-    "mtime": 1779800790.1021733,
-    "hash": "c7f3b5fcd9506130360318f5b1ed8124"
+    "mtime": 1779830173.2968984,
+    "hash": "7c7a545ccadf11f87741be144a22f070"
   },
   "/Users/sam/Projects/portfolio-sam/src/app/page.tsx": {
-    "mtime": 1779829043.2881052,
-    "hash": "5e2f75d3eefdd17d3b81a703945495a5"
+    "mtime": 1779967099.1203835,
+    "hash": "d36639eaabcedc890eb0ba4696b3ba94"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/featured-projects.tsx": {
+    "mtime": 1779967098.7159274,
+    "hash": "4d673d37cf43ee5b53097d3f0f3923ba"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/hero.tsx": {
-    "mtime": 1779818677.5589612,
-    "hash": "4541bdc5c3f61c87f380741f49ee0580"
+    "mtime": 1779967511.1841424,
+    "hash": "cb0654d14cc3ca76c08c57d1b56a7d22"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/experience.tsx": {
-    "mtime": 1779829115.9996357,
-    "hash": "dea63fef6f7dc0640767835b29a51e83"
-  },
-  "/Users/sam/Projects/portfolio-sam/src/components/work.tsx": {
-    "mtime": 1779805616.7417948,
-    "hash": "81d6f7d53aac1d5ac28dbafd5c7d545e"
+    "mtime": 1779967095.5648694,
+    "hash": "963d1937d51fdd780ec07dff3b1e8644"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/scroll-progress.tsx": {
     "mtime": 1779806045.762604,
@@ -44,24 +44,24 @@
     "hash": "34b8d3e1ce8c3dac39d5828c32dc07e8"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/contact.tsx": {
-    "mtime": 1779805174.0665526,
-    "hash": "3dd9e2604d327274d8a1fccac1ef9b1b"
+    "mtime": 1779967106.7456348,
+    "hash": "94459810dd15322413997d14caf10ffb"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/section.tsx": {
     "mtime": 1779819325.0340216,
     "hash": "7fd51a66155fa3c6d89466ed265bd403"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/command-palette.tsx": {
-    "mtime": 1779806045.1796553,
-    "hash": "201d84a9774c8dc466cb61766e1eb046"
-  },
-  "/Users/sam/Projects/portfolio-sam/src/components/proof.tsx": {
-    "mtime": 1779819409.6923094,
-    "hash": "482db8c496eefd1d3cbf9c910b92fa48"
+    "mtime": 1779967104.2342255,
+    "hash": "58e44ce685436ba0599357edba814113"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/footer.tsx": {
     "mtime": 1779800788.5879302,
     "hash": "2b013275cc0969a829f890f39006a5a8"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/social-pills.tsx": {
+    "mtime": 1779967511.0211973,
+    "hash": "790c6e98347ad1def973ad5ab70929ad"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/avatar.tsx": {
     "mtime": 1779805023.7878814,
@@ -72,20 +72,20 @@
     "hash": "0a9262466f9cbf875affaa831f7c5fb3"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/header.tsx": {
-    "mtime": 1779806056.643023,
-    "hash": "e09be8225756a86cf89a9b7046d902d1"
+    "mtime": 1779967513.3214486,
+    "hash": "5201c6196311f81d9375ae5f2c380e25"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/org-logo.tsx": {
     "mtime": 1779805598.936315,
     "hash": "6c4350a9b024b0216150368aaa2a9dec"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/about.tsx": {
-    "mtime": 1779804460.800133,
-    "hash": "886f3b652bea3fcf2778612e1094bd64"
+    "mtime": 1779967099.9250948,
+    "hash": "2fe2c0a688aa9b5342d495c866f25faa"
   },
   "/Users/sam/Projects/portfolio-sam/src/lib/site.ts": {
-    "mtime": 1779829112.8294225,
-    "hash": "8d9d6a8b6f4029120a234a946f96b88d"
+    "mtime": 1779967508.664393,
+    "hash": "2a1aad529a0a2ca83578206a216f0015"
   },
   "/Users/sam/Projects/portfolio-sam/brand.md": {
     "mtime": 1779800798.1081297,
@@ -148,8 +148,8 @@
     "hash": "7a9545769d8c40c7789156137e0ac1ee"
   },
   "/Users/sam/Projects/portfolio-sam/public/logos/arcium.png": {
-    "mtime": 1779829113.612968,
-    "hash": "f7fa03f39564582af03857b7c4c07c0e"
+    "mtime": 1779829298.541758,
+    "hash": "820bc7bb17eb86dbd15609e157140c06"
   },
   "/Users/sam/Projects/portfolio-sam/public/logos/pikavault.png": {
     "mtime": 1779804643.6966894,

@@ -5,7 +5,7 @@ export function About() {
   return (
     <Section
       id="about"
-      label="04 — About"
+      label="03 — About"
       title="How I work"
       className="site-divider px-6 md:px-8"
     >

@@ -2,7 +2,7 @@
 
 import { OrgLogo } from "@/components/org-logo";
 import { Section } from "@/components/section";
-import { experiences } from "@/lib/site";
+import { experiences, proofStats, site } from "@/lib/site";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 
@@ -31,12 +31,33 @@ export function Experience() {
   return (
     <Section
       id="experience"
-      label="03 — Experience"
-      title="Where I've been building"
-      intro="Roles and projects that shaped how I work — product-first, ship in public."
+      label="01 — Experience"
+      title="Background & proof of work"
+      intro="Ecosystem roles, grants, and a track record of shipping in public."
       className="site-divider px-6 md:px-8"
     >
-      <ul className="space-y-3">
+      <div className="overflow-hidden rounded-xl border border-border bg-muted/30">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={`https://github-readme-activity-graph.vercel.app/graph?username=${site.handle}&theme=react&bg_color=0d0d0d&color=525252&line=737373&point=ffffff&area=true&hide_border=true`}
+          alt={`GitHub contribution activity for ${site.handle}`}
+          className="h-auto w-full"
+          loading="lazy"
+        />
+      </div>
+
+      <dl className="mt-6 grid grid-cols-3 gap-4 border-y border-border py-6">
+        {proofStats.map((stat) => (
+          <div key={stat.label}>
+            <dt className="site-label">{stat.label}</dt>
+            <dd className="mt-1 text-lg font-bold tracking-tight text-foreground">
+              {stat.value}
+            </dd>
+          </div>
+        ))}
+      </dl>
+
+      <ul className="mt-8 space-y-3">
         {experiences.map((item, index) => {
           const isOpen = openIndex === index;
 
@@ -96,7 +117,7 @@ export function Experience() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      View {item.org === "Open source" ? "GitHub" : "project"}
+                      View {item.org === "Open source" ? "GitHub" : "more"}
                     </a>
                   )}
                 </div>
@@ -105,6 +126,19 @@ export function Experience() {
           );
         })}
       </ul>
+
+      <p className="site-body mt-6 text-sm">
+        Full commit history on{" "}
+        <a
+          href={site.github}
+          className="site-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        .
+      </p>
     </Section>
   );
 }

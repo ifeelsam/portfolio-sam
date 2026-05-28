@@ -16,9 +16,50 @@ export const site = {
   x: "https://x.com/ifeelsam",
   avatar: "/avatar.jpg",
   email: "mailto:sanskarsharma9005@gmail.com",
-  repoCount: 103,
+  repoCount: 104,
   memberSince: "2023",
 } as const;
+
+export type SocialStat = {
+  label: string;
+  value: string | number;
+};
+
+export type SocialProfile = {
+  platform: "GitHub" | "X";
+  href: string;
+  name: string;
+  handle: string;
+  avatar: string;
+  bio: string;
+  location?: string;
+  stats?: SocialStat[];
+};
+
+export const socialProfiles: SocialProfile[] = [
+  {
+    platform: "GitHub",
+    href: "https://github.com/ifeelsam",
+    name: "Sam",
+    handle: "ifeelsam",
+    avatar:
+      "https://avatars.githubusercontent.com/u/140923981?v=4",
+    bio: "If I can imagine it, I can build it.",
+    stats: [
+      { label: "Repositories", value: 104 },
+      { label: "Followers", value: 12 },
+    ],
+  },
+  {
+    platform: "X",
+    href: "https://x.com/ifeelsam",
+    name: "Sam",
+    handle: "ifeelsam",
+    avatar: "/avatar.jpg",
+    bio: "Full-stack Solana engineer — building Mortem, shipping in public.",
+    location: "India",
+  },
+];
 
 export type ProjectStatus = "live" | "building" | "archived";
 
@@ -30,30 +71,27 @@ export type Project = {
   language?: string;
   tags: string[];
   status: ProjectStatus;
-  highlight?: string;
   logo?: string;
   logoShape?: "circle" | "square";
 };
 
-export const featuredHero: Project = {
-  name: "Mortem Protocol",
-  description:
-    "Helps Solana trading teams catch bad agent decisions, trace what caused them, and fix the logic before the same loss repeats.",
-  href: "https://github.com/mortemlabs/mortem-protocol",
-  demo: "https://www.mortemlabs.com",
-  language: "TypeScript",
-  tags: ["Solana", "AI Agents", "Protocol"],
-  status: "building",
-  highlight: "Start here — what I'm building right now.",
-  logo: "/logos/mortem.svg",
-  logoShape: "square",
-};
-
-export const featuredSecondary: Project[] = [
+export const featuredProjects: Project[] = [
+  {
+    name: "Mortem Protocol",
+    description:
+      "Catch bad agent trading decisions on Solana — trace failures, prove root cause, fix the logic.",
+    href: "https://github.com/mortemlabs/mortem-protocol",
+    demo: "https://www.mortemlabs.com",
+    language: "TypeScript",
+    tags: ["Solana", "AI Agents", "Protocol"],
+    status: "building",
+    logo: "/logos/mortem.svg",
+    logoShape: "square",
+  },
   {
     name: "CipherScore",
     description:
-      "Decentralized, privacy-first credit scoring — verifiable scores without exposing raw financial data.",
+      "Privacy-first credit scoring — verifiable scores without exposing raw financial data.",
     href: "https://github.com/ifeelsam/CipherScore",
     demo: "https://cipherscore.xyz",
     language: "TypeScript",
@@ -81,6 +119,10 @@ export const featuredSecondary: Project[] = [
     status: "live",
     logo: "/logos/vynix.png",
   },
+];
+
+export const allProjects: Project[] = [
+  ...featuredProjects,
   {
     name: "Tracer",
     description: "Observability and debugging for TypeScript AI agents on EVM.",
@@ -90,9 +132,6 @@ export const featuredSecondary: Project[] = [
     status: "live",
     logo: "/logos/github.png",
   },
-];
-
-export const moreProjects: Project[] = [
   {
     name: "OuterTune",
     description: "Material 3 Android music player — local files and YouTube Music.",
@@ -100,14 +139,7 @@ export const moreProjects: Project[] = [
     language: "Kotlin",
     tags: ["Android", "Open Source"],
     status: "live",
-  },
-  {
-    name: "Oliver",
-    description: "Web3 platform on Arc Network.",
-    href: "https://github.com/ifeelsam/oliver",
-    language: "TypeScript",
-    tags: ["Web3", "Arc"],
-    status: "archived",
+    logo: "/logos/github.png",
   },
   {
     name: "Kord",
@@ -117,6 +149,7 @@ export const moreProjects: Project[] = [
     language: "TypeScript",
     tags: ["Docs", "Protocol"],
     status: "live",
+    logo: "/logos/github.png",
   },
   {
     name: "Wisp",
@@ -126,6 +159,16 @@ export const moreProjects: Project[] = [
     language: "TypeScript",
     tags: ["Product", "Web"],
     status: "live",
+    logo: "/logos/github.png",
+  },
+  {
+    name: "Oliver",
+    description: "Web3 platform on Arc Network.",
+    href: "https://github.com/ifeelsam/oliver",
+    language: "TypeScript",
+    tags: ["Web3", "Arc"],
+    status: "archived",
+    logo: "/logos/github.png",
   },
 ];
 
@@ -142,18 +185,6 @@ export type Experience = {
 };
 
 export const experiences: Experience[] = [
-  {
-    org: "Mortem Labs",
-    role: "Builder · mortem-protocol",
-    period: "2025 — Present",
-    location: "Remote",
-    href: "https://www.mortemlabs.com",
-    logo: "/logos/mortem.svg",
-    badge: "Building",
-    logoShape: "square",
-    detail:
-      "Building Mortem — agent observability for Solana trading teams. Trace bad decisions, prove root cause, patch the logic before capital gets buried.",
-  },
   {
     org: "Superteam",
     role: "Member · 2× grant recipient",
@@ -181,32 +212,10 @@ export const experiences: Experience[] = [
     role: "Cohort graduate",
     period: "2024",
     location: "Remote",
-    href: "https://github.com/ifeelsam/ifeelsam_pow",
+    href: "https://turbin3.org",
     logo: "/logos/turbin3.png",
     detail:
       "Completed the Turbin3 builder cohort — Solana architecture, runtime internals, and shipping to mainnet.",
-  },
-  {
-    org: "PikaVault",
-    role: "Frontend engineer",
-    period: "2024 — Present",
-    location: "Remote",
-    href: "https://www.pikavault.xyz/",
-    logo: "/logos/pikavault.png",
-    badge: "Live",
-    detail:
-      "Wallet flows, deposit UX, and a production Next.js frontend for a live vault product.",
-  },
-  {
-    org: "CipherScore",
-    role: "Founding builder",
-    period: "2024 — Present",
-    location: "Remote",
-    href: "https://cipherscore.xyz",
-    logo: "/logos/cipherscore.png",
-    badge: "Live",
-    detail:
-      "Privacy-first credit scoring API — verifiable scores without exposing raw financial data.",
   },
   {
     org: "Open source",

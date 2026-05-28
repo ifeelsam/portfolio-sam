@@ -1,7 +1,6 @@
 "use client";
 
 import { CommandPaletteTrigger } from "@/components/command-palette";
-import { GitHubIcon, XIcon } from "@/components/icons";
 import { ScrollProgress } from "@/components/scroll-progress";
 import { site } from "@/lib/site";
 import { Menu, X } from "lucide-react";
@@ -9,9 +8,8 @@ import Link from "next/link";
 import { useState } from "react";
 
 const nav = [
-  { label: "Work", href: "#work" },
-  { label: "Proof", href: "#proof" },
   { label: "Experience", href: "#experience" },
+  { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -73,29 +71,5 @@ export function Header() {
         </nav>
       )}
     </header>
-  );
-}
-
-export function SocialPills() {
-  const links = [
-    { label: "GitHub", href: site.github, icon: GitHubIcon },
-    { label: "X", href: site.x, icon: XIcon },
-  ];
-
-  return (
-    <div className="flex flex-wrap gap-2">
-      {links.map((link) => (
-        <a
-          key={link.label}
-          href={link.href}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="site-pill"
-        >
-          <link.icon className="h-3.5 w-3.5" />
-          {link.label}
-        </a>
-      ))}
-    </div>
   );
 }

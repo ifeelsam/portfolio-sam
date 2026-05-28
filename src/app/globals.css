@@ -219,6 +219,19 @@ body {
   will-change: border-color, background;
 }
 
+.site-social-popover {
+  transform: translateY(4px);
+}
+
+.group\/social:hover .site-social-popover,
+.group\/social:focus-within .site-social-popover {
+  transform: translateY(0);
+}
+
+.site-social-card {
+  backdrop-filter: blur(8px);
+}
+
 @keyframes trace-beam-pulse {
   0%,
   100% {

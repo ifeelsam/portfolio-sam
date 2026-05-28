@@ -1,6 +1,6 @@
 import { Avatar } from "@/components/avatar";
 import { OrgLogo } from "@/components/org-logo";
-import { SocialPills } from "@/components/header";
+import { SocialPills } from "@/components/social-pills";
 import { site } from "@/lib/site";
 import { ArrowDown, Mail } from "lucide-react";
 
@@ -44,7 +44,7 @@ export function Hero() {
       </div>
 
       <div className="mt-8 flex flex-wrap items-center gap-3">
-        <a href="#work" className="site-btn-primary">
+        <a href="#projects" className="site-btn-primary">
           View selected work
           <ArrowDown className="h-4 w-4" />
         </a>

@@ -1,9 +1,8 @@
 "use client";
 
 import {
-  featuredHero,
-  featuredSecondary,
-  moreProjects,
+  allProjects,
+  featuredProjects,
   site,
 } from "@/lib/site";
 import { ArrowUpRight, Mail, Search } from "lucide-react";
@@ -19,13 +18,18 @@ type PaletteItem = {
 };
 
 const sectionItems: PaletteItem[] = [
-  { id: "proof", label: "Proof", hint: "GitHub activity", href: "#proof", group: "Sections" },
-  { id: "work", label: "Work", hint: "Selected projects", href: "#work", group: "Sections" },
   {
     id: "experience",
     label: "Experience",
-    hint: "Where I've built",
+    hint: "Background & GitHub activity",
     href: "#experience",
+    group: "Sections",
+  },
+  {
+    id: "projects",
+    label: "Projects",
+    hint: "Featured work",
+    href: "#projects",
     group: "Sections",
   },
   { id: "about", label: "About", hint: "How I work", href: "#about", group: "Sections" },
@@ -46,7 +50,7 @@ const linkItems: PaletteItem[] = [
   },
 ];
 
-function projectToItem(project: (typeof featuredSecondary)[number]): PaletteItem {
+function projectToItem(project: (typeof featuredProjects)[number]): PaletteItem {
   return {
     id: project.name.toLowerCase().replace(/\s+/g, "-"),
     label: project.name,
@@ -59,16 +63,7 @@ function projectToItem(project: (typeof featuredSecondary)[number]): PaletteItem
 
 const allItems: PaletteItem[] = [
   ...sectionItems,
-  {
-    id: "mortem",
-    label: featuredHero.name,
-    hint: featuredHero.tags.join(" · "),
-    href: featuredHero.demo ?? featuredHero.href,
-    external: true,
-    group: "Projects",
-  },
-  ...featuredSecondary.map(projectToItem),
-  ...moreProjects.map(projectToItem),
+  ...allProjects.map(projectToItem),
   ...linkItems,
 ];
 
