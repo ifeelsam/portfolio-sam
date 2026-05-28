@@ -1,16 +1,16 @@
 # Graph Report - portfolio-sam  (2026-05-28)
 
 ## Corpus Check
-- 26 files · ~7,677 words
+- 26 files · ~7,700 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 123 nodes · 210 edges · 15 communities (11 shown, 4 thin omitted)
+- 129 nodes · 219 edges · 15 communities (11 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `13cf1af0`
+- Built from commit: `f5cd0eb2`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -59,31 +59,31 @@ Cohesion: 0.4
 Nodes (3): geistMono, geistSans, metadata
 
 ### Community 3 - "Community 3"
-Cohesion: 0.14
-Nodes (10): allItems, CommandPaletteTrigger(), linkItems, PaletteItem, sectionItems, Work(), featuredHero, featuredSecondary (+2 more)
+Cohesion: 0.15
+Nodes (9): allItems, CommandPaletteTrigger(), linkItems, PaletteItem, sectionItems, Work(), featuredHero, featuredSecondary (+1 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.22
 Nodes (9): Card rarity, Code, Core brand, Palette, PikaVault brand palette (portfolio), Portfolio brand, Semantic (shadcn), Typography (+1 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.2
-Nodes (8): CommandPalette(), Contact(), CursorSpotlight(), Footer(), Header(), Hero(), Projects(), SiteShell()
+Cohesion: 0.21
+Nodes (7): Contact(), Footer(), Hero(), Palette(), paletteSwatches, PikavaultColor, pikavaultPalette
 
 ### Community 6 - "Community 6"
-Cohesion: 0.4
-Nodes (4): Palette(), paletteSwatches, PikavaultColor, pikavaultPalette
+Cohesion: 0.23
+Nodes (9): CommandPalette(), CursorSpotlight(), Header(), buildMandalaDots(), Dot, mandalaDots, polar(), ring() (+1 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.18
-Nodes (12): About(), Experience(), Proof(), Section(), SectionProps, Experience, experiences, ProjectStatus (+4 more)
+Cohesion: 0.15
+Nodes (14): About(), Experience(), Projects(), Proof(), Section(), SectionProps, Experience, experiences (+6 more)
 
 ### Community 15 - "Community 15"
 Cohesion: 0.2
 Nodes (9): FeaturedProjects(), ProjectRow(), repoFromHref(), Tab, OrgLogo(), OrgLogoProps, sizes, allProjects (+1 more)
 
 ## Knowledge Gaps
-- **35 isolated node(s):** `config`, `eslintConfig`, `nextConfig`, `metadata`, `Tab` (+30 more)
+- **36 isolated node(s):** `config`, `eslintConfig`, `nextConfig`, `metadata`, `Tab` (+31 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -91,12 +91,10 @@ Nodes (9): FeaturedProjects(), ProjectRow(), repoFromHref(), Tab, OrgLogo(), Org
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `site` connect `Community 1` to `Community 3`, `Community 5`, `Community 7`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **Why does `OrgLogo()` connect `Community 15` to `Community 1`, `Community 3`, `Community 7`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Why does `Section()` connect `Community 7` to `Community 1`, `Community 3`, `Community 15`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `config`, `eslintConfig`, `nextConfig` to the rest of the system?**
-  _35 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.14 - nodes in this community are weakly interconnected._
+  _36 weakly-connected nodes found - possible documentation gaps or missing edges._

@@ -31,6 +31,9 @@
   --radius: 0.5rem;
   --site-line-weight: 2px;
   --site-rail-overhang-bottom: 1.5rem;
+  --site-top-offset: 0px;
+  --site-bottom-offset: 0px;
+  --site-dot-rail-gap: 7px;
 }
 
 @theme inline {
@@ -147,13 +150,51 @@ body {
   border-right: var(--site-line-weight) dashed hsl(var(--border));
 }
 
+.site-dot-field {
+  display: none;
+}
+
 @media (min-width: 768px) {
   :root {
-    --site-rail-overhang-bottom: 2.5rem;
+    --site-bottom-offset: 30dvh;
+    --site-rail-overhang-bottom: var(--site-bottom-offset);
+    --site-top-offset: 30dvh;
   }
 
   .site-rail {
-    top: -30dvh;
+    top: calc(-1 * var(--site-top-offset));
+    bottom: calc(-1 * var(--site-bottom-offset));
+  }
+
+  .site-dot-field {
+    display: block;
+    position: absolute;
+    left: calc(var(--site-line-weight) + var(--site-dot-rail-gap));
+    right: calc(var(--site-line-weight) + var(--site-dot-rail-gap));
+    pointer-events: none;
+    z-index: 3;
+    background-color: hsl(var(--background));
+    background-image: radial-gradient(
+      circle,
+      hsl(0 0% 100% / 0.28) 1.75px,
+      transparent 1.75px
+    );
+    background-size: 8px 8px;
+    background-position: 0 0;
+  }
+
+  .site-dot-field-top {
+    top: calc(-1 * var(--site-top-offset) + var(--site-dot-rail-gap));
+    height: calc(
+      var(--site-top-offset) - 2 * var(--site-dot-rail-gap) - var(--site-line-weight)
+    );
+  }
+
+  .site-dot-field-bottom {
+    top: calc(100% + var(--site-line-weight) + var(--site-dot-rail-gap));
+    height: calc(
+      var(--site-bottom-offset) - 2 * var(--site-dot-rail-gap) - var(--site-line-weight)
+    );
   }
 }
 
