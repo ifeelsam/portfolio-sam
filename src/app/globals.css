@@ -29,6 +29,8 @@
   --accent-muted: 0 0% 72%;
   --live: 142 45% 45%;
   --radius: 0.5rem;
+  --site-line-weight: 2px;
+  --site-rail-overhang-bottom: 1.5rem;
 }
 
 @theme inline {
@@ -48,6 +50,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
@@ -70,8 +73,88 @@ body {
   background-size: 20px 20px;
 }
 
+.site-divider::before,
+.site-header-line::after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 50dvw);
+  width: 100dvw;
+  border-top: var(--site-line-weight) dashed hsl(var(--border));
+  pointer-events: none;
+  z-index: 1;
+}
+
+.site-breakout-x {
+  position: absolute;
+  left: calc(50% - 50dvw);
+  width: 100dvw;
+  height: 0;
+  border-top: var(--site-line-weight) dashed hsl(var(--border));
+  pointer-events: none;
+  z-index: 3;
+}
+
+.site-divider::before {
+  top: 0;
+}
+
+.site-header-line::after {
+  bottom: 0;
+}
+
+.site-breakout-x-top {
+  top: 0;
+}
+
+.site-breakout-x-bottom {
+  bottom: 0;
+}
+
 .site-divider {
-  border-top: 1px dashed hsl(var(--border));
+  position: relative;
+}
+
+.site-header-line {
+  position: relative;
+}
+
+.site-shell {
+  position: relative;
+}
+
+.site-shell-surface {
+  position: relative;
+  z-index: 2;
+  display: flow-root;
+}
+
+.site-rail {
+  position: absolute;
+  top: 0;
+  bottom: calc(-1 * var(--site-rail-overhang-bottom));
+  width: 0;
+  pointer-events: none;
+  z-index: 4;
+}
+
+.site-rail-left {
+  left: 0;
+  border-left: var(--site-line-weight) dashed hsl(var(--border));
+}
+
+.site-rail-right {
+  right: 0;
+  border-right: var(--site-line-weight) dashed hsl(var(--border));
+}
+
+@media (min-width: 768px) {
+  :root {
+    --site-rail-overhang-bottom: 2.5rem;
+  }
+
+  .site-rail {
+    top: -30dvh;
+  }
 }
 
 .site-label {

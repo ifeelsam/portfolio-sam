@@ -6,9 +6,15 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
     <>
       <CommandPalette />
       <div className="site-dot-grid relative z-10 min-h-full px-4 py-6 md:pb-6 md:pt-[30dvh] md:min-h-dvh md:px-6 md:pb-10 md:pt-[30dvh]">
-        <div className="mx-auto max-w-2xl overflow-hidden rounded-2xl border border-border bg-card shadow-2xl shadow-black/40">
-          <Header />
-          <main>{children}</main>
+        <div className="site-shell mx-auto max-w-2xl">
+          <div className="site-rail site-rail-left" aria-hidden />
+          <div className="site-rail site-rail-right" aria-hidden />
+          <div className="site-breakout-x site-breakout-x-top" aria-hidden />
+          <div className="site-breakout-x site-breakout-x-bottom" aria-hidden />
+          <div className="site-shell-surface bg-card shadow-2xl shadow-black/40">
+            <Header />
+            <main>{children}</main>
+          </div>
         </div>
       </div>
     </>

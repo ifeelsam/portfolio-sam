@@ -17,7 +17,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-card/90 backdrop-blur-md">
+    <header className="site-header-line sticky top-0 z-50 bg-card/90 backdrop-blur-md">
       <div className="flex h-14 items-center justify-between gap-3 px-6 md:px-8">
         <Link
           href="/"
