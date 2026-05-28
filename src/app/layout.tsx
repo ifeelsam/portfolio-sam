@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Sam Developer & Builder",
+  title: "ifeelsam",
   description:
     "Portfolio of Sam (@ifeelsam) — web3, AI agents, TypeScript, and Android. CipherScore, PikaVault, and open source.",
   openGraph: {
