@@ -98,7 +98,7 @@ export function FeaturedProjects() {
       intro="Highlights from what I've shipped — toggle for the full list."
       className="site-divider px-6 md:px-8"
     >
-      <div className="mb-4 inline-flex rounded-lg border border-border bg-muted/20 p-1">
+      <div className="site-nav-pill-group mb-4">
         {(
           [
             ["featured", "Featured"],
@@ -109,10 +109,10 @@ export function FeaturedProjects() {
             key={value}
             type="button"
             onClick={() => setTab(value)}
-            className={`rounded-md px-3 py-1.5 text-xs font-medium transition-colors ${
+            className={`px-3 py-1.5 text-xs font-medium transition-colors ${
               tab === value
-                ? "bg-foreground text-background"
-                : "text-muted-foreground hover:text-foreground"
+                ? "site-nav-pill-active"
+                : "rounded-md text-muted-foreground hover:text-foreground"
             }`}
           >
             {label}

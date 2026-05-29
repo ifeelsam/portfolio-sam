@@ -10,7 +10,7 @@ export function Hero() {
       <div className="flex items-start gap-5">
         <Avatar />
         <div className="min-w-0 pt-1">
-          <h1 className="text-xl font-bold tracking-tight text-foreground">
+          <h1 className="text-xl font-semibold tracking-tight text-foreground">
             {site.name}
           </h1>
           <p className="mt-1 text-sm text-muted-foreground">{site.title}</p>

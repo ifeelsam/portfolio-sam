@@ -13,7 +13,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           <div className="site-rail site-rail-right" aria-hidden />
           <div className="site-breakout-x site-breakout-x-top" aria-hidden />
           <div className="site-breakout-x site-breakout-x-bottom" aria-hidden />
-          <div className="site-shell-surface bg-card shadow-2xl shadow-black/40">
+          <div className="site-shell-surface rounded-xl bg-card">
             <Header />
             <main>{children}</main>
           </div>

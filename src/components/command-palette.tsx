@@ -192,12 +192,12 @@ export function CommandPalette() {
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-start justify-center bg-black/60 px-4 pt-[min(20vh,8rem)] backdrop-blur-sm"
+      className="fixed inset-0 z-[100] flex items-start justify-center bg-[hsl(var(--overlay)/0.45)] px-4 pt-[min(20vh,8rem)] backdrop-blur-sm"
       onClick={close}
       role="presentation"
     >
       <div
-        className="w-full max-w-md overflow-hidden rounded-xl border border-border bg-card shadow-2xl shadow-black/50"
+        className="w-full max-w-md overflow-hidden rounded-xl border border-border bg-card shadow-2xl shadow-[hsl(0_0%_0%/var(--shadow-strength))]"
         onClick={(e) => e.stopPropagation()}
         role="dialog"
         aria-modal="true"

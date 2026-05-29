@@ -27,7 +27,7 @@ export function OrgLogo({
 
   return (
     <div
-      className={`relative flex shrink-0 items-center justify-center overflow-hidden border border-border bg-muted/50 shadow-sm ring-1 ring-white/5 ${radius} ${className}`}
+      className={`relative flex shrink-0 items-center justify-center overflow-hidden border border-border bg-muted shadow-sm ring-1 ring-foreground/5 ${radius} ${className}`}
       style={{ width: dim.box, height: dim.box }}
     >
       <Image

@@ -4,7 +4,14 @@ import { OrgLogo } from "@/components/org-logo";
 import { Section } from "@/components/section";
 import { experiences, proofStats, site } from "@/lib/site";
 import { ChevronDown } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
+function githubGraphUrl(handle: string, dark: boolean) {
+  if (dark) {
+    return `https://github-readme-activity-graph.vercel.app/graph?username=${handle}&theme=react&bg_color=101010&color=525252&line=737373&point=f5f5f5&area=true&hide_border=true`;
+  }
+  return `https://github-readme-activity-graph.vercel.app/graph?username=${handle}&theme=react&bg_color=f5f5f5&color=9ca3af&line=6b7280&point=111111&area=true&hide_border=true`;
+}
 
 function ExperienceBadge({ label }: { label: string }) {
   const lower = label.toLowerCase();
@@ -27,6 +34,16 @@ function ExperienceBadge({ label }: { label: string }) {
 
 export function Experience() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [isDark, setIsDark] = useState(false);
+
+  useEffect(() => {
+    const root = document.documentElement;
+    const sync = () => setIsDark(root.classList.contains("dark"));
+    sync();
+    const observer = new MutationObserver(sync);
+    observer.observe(root, { attributes: true, attributeFilter: ["class"] });
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <Section
@@ -36,26 +53,15 @@ export function Experience() {
       intro="Ecosystem roles, grants, and a track record of shipping in public."
       className="site-divider px-6 md:px-8"
     >
-      <div className="overflow-hidden rounded-xl border border-border bg-muted/30">
+      <div className="overflow-hidden rounded-xl border border-border bg-muted">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={`https://github-readme-activity-graph.vercel.app/graph?username=${site.handle}&theme=react&bg_color=0d0d0d&color=525252&line=737373&point=ffffff&area=true&hide_border=true`}
+          src={githubGraphUrl(site.handle, isDark)}
           alt={`GitHub contribution activity for ${site.handle}`}
           className="h-auto w-full"
           loading="lazy"
         />
       </div>
-
-      <dl className="mt-6 grid grid-cols-3 gap-4 border-y border-border py-6">
-        {proofStats.map((stat) => (
-          <div key={stat.label}>
-            <dt className="site-label">{stat.label}</dt>
-            <dd className="mt-1 text-lg font-bold tracking-tight text-foreground">
-              {stat.value}
-            </dd>
-          </div>
-        ))}
-      </dl>
 
       <ul className="mt-8 space-y-3">
         {experiences.map((item, index) => {
@@ -66,8 +72,8 @@ export function Experience() {
               key={item.org}
               className={`site-experience-card overflow-hidden rounded-xl border transition-all duration-200 ${
                 isOpen
-                  ? "border-foreground/15 bg-muted/30 shadow-lg shadow-black/20"
-                  : "border-border bg-muted/10 hover:border-foreground/10 hover:bg-muted/20"
+                  ? "border-border bg-muted shadow-[0_4px_12px_hsl(0_0%_0%/var(--shadow-strength))]"
+                  : "border-border bg-muted/60 hover:border-muted-foreground/30 hover:bg-muted"
               }`}
             >
               <button

@@ -76,10 +76,19 @@
       "norm_label": "layout.tsx"
     },
     {
+      "label": "inter",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L5",
+      "id": "app_layout_inter",
+      "community": 2,
+      "norm_label": "inter"
+    },
+    {
       "label": "metadata",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
-      "source_location": "L4",
+      "source_location": "L11",
       "id": "app_layout_metadata",
       "community": 2,
       "norm_label": "metadata"
@@ -88,7 +97,7 @@
       "label": "RootLayout()",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
-      "source_location": "L20",
+      "source_location": "L39",
       "id": "app_layout_rootlayout",
       "community": 2,
       "norm_label": "rootlayout()"
@@ -99,7 +108,7 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L1",
       "id": "src_app_page_tsx",
-      "community": 5,
+      "community": 7,
       "norm_label": "page.tsx"
     },
     {
@@ -108,7 +117,7 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L9",
       "id": "app_page_home",
-      "community": 5,
+      "community": 7,
       "norm_label": "home()"
     },
     {
@@ -117,7 +126,7 @@
       "source_file": "src/components/featured-projects.tsx",
       "source_location": "L1",
       "id": "src_components_featured_projects_tsx",
-      "community": 15,
+      "community": 3,
       "norm_label": "featured-projects.tsx"
     },
     {
@@ -126,7 +135,7 @@
       "source_file": "src/components/featured-projects.tsx",
       "source_location": "L13",
       "id": "components_featured_projects_tab",
-      "community": 15,
+      "community": 3,
       "norm_label": "tab"
     },
     {
@@ -135,7 +144,7 @@
       "source_file": "src/components/featured-projects.tsx",
       "source_location": "L15",
       "id": "components_featured_projects_statusbadge",
-      "community": 15,
+      "community": 3,
       "norm_label": "statusbadge()"
     },
     {
@@ -144,7 +153,7 @@
       "source_file": "src/components/featured-projects.tsx",
       "source_location": "L37",
       "id": "components_featured_projects_repofromhref",
-      "community": 15,
+      "community": 3,
       "norm_label": "repofromhref()"
     },
     {
@@ -153,7 +162,7 @@
       "source_file": "src/components/featured-projects.tsx",
       "source_location": "L46",
       "id": "components_featured_projects_projectrow",
-      "community": 15,
+      "community": 3,
       "norm_label": "projectrow()"
     },
     {
@@ -162,7 +171,7 @@
       "source_file": "src/components/featured-projects.tsx",
       "source_location": "L89",
       "id": "components_featured_projects_featuredprojects",
-      "community": 15,
+      "community": 3,
       "norm_label": "featuredprojects()"
     },
     {
@@ -180,7 +189,7 @@
       "source_file": "src/components/hero.tsx",
       "source_location": "L7",
       "id": "components_hero_hero",
-      "community": 5,
+      "community": 7,
       "norm_label": "hero()"
     },
     {
@@ -193,10 +202,19 @@
       "norm_label": "experience.tsx"
     },
     {
-      "label": "ExperienceBadge()",
+      "label": "githubGraphUrl()",
       "file_type": "code",
       "source_file": "src/components/experience.tsx",
       "source_location": "L9",
+      "id": "components_experience_githubgraphurl",
+      "community": 7,
+      "norm_label": "githubgraphurl()"
+    },
+    {
+      "label": "ExperienceBadge()",
+      "file_type": "code",
+      "source_file": "src/components/experience.tsx",
+      "source_location": "L16",
       "id": "components_experience_experiencebadge",
       "community": 7,
       "norm_label": "experiencebadge()"
@@ -205,7 +223,7 @@
       "label": "Experience()",
       "file_type": "code",
       "source_file": "src/components/experience.tsx",
-      "source_location": "L28",
+      "source_location": "L35",
       "id": "components_experience_experience",
       "community": 7,
       "norm_label": "experience()"
@@ -270,7 +288,7 @@
       "source_file": "src/components/contact.tsx",
       "source_location": "L27",
       "id": "components_contact_contact",
-      "community": 5,
+      "community": 1,
       "norm_label": "contact()"
     },
     {
@@ -369,7 +387,7 @@
       "source_file": "src/components/command-palette.tsx",
       "source_location": "L300",
       "id": "components_command_palette_commandpalettetrigger",
-      "community": 3,
+      "community": 1,
       "norm_label": "commandpalettetrigger()"
     },
     {
@@ -378,7 +396,7 @@
       "source_file": "src/components/footer.tsx",
       "source_location": "L1",
       "id": "src_components_footer_tsx",
-      "community": 5,
+      "community": 7,
       "norm_label": "footer.tsx"
     },
     {
@@ -387,7 +405,7 @@
       "source_file": "src/components/footer.tsx",
       "source_location": "L3",
       "id": "components_footer_footer",
-      "community": 5,
+      "community": 7,
       "norm_label": "footer()"
     },
     {
@@ -484,7 +502,7 @@
       "label": "nav",
       "file_type": "code",
       "source_file": "src/components/header.tsx",
-      "source_location": "L10",
+      "source_location": "L11",
       "id": "components_header_nav",
       "community": 1,
       "norm_label": "nav"
@@ -493,10 +511,55 @@
       "label": "Header()",
       "file_type": "code",
       "source_file": "src/components/header.tsx",
-      "source_location": "L16",
+      "source_location": "L17",
       "id": "components_header_header",
       "community": 6,
       "norm_label": "header()"
+    },
+    {
+      "label": "theme-toggle.tsx",
+      "file_type": "code",
+      "source_file": "src/components/theme-toggle.tsx",
+      "source_location": "L1",
+      "id": "src_components_theme_toggle_tsx",
+      "community": 1,
+      "norm_label": "theme-toggle.tsx"
+    },
+    {
+      "label": "Theme",
+      "file_type": "code",
+      "source_file": "src/components/theme-toggle.tsx",
+      "source_location": "L6",
+      "id": "components_theme_toggle_theme",
+      "community": 1,
+      "norm_label": "theme"
+    },
+    {
+      "label": "getPreferredTheme()",
+      "file_type": "code",
+      "source_file": "src/components/theme-toggle.tsx",
+      "source_location": "L8",
+      "id": "components_theme_toggle_getpreferredtheme",
+      "community": 1,
+      "norm_label": "getpreferredtheme()"
+    },
+    {
+      "label": "applyTheme()",
+      "file_type": "code",
+      "source_file": "src/components/theme-toggle.tsx",
+      "source_location": "L17",
+      "id": "components_theme_toggle_applytheme",
+      "community": 1,
+      "norm_label": "applytheme()"
+    },
+    {
+      "label": "ThemeToggle()",
+      "file_type": "code",
+      "source_file": "src/components/theme-toggle.tsx",
+      "source_location": "L22",
+      "id": "components_theme_toggle_themetoggle",
+      "community": 1,
+      "norm_label": "themetoggle()"
     },
     {
       "label": "org-logo.tsx",
@@ -504,7 +567,7 @@
       "source_file": "src/components/org-logo.tsx",
       "source_location": "L1",
       "id": "src_components_org_logo_tsx",
-      "community": 15,
+      "community": 3,
       "norm_label": "org-logo.tsx"
     },
     {
@@ -513,7 +576,7 @@
       "source_file": "src/components/org-logo.tsx",
       "source_location": "L3",
       "id": "components_org_logo_orglogoprops",
-      "community": 15,
+      "community": 3,
       "norm_label": "orglogoprops"
     },
     {
@@ -522,7 +585,7 @@
       "source_file": "src/components/org-logo.tsx",
       "source_location": "L11",
       "id": "components_org_logo_sizes",
-      "community": 15,
+      "community": 3,
       "norm_label": "sizes"
     },
     {
@@ -531,7 +594,7 @@
       "source_file": "src/components/org-logo.tsx",
       "source_location": "L17",
       "id": "components_org_logo_orglogo",
-      "community": 15,
+      "community": 3,
       "norm_label": "orglogo()"
     },
     {
@@ -558,7 +621,7 @@
       "source_file": "src/lib/site.ts",
       "source_location": "L1",
       "id": "src_lib_site_ts",
-      "community": 7,
+      "community": 3,
       "norm_label": "site.ts"
     },
     {
@@ -576,7 +639,7 @@
       "source_file": "src/lib/site.ts",
       "source_location": "L23",
       "id": "lib_site_socialstat",
-      "community": 7,
+      "community": 3,
       "norm_label": "socialstat"
     },
     {
@@ -603,7 +666,7 @@
       "source_file": "src/lib/site.ts",
       "source_location": "L64",
       "id": "lib_site_projectstatus",
-      "community": 7,
+      "community": 3,
       "norm_label": "projectstatus"
     },
     {
@@ -612,7 +675,7 @@
       "source_file": "src/lib/site.ts",
       "source_location": "L66",
       "id": "lib_site_project",
-      "community": 15,
+      "community": 3,
       "norm_label": "project"
     },
     {
@@ -621,7 +684,7 @@
       "source_file": "src/lib/site.ts",
       "source_location": "L78",
       "id": "lib_site_featuredprojects",
-      "community": 7,
+      "community": 3,
       "norm_label": "featuredprojects"
     },
     {
@@ -630,7 +693,7 @@
       "source_file": "src/lib/site.ts",
       "source_location": "L124",
       "id": "lib_site_allprojects",
-      "community": 15,
+      "community": 3,
       "norm_label": "allprojects"
     },
     {
@@ -639,7 +702,7 @@
       "source_file": "src/lib/site.ts",
       "source_location": "L175",
       "id": "lib_site_experience",
-      "community": 7,
+      "community": 3,
       "norm_label": "experience"
     },
     {
@@ -697,19 +760,55 @@
       "norm_label": "palette"
     },
     {
+      "label": "Light (default)",
+      "file_type": "document",
+      "source_file": "brand.md",
+      "source_location": "L7",
+      "id": "portfolio_sam_brand_light_default",
+      "community": 4,
+      "norm_label": "light (default)"
+    },
+    {
+      "label": "Dark",
+      "file_type": "document",
+      "source_file": "brand.md",
+      "source_location": "L21",
+      "id": "portfolio_sam_brand_dark",
+      "community": 4,
+      "norm_label": "dark"
+    },
+    {
+      "label": "Always dark",
+      "file_type": "document",
+      "source_file": "brand.md",
+      "source_location": "L31",
+      "id": "portfolio_sam_brand_always_dark",
+      "community": 4,
+      "norm_label": "always dark"
+    },
+    {
       "label": "Typography",
       "file_type": "document",
       "source_file": "brand.md",
-      "source_location": "L16",
+      "source_location": "L38",
       "id": "portfolio_sam_brand_typography",
       "community": 4,
       "norm_label": "typography"
     },
     {
+      "label": "Shapes",
+      "file_type": "document",
+      "source_file": "brand.md",
+      "source_location": "L44",
+      "id": "portfolio_sam_brand_shapes",
+      "community": 4,
+      "norm_label": "shapes"
+    },
+    {
       "label": "Voice",
       "file_type": "document",
       "source_file": "brand.md",
-      "source_location": "L21",
+      "source_location": "L50",
       "id": "portfolio_sam_brand_voice",
       "community": 4,
       "norm_label": "voice"
@@ -718,7 +817,7 @@
       "label": "Code",
       "file_type": "document",
       "source_file": "brand.md",
-      "source_location": "L27",
+      "source_location": "L56",
       "id": "portfolio_sam_brand_code",
       "community": 4,
       "norm_label": "code"
@@ -794,6 +893,357 @@
       "id": "portfolio_sam_readme_links",
       "community": 0,
       "norm_label": "links"
+    },
+    {
+      "label": "Design.md",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L1",
+      "id": "design_md",
+      "community": 14,
+      "norm_label": "design.md"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L1",
+      "id": "portfolio_sam_design_overview",
+      "community": 14,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Colors",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L22",
+      "id": "portfolio_sam_design_colors",
+      "community": 15,
+      "norm_label": "colors"
+    },
+    {
+      "label": "Brand & Accent",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L24",
+      "id": "portfolio_sam_design_brand_accent",
+      "community": 15,
+      "norm_label": "brand & accent"
+    },
+    {
+      "label": "Surface",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L29",
+      "id": "portfolio_sam_design_surface",
+      "community": 15,
+      "norm_label": "surface"
+    },
+    {
+      "label": "Text",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L39",
+      "id": "portfolio_sam_design_text",
+      "community": 15,
+      "norm_label": "text"
+    },
+    {
+      "label": "Semantic",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L47",
+      "id": "portfolio_sam_design_semantic",
+      "community": 15,
+      "norm_label": "semantic"
+    },
+    {
+      "label": "Typography",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L52",
+      "id": "portfolio_sam_design_typography",
+      "community": 14,
+      "norm_label": "typography"
+    },
+    {
+      "label": "Font Family",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L54",
+      "id": "portfolio_sam_design_font_family",
+      "community": 14,
+      "norm_label": "font family"
+    },
+    {
+      "label": "Hierarchy",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L61",
+      "id": "portfolio_sam_design_hierarchy",
+      "community": 14,
+      "norm_label": "hierarchy"
+    },
+    {
+      "label": "Principles",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L79",
+      "id": "portfolio_sam_design_principles",
+      "community": 14,
+      "norm_label": "principles"
+    },
+    {
+      "label": "Note on Font Substitutes",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L84",
+      "id": "portfolio_sam_design_note_on_font_substitutes",
+      "community": 14,
+      "norm_label": "note on font substitutes"
+    },
+    {
+      "label": "Layout",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L87",
+      "id": "portfolio_sam_design_layout",
+      "community": 14,
+      "norm_label": "layout"
+    },
+    {
+      "label": "Spacing System",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L89",
+      "id": "portfolio_sam_design_spacing_system",
+      "community": 14,
+      "norm_label": "spacing system"
+    },
+    {
+      "label": "Grid & Container",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L96",
+      "id": "portfolio_sam_design_grid_container",
+      "community": 14,
+      "norm_label": "grid & container"
+    },
+    {
+      "label": "Whitespace Philosophy",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L103",
+      "id": "portfolio_sam_design_whitespace_philosophy",
+      "community": 14,
+      "norm_label": "whitespace philosophy"
+    },
+    {
+      "label": "Elevation & Depth",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L106",
+      "id": "portfolio_sam_design_elevation_depth",
+      "community": 14,
+      "norm_label": "elevation & depth"
+    },
+    {
+      "label": "Decorative Depth",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L118",
+      "id": "portfolio_sam_design_decorative_depth",
+      "community": 14,
+      "norm_label": "decorative depth"
+    },
+    {
+      "label": "Shapes",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L122",
+      "id": "portfolio_sam_design_shapes",
+      "community": 14,
+      "norm_label": "shapes"
+    },
+    {
+      "label": "Border Radius Scale",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L124",
+      "id": "portfolio_sam_design_border_radius_scale",
+      "community": 14,
+      "norm_label": "border radius scale"
+    },
+    {
+      "label": "Photography Geometry",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L136",
+      "id": "portfolio_sam_design_photography_geometry",
+      "community": 14,
+      "norm_label": "photography geometry"
+    },
+    {
+      "label": "Components",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L139",
+      "id": "portfolio_sam_design_components",
+      "community": 14,
+      "norm_label": "components"
+    },
+    {
+      "label": "Top Navigation",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L141",
+      "id": "portfolio_sam_design_top_navigation",
+      "community": 14,
+      "norm_label": "top navigation"
+    },
+    {
+      "label": "Buttons",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L147",
+      "id": "portfolio_sam_design_buttons",
+      "community": 14,
+      "norm_label": "buttons"
+    },
+    {
+      "label": "Cards & Containers",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L159",
+      "id": "portfolio_sam_design_cards_containers",
+      "community": 14,
+      "norm_label": "cards & containers"
+    },
+    {
+      "label": "Inputs & Forms",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L177",
+      "id": "portfolio_sam_design_inputs_forms",
+      "community": 14,
+      "norm_label": "inputs & forms"
+    },
+    {
+      "label": "Tags / Badges",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L183",
+      "id": "portfolio_sam_design_tags_badges",
+      "community": 14,
+      "norm_label": "tags / badges"
+    },
+    {
+      "label": "Tab / Filter",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L191",
+      "id": "portfolio_sam_design_tab_filter",
+      "community": 14,
+      "norm_label": "tab / filter"
+    },
+    {
+      "label": "CTA / Footer",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L195",
+      "id": "portfolio_sam_design_cta_footer",
+      "community": 14,
+      "norm_label": "cta / footer"
+    },
+    {
+      "label": "Do's and Don'ts",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L201",
+      "id": "portfolio_sam_design_do_s_and_don_ts",
+      "community": 14,
+      "norm_label": "do's and don'ts"
+    },
+    {
+      "label": "Do",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L203",
+      "id": "portfolio_sam_design_do",
+      "community": 14,
+      "norm_label": "do"
+    },
+    {
+      "label": "Don't",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L213",
+      "id": "portfolio_sam_design_don_t",
+      "community": 14,
+      "norm_label": "don't"
+    },
+    {
+      "label": "Responsive Behavior",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L221",
+      "id": "portfolio_sam_design_responsive_behavior",
+      "community": 14,
+      "norm_label": "responsive behavior"
+    },
+    {
+      "label": "Breakpoints",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L223",
+      "id": "portfolio_sam_design_breakpoints",
+      "community": 14,
+      "norm_label": "breakpoints"
+    },
+    {
+      "label": "Touch Targets",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L232",
+      "id": "portfolio_sam_design_touch_targets",
+      "community": 14,
+      "norm_label": "touch targets"
+    },
+    {
+      "label": "Collapsing Strategy",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L238",
+      "id": "portfolio_sam_design_collapsing_strategy",
+      "community": 14,
+      "norm_label": "collapsing strategy"
+    },
+    {
+      "label": "Image Behavior",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L246",
+      "id": "portfolio_sam_design_image_behavior",
+      "community": 14,
+      "norm_label": "image behavior"
+    },
+    {
+      "label": "Iteration Guide",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L251",
+      "id": "portfolio_sam_design_iteration_guide",
+      "community": 14,
+      "norm_label": "iteration guide"
+    },
+    {
+      "label": "Known Gaps",
+      "file_type": "document",
+      "source_file": "Design.md",
+      "source_location": "L261",
+      "id": "portfolio_sam_design_known_gaps",
+      "community": 14,
+      "norm_label": "known gaps"
     },
     {
       "label": "AGENTS.md",
@@ -1025,7 +1475,7 @@
       "file_type": "code",
       "source_file": "src/components/projects.tsx",
       "source_location": "L1",
-      "community": 7,
+      "community": 3,
       "norm_label": "projects.tsx",
       "id": "src_components_projects_tsx"
     },
@@ -1034,7 +1484,7 @@
       "file_type": "code",
       "source_file": "src/components/projects.tsx",
       "source_location": "L4",
-      "community": 7,
+      "community": 3,
       "norm_label": "projects()",
       "id": "components_projects_projects"
     },
@@ -1195,6 +1645,16 @@
       "confidence_score": 1.0,
       "source": "next_config_ts",
       "target": "portfolio_sam_next_config_nextconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "app_layout_inter",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1928,6 +2388,16 @@
       "source_file": "src/components/experience.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "source": "src_components_experience_tsx",
+      "target": "components_experience_githubgraphurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/experience.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_components_experience_tsx",
       "target": "components_experience_experiencebadge"
@@ -1941,6 +2411,17 @@
       "confidence_score": 1.0,
       "source": "src_components_experience_tsx",
       "target": "components_experience_experience"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/experience.tsx",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "components_experience_experience",
+      "target": "components_experience_githubgraphurl",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2652,6 +3133,28 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/header.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "src_components_theme_toggle_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/header.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "components_theme_toggle_themetoggle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/header.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -2698,6 +3201,46 @@
       "confidence_score": 1.0,
       "source": "src_components_header_tsx",
       "target": "components_header_socialpills"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/theme-toggle.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_theme_toggle_tsx",
+      "target": "components_theme_toggle_theme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/theme-toggle.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_components_theme_toggle_tsx",
+      "target": "components_theme_toggle_getpreferredtheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/theme-toggle.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_components_theme_toggle_tsx",
+      "target": "components_theme_toggle_applytheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/theme-toggle.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_components_theme_toggle_tsx",
+      "target": "components_theme_toggle_themetoggle",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3086,6 +3629,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "brand.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "portfolio_sam_brand_portfolio_brand",
+      "target": "portfolio_sam_brand_shapes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "brand.md",
       "source_location": "L21",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3101,6 +3654,36 @@
       "confidence_score": 1.0,
       "source": "portfolio_sam_brand_portfolio_brand",
       "target": "portfolio_sam_brand_code"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "brand.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "portfolio_sam_brand_palette",
+      "target": "portfolio_sam_brand_light_default",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "brand.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "portfolio_sam_brand_palette",
+      "target": "portfolio_sam_brand_dark",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "brand.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "portfolio_sam_brand_palette",
+      "target": "portfolio_sam_brand_always_dark",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3181,6 +3764,386 @@
       "confidence_score": 1.0,
       "source": "portfolio_sam_readme_deploy",
       "target": "portfolio_sam_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "design_md",
+      "target": "portfolio_sam_design_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "design_md",
+      "target": "portfolio_sam_design_colors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "design_md",
+      "target": "portfolio_sam_design_typography",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "design_md",
+      "target": "portfolio_sam_design_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "design_md",
+      "target": "portfolio_sam_design_elevation_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "design_md",
+      "target": "portfolio_sam_design_shapes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "design_md",
+      "target": "portfolio_sam_design_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L201",
+      "weight": 1.0,
+      "source": "design_md",
+      "target": "portfolio_sam_design_do_s_and_don_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L221",
+      "weight": 1.0,
+      "source": "design_md",
+      "target": "portfolio_sam_design_responsive_behavior",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L251",
+      "weight": 1.0,
+      "source": "design_md",
+      "target": "portfolio_sam_design_iteration_guide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L261",
+      "weight": 1.0,
+      "source": "design_md",
+      "target": "portfolio_sam_design_known_gaps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_colors",
+      "target": "portfolio_sam_design_brand_accent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_colors",
+      "target": "portfolio_sam_design_surface",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_colors",
+      "target": "portfolio_sam_design_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_colors",
+      "target": "portfolio_sam_design_semantic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_typography",
+      "target": "portfolio_sam_design_font_family",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_typography",
+      "target": "portfolio_sam_design_hierarchy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_typography",
+      "target": "portfolio_sam_design_principles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_typography",
+      "target": "portfolio_sam_design_note_on_font_substitutes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_layout",
+      "target": "portfolio_sam_design_spacing_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_layout",
+      "target": "portfolio_sam_design_grid_container",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_layout",
+      "target": "portfolio_sam_design_whitespace_philosophy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_elevation_depth",
+      "target": "portfolio_sam_design_decorative_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_shapes",
+      "target": "portfolio_sam_design_border_radius_scale",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_shapes",
+      "target": "portfolio_sam_design_photography_geometry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_components",
+      "target": "portfolio_sam_design_top_navigation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_components",
+      "target": "portfolio_sam_design_buttons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_components",
+      "target": "portfolio_sam_design_cards_containers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_components",
+      "target": "portfolio_sam_design_inputs_forms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_components",
+      "target": "portfolio_sam_design_tags_badges",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L191",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_components",
+      "target": "portfolio_sam_design_tab_filter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_components",
+      "target": "portfolio_sam_design_cta_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_do_s_and_don_ts",
+      "target": "portfolio_sam_design_do",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_do_s_and_don_ts",
+      "target": "portfolio_sam_design_don_t",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L223",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_responsive_behavior",
+      "target": "portfolio_sam_design_breakpoints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L232",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_responsive_behavior",
+      "target": "portfolio_sam_design_touch_targets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_responsive_behavior",
+      "target": "portfolio_sam_design_collapsing_strategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Design.md",
+      "source_location": "L246",
+      "weight": 1.0,
+      "source": "portfolio_sam_design_responsive_behavior",
+      "target": "portfolio_sam_design_image_behavior",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3481,5 +4444,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f5cd0eb274369276f30925705444fe9a58ae4ba5"
+  "built_at_commit": "41cabc9966f1a886871e035d452afa69435dbfab"
 }

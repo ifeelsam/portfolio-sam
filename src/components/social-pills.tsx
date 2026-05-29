@@ -31,7 +31,7 @@ function SocialHoverCard({ profile }: { profile: SocialProfile }) {
         role="tooltip"
         className="site-social-popover pointer-events-none absolute left-0 top-full z-50 pt-2 opacity-0 transition-all duration-200 group-hover/social:pointer-events-auto group-hover/social:opacity-100 group-focus-within/social:pointer-events-auto group-focus-within/social:opacity-100"
       >
-        <div className="site-social-card w-[17.5rem] rounded-xl border border-border bg-card p-4 shadow-xl shadow-black/40">
+        <div className="site-social-card w-[17.5rem] rounded-xl border border-border bg-card p-4 shadow-xl shadow-[hsl(0_0%_0%/var(--shadow-strength))]">
           <div className="flex items-start gap-3">
             <div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-full border border-border">
               <Image

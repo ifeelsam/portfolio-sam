@@ -2,6 +2,7 @@
 
 import { CommandPaletteTrigger } from "@/components/command-palette";
 import { ScrollProgress } from "@/components/scroll-progress";
+import { ThemeToggle } from "@/components/theme-toggle";
 import { site } from "@/lib/site";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
@@ -17,7 +18,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="site-header-line sticky top-0 z-50 bg-card/90 backdrop-blur-md">
+    <header className="site-header-line sticky top-0 z-50 border-b border-border bg-card/95 backdrop-blur-md">
       <div className="flex h-14 items-center justify-between gap-3 px-6 md:px-8">
         <Link
           href="/"
@@ -26,7 +27,7 @@ export function Header() {
           {site.name}
         </Link>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 md:gap-4">
           <nav className="hidden items-center gap-6 md:flex">
             {nav.map((item) => (
               <a
@@ -39,6 +40,7 @@ export function Header() {
             ))}
           </nav>
           <CommandPaletteTrigger />
+          <ThemeToggle />
         </div>
 
         <button
