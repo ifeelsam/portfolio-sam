@@ -4,7 +4,7 @@
     "hash": "239f3ebf717465dc636818a1a619398d"
   },
   "/Users/sam/Projects/portfolio-sam/next-env.d.ts": {
-    "mtime": 1779983526.0566447,
+    "mtime": 1780059638.9275131,
     "hash": "2a74d3909800ca5467fa83b0ab4a4890"
   },
   "/Users/sam/Projects/portfolio-sam/eslint.config.mjs": {
@@ -16,31 +16,31 @@
     "hash": "38179730fa452dd2717391a965539aac"
   },
   "/Users/sam/Projects/portfolio-sam/src/app/layout.tsx": {
-    "mtime": 1779983503.9988189,
+    "mtime": 1780050915.075419,
     "hash": "5961c147440a043e33c00af74d73f720"
   },
   "/Users/sam/Projects/portfolio-sam/src/app/page.tsx": {
-    "mtime": 1779982406.5490196,
+    "mtime": 1780050915.0754592,
     "hash": "d36639eaabcedc890eb0ba4696b3ba94"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/featured-projects.tsx": {
-    "mtime": 1779983507.8266315,
-    "hash": "ebad01d06bf9cf3d91beaa415f961e33"
+    "mtime": 1780059634.8200696,
+    "hash": "7958fbdcf2b4f881e142b2fd88af3d57"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/hero.tsx": {
-    "mtime": 1779983507.0008454,
+    "mtime": 1780050915.0752213,
     "hash": "a94d8c035a392b5e51f67c1fcb5d627c"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/experience.tsx": {
-    "mtime": 1779983514.5593839,
-    "hash": "77b44691a561331b77623f05f4ef00d1"
+    "mtime": 1779983799.688791,
+    "hash": "5901113775bfc7b564f1f8c7b6be910f"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/scroll-progress.tsx": {
-    "mtime": 1779983452.3483377,
+    "mtime": 1780050915.0784745,
     "hash": "2c3d9baa83346dfed4b6385a2e28fec2"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/site-shell.tsx": {
-    "mtime": 1779983506.523605,
+    "mtime": 1780050914.964808,
     "hash": "e9be4c6f221e536314a1cc1bfdeebc8e"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/contact.tsx": {
@@ -48,23 +48,23 @@
     "hash": "94459810dd15322413997d14caf10ffb"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/section.tsx": {
-    "mtime": 1779983452.3704352,
+    "mtime": 1780050914.964816,
     "hash": "7fd51a66155fa3c6d89466ed265bd403"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/command-palette.tsx": {
-    "mtime": 1779983508.377597,
+    "mtime": 1780050915.0868514,
     "hash": "04f502966a82b9c0f77082d0ce2444fd"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/footer.tsx": {
-    "mtime": 1779983506.3642871,
+    "mtime": 1780050914.96483,
     "hash": "e017fcec492c4e328e9533e4a35a94e7"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/social-pills.tsx": {
-    "mtime": 1779983508.6641467,
+    "mtime": 1780050915.0784776,
     "hash": "b32bbc14cb06c40a383af95e87b4f106"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/avatar.tsx": {
-    "mtime": 1779983452.5912786,
+    "mtime": 1780050915.0786424,
     "hash": "ec0f7e53b042d6d878b13bb828e8706d"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/icons.tsx": {
@@ -72,15 +72,15 @@
     "hash": "0a9262466f9cbf875affaa831f7c5fb3"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/header.tsx": {
-    "mtime": 1779983512.243741,
+    "mtime": 1780050914.9648216,
     "hash": "1b7d4c27d6be56733ff18254626c9f53"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/theme-toggle.tsx": {
-    "mtime": 1779983502.9305708,
+    "mtime": 1780050915.0755396,
     "hash": "4a83a1a6e8cdf6e64e05886e87bb3e27"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/org-logo.tsx": {
-    "mtime": 1779983506.8371093,
+    "mtime": 1780050915.0785663,
     "hash": "87472a7e9fa2748b5248be0c78cdfce9"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/about.tsx": {
@@ -88,11 +88,11 @@
     "hash": "2fe2c0a688aa9b5342d495c866f25faa"
   },
   "/Users/sam/Projects/portfolio-sam/src/lib/site.ts": {
-    "mtime": 1779983452.6623447,
+    "mtime": 1780050915.0820055,
     "hash": "2a1aad529a0a2ca83578206a216f0015"
   },
   "/Users/sam/Projects/portfolio-sam/brand.md": {
-    "mtime": 1779983521.7587135,
+    "mtime": 1780050914.965138,
     "hash": "d432bebe62327a0ecc537331d1085ae7"
   },
   "/Users/sam/Projects/portfolio-sam/README.md": {

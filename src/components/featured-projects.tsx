@@ -109,10 +109,9 @@ export function FeaturedProjects() {
             key={value}
             type="button"
             onClick={() => setTab(value)}
-            className={`px-3 py-1.5 text-xs font-medium transition-colors ${
-              tab === value
-                ? "site-nav-pill-active"
-                : "rounded-md text-muted-foreground hover:text-foreground"
+            aria-pressed={tab === value}
+            className={`site-nav-pill ${
+              tab === value ? "site-nav-pill-active" : "site-nav-pill-inactive"
             }`}
           >
             {label}
