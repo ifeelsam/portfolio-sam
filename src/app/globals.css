@@ -181,6 +181,10 @@ body {
   display: none;
 }
 
+.site-dot-word {
+  display: none;
+}
+
 @media (min-width: 768px) {
   :root {
     --site-bottom-offset: 30dvh;
@@ -219,9 +223,26 @@ body {
 
   .site-dot-field-bottom {
     top: calc(100% + var(--site-line-weight) + var(--site-dot-rail-gap));
-    height: calc(
-      var(--site-bottom-offset) - 2 * var(--site-dot-rail-gap) - var(--site-line-weight)
-    );
+    bottom: calc(-1 * var(--site-bottom-offset));
+    height: auto;
+    overflow: hidden;
+  }
+
+  .site-dot-word {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: var(--font-display), system-ui, sans-serif;
+    font-weight: 700;
+    font-size: clamp(4rem, 16vw, 10rem);
+    letter-spacing: -0.04em;
+    line-height: 1;
+    color: hsl(var(--background));
+    user-select: none;
+    /* Push the lower portion of the word below the viewport edge. */
+    transform: translateY(25%);
   }
 }
 
