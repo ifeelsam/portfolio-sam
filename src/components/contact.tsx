@@ -28,7 +28,7 @@ export function Contact() {
   return (
     <Section
       id="contact"
-      label="04 — Contact"
+      label="Contact"
       title="Let's build"
       intro="Open to collaborations, hackathons, and interesting product work."
       className="site-divider px-6 md:px-8"

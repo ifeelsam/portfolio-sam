@@ -93,7 +93,7 @@ export function FeaturedProjects() {
   return (
     <Section
       id="projects"
-      label="02 — Featured work"
+      label="Featured work"
       title="Selected projects"
       intro="Highlights from what I've shipped — toggle for the full list."
       className="site-divider px-6 md:px-8"

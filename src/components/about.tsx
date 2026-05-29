@@ -5,13 +5,13 @@ export function About() {
   return (
     <Section
       id="about"
-      label="03 — About"
+      label="About"
       title="How I work"
       className="site-divider px-6 md:px-8"
     >
       <div className="space-y-4 site-body max-w-xl">
         <p>
-          I&apos;m Sam — building in public as{" "}
+          I&apos;m Sam, building in public as{" "}
           <a
             href={site.x}
             className="site-link font-medium"

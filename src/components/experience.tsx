@@ -48,7 +48,7 @@ export function Experience() {
   return (
     <Section
       id="experience"
-      label="01 — Experience"
+      label="Experience"
       title="Background & proof of work"
       intro="Ecosystem roles, grants, and a track record of shipping in public."
       className="site-divider px-6 md:px-8"
