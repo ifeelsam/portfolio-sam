@@ -4,8 +4,8 @@
     "hash": "239f3ebf717465dc636818a1a619398d"
   },
   "/Users/sam/Projects/portfolio-sam/next-env.d.ts": {
-    "mtime": 1780059638.9275131,
-    "hash": "2a74d3909800ca5467fa83b0ab4a4890"
+    "mtime": 1780065483.7341175,
+    "hash": "d0f8375ae1199dc7acd3977fc33b78b8"
   },
   "/Users/sam/Projects/portfolio-sam/eslint.config.mjs": {
     "mtime": 1779795898.0720482,
@@ -28,28 +28,28 @@
     "hash": "7958fbdcf2b4f881e142b2fd88af3d57"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/hero.tsx": {
-    "mtime": 1780050915.0752213,
-    "hash": "a94d8c035a392b5e51f67c1fcb5d627c"
+    "mtime": 1780071992.3880963,
+    "hash": "3339459252e8731df249bcaafa1ca7f3"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/experience.tsx": {
     "mtime": 1779983799.688791,
     "hash": "5901113775bfc7b564f1f8c7b6be910f"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/scroll-progress.tsx": {
-    "mtime": 1780050915.0784745,
-    "hash": "2c3d9baa83346dfed4b6385a2e28fec2"
+    "mtime": 1780065124.7745948,
+    "hash": "82860d3c6669ce65b172b42d32687f33"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/site-shell.tsx": {
-    "mtime": 1780050914.964808,
-    "hash": "e9be4c6f221e536314a1cc1bfdeebc8e"
+    "mtime": 1780065124.7746458,
+    "hash": "bebb321e638eb3a31bde65163e7cf867"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/contact.tsx": {
     "mtime": 1779983452.5203986,
     "hash": "94459810dd15322413997d14caf10ffb"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/section.tsx": {
-    "mtime": 1780050914.964816,
-    "hash": "7fd51a66155fa3c6d89466ed265bd403"
+    "mtime": 1780065124.774604,
+    "hash": "41ea3fe71ec7a634696688da3b5bda32"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/command-palette.tsx": {
     "mtime": 1780050915.0868514,
@@ -71,9 +71,9 @@
     "mtime": 1779798077.345319,
     "hash": "0a9262466f9cbf875affaa831f7c5fb3"
   },
-  "/Users/sam/Projects/portfolio-sam/src/components/header.tsx": {
-    "mtime": 1780050914.9648216,
-    "hash": "1b7d4c27d6be56733ff18254626c9f53"
+  "/Users/sam/Projects/portfolio-sam/src/components/hero-toolbar.tsx": {
+    "mtime": 1780065124.7895808,
+    "hash": "48dc751279128b82ea49c1c0bf2280b4"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/theme-toggle.tsx": {
     "mtime": 1780050915.0755396,

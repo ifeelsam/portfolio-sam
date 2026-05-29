@@ -19,7 +19,7 @@ export function ScrollProgress() {
 
   return (
     <div
-      className="absolute inset-x-0 bottom-0 h-px bg-border"
+      className="absolute inset-x-0 top-0 h-px bg-border"
       aria-hidden
     >
       <div

@@ -108,7 +108,7 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L1",
       "id": "src_app_page_tsx",
-      "community": 7,
+      "community": 5,
       "norm_label": "page.tsx"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "src/app/page.tsx",
       "source_location": "L9",
       "id": "app_page_home",
-      "community": 7,
+      "community": 5,
       "norm_label": "home()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "src/components/featured-projects.tsx",
       "source_location": "L1",
       "id": "src_components_featured_projects_tsx",
-      "community": 3,
+      "community": 7,
       "norm_label": "featured-projects.tsx"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "src/components/featured-projects.tsx",
       "source_location": "L13",
       "id": "components_featured_projects_tab",
-      "community": 3,
+      "community": 7,
       "norm_label": "tab"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "src/components/featured-projects.tsx",
       "source_location": "L15",
       "id": "components_featured_projects_statusbadge",
-      "community": 3,
+      "community": 7,
       "norm_label": "statusbadge()"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "src/components/featured-projects.tsx",
       "source_location": "L37",
       "id": "components_featured_projects_repofromhref",
-      "community": 3,
+      "community": 7,
       "norm_label": "repofromhref()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "src/components/featured-projects.tsx",
       "source_location": "L46",
       "id": "components_featured_projects_projectrow",
-      "community": 3,
+      "community": 7,
       "norm_label": "projectrow()"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "src/components/featured-projects.tsx",
       "source_location": "L89",
       "id": "components_featured_projects_featuredprojects",
-      "community": 3,
+      "community": 5,
       "norm_label": "featuredprojects()"
     },
     {
@@ -187,9 +187,9 @@
       "label": "Hero()",
       "file_type": "code",
       "source_file": "src/components/hero.tsx",
-      "source_location": "L7",
+      "source_location": "L8",
       "id": "components_hero_hero",
-      "community": 7,
+      "community": 5,
       "norm_label": "hero()"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "src/components/scroll-progress.tsx",
       "source_location": "L1",
       "id": "src_components_scroll_progress_tsx",
-      "community": 1,
+      "community": 6,
       "norm_label": "scroll-progress.tsx"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "src/components/scroll-progress.tsx",
       "source_location": "L5",
       "id": "components_scroll_progress_scrollprogress",
-      "community": 1,
+      "community": 6,
       "norm_label": "scrollprogress()"
     },
     {
@@ -288,7 +288,7 @@
       "source_file": "src/components/contact.tsx",
       "source_location": "L27",
       "id": "components_contact_contact",
-      "community": 1,
+      "community": 5,
       "norm_label": "contact()"
     },
     {
@@ -387,7 +387,7 @@
       "source_file": "src/components/command-palette.tsx",
       "source_location": "L300",
       "id": "components_command_palette_commandpalettetrigger",
-      "community": 1,
+      "community": 3,
       "norm_label": "commandpalettetrigger()"
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "src/components/footer.tsx",
       "source_location": "L1",
       "id": "src_components_footer_tsx",
-      "community": 7,
+      "community": 5,
       "norm_label": "footer.tsx"
     },
     {
@@ -405,7 +405,7 @@
       "source_file": "src/components/footer.tsx",
       "source_location": "L3",
       "id": "components_footer_footer",
-      "community": 7,
+      "community": 5,
       "norm_label": "footer()"
     },
     {
@@ -490,31 +490,22 @@
       "norm_label": "xicon()"
     },
     {
-      "label": "header.tsx",
+      "label": "hero-toolbar.tsx",
       "file_type": "code",
-      "source_file": "src/components/header.tsx",
+      "source_file": "src/components/hero-toolbar.tsx",
       "source_location": "L1",
-      "id": "src_components_header_tsx",
+      "id": "src_components_hero_toolbar_tsx",
       "community": 1,
-      "norm_label": "header.tsx"
+      "norm_label": "hero-toolbar.tsx"
     },
     {
-      "label": "nav",
+      "label": "HeroToolbar()",
       "file_type": "code",
-      "source_file": "src/components/header.tsx",
-      "source_location": "L11",
-      "id": "components_header_nav",
+      "source_file": "src/components/hero-toolbar.tsx",
+      "source_location": "L5",
+      "id": "components_hero_toolbar_herotoolbar",
       "community": 1,
-      "norm_label": "nav"
-    },
-    {
-      "label": "Header()",
-      "file_type": "code",
-      "source_file": "src/components/header.tsx",
-      "source_location": "L17",
-      "id": "components_header_header",
-      "community": 6,
-      "norm_label": "header()"
+      "norm_label": "herotoolbar()"
     },
     {
       "label": "theme-toggle.tsx",
@@ -567,7 +558,7 @@
       "source_file": "src/components/org-logo.tsx",
       "source_location": "L1",
       "id": "src_components_org_logo_tsx",
-      "community": 3,
+      "community": 7,
       "norm_label": "org-logo.tsx"
     },
     {
@@ -576,7 +567,7 @@
       "source_file": "src/components/org-logo.tsx",
       "source_location": "L3",
       "id": "components_org_logo_orglogoprops",
-      "community": 3,
+      "community": 7,
       "norm_label": "orglogoprops"
     },
     {
@@ -585,7 +576,7 @@
       "source_file": "src/components/org-logo.tsx",
       "source_location": "L11",
       "id": "components_org_logo_sizes",
-      "community": 3,
+      "community": 7,
       "norm_label": "sizes"
     },
     {
@@ -594,7 +585,7 @@
       "source_file": "src/components/org-logo.tsx",
       "source_location": "L17",
       "id": "components_org_logo_orglogo",
-      "community": 3,
+      "community": 7,
       "norm_label": "orglogo()"
     },
     {
@@ -603,7 +594,7 @@
       "source_file": "src/components/about.tsx",
       "source_location": "L1",
       "id": "src_components_about_tsx",
-      "community": 7,
+      "community": 3,
       "norm_label": "about.tsx"
     },
     {
@@ -612,7 +603,7 @@
       "source_file": "src/components/about.tsx",
       "source_location": "L4",
       "id": "components_about_about",
-      "community": 7,
+      "community": 3,
       "norm_label": "about()"
     },
     {
@@ -648,7 +639,7 @@
       "source_file": "src/lib/site.ts",
       "source_location": "L28",
       "id": "lib_site_socialprofile",
-      "community": 1,
+      "community": 3,
       "norm_label": "socialprofile"
     },
     {
@@ -657,7 +648,7 @@
       "source_file": "src/lib/site.ts",
       "source_location": "L39",
       "id": "lib_site_socialprofiles",
-      "community": 1,
+      "community": 3,
       "norm_label": "socialprofiles"
     },
     {
@@ -684,7 +675,7 @@
       "source_file": "src/lib/site.ts",
       "source_location": "L78",
       "id": "lib_site_featuredprojects",
-      "community": 3,
+      "community": 5,
       "norm_label": "featuredprojects"
     },
     {
@@ -711,7 +702,7 @@
       "source_file": "src/lib/site.ts",
       "source_location": "L187",
       "id": "lib_site_experiences",
-      "community": 7,
+      "community": 3,
       "norm_label": "experiences"
     },
     {
@@ -720,7 +711,7 @@
       "source_file": "src/lib/site.ts",
       "source_location": "L232",
       "id": "lib_site_stack",
-      "community": 7,
+      "community": 3,
       "norm_label": "stack"
     },
     {
@@ -918,7 +909,7 @@
       "source_file": "Design.md",
       "source_location": "L22",
       "id": "portfolio_sam_design_colors",
-      "community": 15,
+      "community": 14,
       "norm_label": "colors"
     },
     {
@@ -927,7 +918,7 @@
       "source_file": "Design.md",
       "source_location": "L24",
       "id": "portfolio_sam_design_brand_accent",
-      "community": 15,
+      "community": 14,
       "norm_label": "brand & accent"
     },
     {
@@ -936,7 +927,7 @@
       "source_file": "Design.md",
       "source_location": "L29",
       "id": "portfolio_sam_design_surface",
-      "community": 15,
+      "community": 14,
       "norm_label": "surface"
     },
     {
@@ -945,7 +936,7 @@
       "source_file": "Design.md",
       "source_location": "L39",
       "id": "portfolio_sam_design_text",
-      "community": 15,
+      "community": 14,
       "norm_label": "text"
     },
     {
@@ -954,7 +945,7 @@
       "source_file": "Design.md",
       "source_location": "L47",
       "id": "portfolio_sam_design_semantic",
-      "community": 15,
+      "community": 14,
       "norm_label": "semantic"
     },
     {
@@ -1273,6 +1264,33 @@
       "norm_label": "claude.md"
     },
     {
+      "label": "header.tsx",
+      "file_type": "code",
+      "source_file": "src/components/header.tsx",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "header.tsx",
+      "id": "src_components_header_tsx"
+    },
+    {
+      "label": "nav",
+      "file_type": "code",
+      "source_file": "src/components/header.tsx",
+      "source_location": "L11",
+      "community": 1,
+      "norm_label": "nav",
+      "id": "components_header_nav"
+    },
+    {
+      "label": "Header()",
+      "file_type": "code",
+      "source_file": "src/components/header.tsx",
+      "source_location": "L17",
+      "community": 6,
+      "norm_label": "header()",
+      "id": "components_header_header"
+    },
+    {
       "label": "mandala-dots.tsx",
       "file_type": "code",
       "source_file": "src/components/mandala-dots.tsx",
@@ -1475,7 +1493,7 @@
       "file_type": "code",
       "source_file": "src/components/projects.tsx",
       "source_location": "L1",
-      "community": 3,
+      "community": 5,
       "norm_label": "projects.tsx",
       "id": "src_components_projects_tsx"
     },
@@ -1484,7 +1502,7 @@
       "file_type": "code",
       "source_file": "src/components/projects.tsx",
       "source_location": "L4",
-      "community": 3,
+      "community": 5,
       "norm_label": "projects()",
       "id": "components_projects_projects"
     },
@@ -1556,7 +1574,7 @@
       "file_type": "code",
       "source_file": "src/lib/site.ts",
       "source_location": "L91",
-      "community": 7,
+      "community": 3,
       "norm_label": "skills",
       "id": "lib_site_skills"
     },
@@ -1652,9 +1670,9 @@
       "source_file": "src/app/layout.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_layout_tsx",
-      "target": "app_layout_inter",
-      "confidence_score": 1.0
+      "target": "app_layout_inter"
     },
     {
       "relation": "contains",
@@ -2148,6 +2166,28 @@
       "source_file": "src/components/hero.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "source": "src_components_hero_tsx",
+      "target": "src_components_hero_toolbar_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/hero.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_hero_tsx",
+      "target": "components_hero_toolbar_herotoolbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/hero.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_components_hero_tsx",
       "target": "src_components_org_logo_tsx"
@@ -2388,9 +2428,9 @@
       "source_file": "src/components/experience.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_experience_tsx",
-      "target": "components_experience_githubgraphurl",
-      "confidence_score": 1.0
+      "target": "components_experience_githubgraphurl"
     },
     {
       "relation": "contains",
@@ -2419,9 +2459,9 @@
       "source_file": "src/components/experience.tsx",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_experience_experience",
-      "target": "components_experience_githubgraphurl",
-      "confidence_score": 1.0
+      "target": "components_experience_githubgraphurl"
     },
     {
       "relation": "contains",
@@ -2437,12 +2477,34 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/components/site-shell.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_site_shell_tsx",
+      "target": "src_components_scroll_progress_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/components/header.tsx",
       "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_components_header_tsx",
       "target": "src_components_scroll_progress_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/site-shell.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_site_shell_tsx",
+      "target": "components_scroll_progress_scrollprogress",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -2478,6 +2540,16 @@
       "target": "components_command_palette_commandpalette"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/site-shell.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_site_shell_tsx",
+      "target": "components_site_shell_siteshell"
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -2498,16 +2570,6 @@
       "confidence_score": 1.0,
       "source": "src_components_site_shell_tsx",
       "target": "components_header_header"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/site-shell.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_site_shell_tsx",
-      "target": "components_site_shell_siteshell"
     },
     {
       "relation": "imports_from",
@@ -3132,10 +3194,10 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/header.tsx",
-      "source_location": "L5",
+      "source_file": "src/components/hero-toolbar.tsx",
+      "source_location": "L3",
       "weight": 1.0,
-      "source": "src_components_header_tsx",
+      "source": "src_components_hero_toolbar_tsx",
       "target": "src_components_theme_toggle_tsx",
       "confidence_score": 1.0
     },
@@ -3143,64 +3205,22 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/header.tsx",
-      "source_location": "L5",
+      "source_file": "src/components/hero-toolbar.tsx",
+      "source_location": "L3",
       "weight": 1.0,
-      "source": "src_components_header_tsx",
+      "source": "src_components_hero_toolbar_tsx",
       "target": "components_theme_toggle_themetoggle",
       "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/header.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_header_tsx",
-      "target": "src_lib_site_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/header.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_header_tsx",
-      "target": "lib_site_site"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/header.tsx",
-      "source_location": "L9",
+      "source_file": "src/components/hero-toolbar.tsx",
+      "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_header_tsx",
-      "target": "components_header_nav"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/header.tsx",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_header_tsx",
-      "target": "components_header_header"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/header.tsx",
-      "source_location": "L73",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_header_tsx",
-      "target": "components_header_socialpills"
+      "source": "src_components_hero_toolbar_tsx",
+      "target": "components_hero_toolbar_herotoolbar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3208,9 +3228,9 @@
       "source_file": "src/components/theme-toggle.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_theme_toggle_tsx",
-      "target": "components_theme_toggle_theme",
-      "confidence_score": 1.0
+      "target": "components_theme_toggle_theme"
     },
     {
       "relation": "contains",
@@ -3218,9 +3238,9 @@
       "source_file": "src/components/theme-toggle.tsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_theme_toggle_tsx",
-      "target": "components_theme_toggle_getpreferredtheme",
-      "confidence_score": 1.0
+      "target": "components_theme_toggle_getpreferredtheme"
     },
     {
       "relation": "contains",
@@ -3228,9 +3248,9 @@
       "source_file": "src/components/theme-toggle.tsx",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_theme_toggle_tsx",
-      "target": "components_theme_toggle_applytheme",
-      "confidence_score": 1.0
+      "target": "components_theme_toggle_applytheme"
     },
     {
       "relation": "contains",
@@ -3238,9 +3258,31 @@
       "source_file": "src/components/theme-toggle.tsx",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_theme_toggle_tsx",
-      "target": "components_theme_toggle_themetoggle",
-      "confidence_score": 1.0
+      "target": "components_theme_toggle_themetoggle"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/header.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "src_components_theme_toggle_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/header.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "components_theme_toggle_themetoggle"
     },
     {
       "relation": "contains",
@@ -3472,6 +3514,17 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/components/header.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "src_lib_site_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/components/work.tsx",
       "source_location": "L2",
       "weight": 1.0,
@@ -3540,6 +3593,17 @@
       "confidence_score": 1.0,
       "source": "src_lib_site_ts",
       "target": "lib_site_skills"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/header.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "lib_site_site"
     },
     {
       "relation": "imports",
@@ -3631,9 +3695,9 @@
       "source_file": "brand.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_brand_portfolio_brand",
-      "target": "portfolio_sam_brand_shapes",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_brand_shapes"
     },
     {
       "relation": "contains",
@@ -3661,9 +3725,9 @@
       "source_file": "brand.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_brand_palette",
-      "target": "portfolio_sam_brand_light_default",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_brand_light_default"
     },
     {
       "relation": "contains",
@@ -3671,9 +3735,9 @@
       "source_file": "brand.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_brand_palette",
-      "target": "portfolio_sam_brand_dark",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_brand_dark"
     },
     {
       "relation": "contains",
@@ -3681,9 +3745,9 @@
       "source_file": "brand.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_brand_palette",
-      "target": "portfolio_sam_brand_always_dark",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_brand_always_dark"
     },
     {
       "relation": "contains",
@@ -3771,9 +3835,9 @@
       "source_file": "Design.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "design_md",
-      "target": "portfolio_sam_design_overview",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_overview"
     },
     {
       "relation": "contains",
@@ -3781,9 +3845,9 @@
       "source_file": "Design.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "design_md",
-      "target": "portfolio_sam_design_colors",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_colors"
     },
     {
       "relation": "contains",
@@ -3791,9 +3855,9 @@
       "source_file": "Design.md",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "design_md",
-      "target": "portfolio_sam_design_typography",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_typography"
     },
     {
       "relation": "contains",
@@ -3801,9 +3865,9 @@
       "source_file": "Design.md",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "design_md",
-      "target": "portfolio_sam_design_layout",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_layout"
     },
     {
       "relation": "contains",
@@ -3811,9 +3875,9 @@
       "source_file": "Design.md",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "design_md",
-      "target": "portfolio_sam_design_elevation_depth",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_elevation_depth"
     },
     {
       "relation": "contains",
@@ -3821,9 +3885,9 @@
       "source_file": "Design.md",
       "source_location": "L122",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "design_md",
-      "target": "portfolio_sam_design_shapes",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_shapes"
     },
     {
       "relation": "contains",
@@ -3831,9 +3895,9 @@
       "source_file": "Design.md",
       "source_location": "L139",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "design_md",
-      "target": "portfolio_sam_design_components",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_components"
     },
     {
       "relation": "contains",
@@ -3841,9 +3905,9 @@
       "source_file": "Design.md",
       "source_location": "L201",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "design_md",
-      "target": "portfolio_sam_design_do_s_and_don_ts",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_do_s_and_don_ts"
     },
     {
       "relation": "contains",
@@ -3851,9 +3915,9 @@
       "source_file": "Design.md",
       "source_location": "L221",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "design_md",
-      "target": "portfolio_sam_design_responsive_behavior",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_responsive_behavior"
     },
     {
       "relation": "contains",
@@ -3861,9 +3925,9 @@
       "source_file": "Design.md",
       "source_location": "L251",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "design_md",
-      "target": "portfolio_sam_design_iteration_guide",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_iteration_guide"
     },
     {
       "relation": "contains",
@@ -3871,9 +3935,9 @@
       "source_file": "Design.md",
       "source_location": "L261",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "design_md",
-      "target": "portfolio_sam_design_known_gaps",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_known_gaps"
     },
     {
       "relation": "contains",
@@ -3881,9 +3945,9 @@
       "source_file": "Design.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_colors",
-      "target": "portfolio_sam_design_brand_accent",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_brand_accent"
     },
     {
       "relation": "contains",
@@ -3891,9 +3955,9 @@
       "source_file": "Design.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_colors",
-      "target": "portfolio_sam_design_surface",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_surface"
     },
     {
       "relation": "contains",
@@ -3901,9 +3965,9 @@
       "source_file": "Design.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_colors",
-      "target": "portfolio_sam_design_text",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_text"
     },
     {
       "relation": "contains",
@@ -3911,9 +3975,9 @@
       "source_file": "Design.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_colors",
-      "target": "portfolio_sam_design_semantic",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_semantic"
     },
     {
       "relation": "contains",
@@ -3921,9 +3985,9 @@
       "source_file": "Design.md",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_typography",
-      "target": "portfolio_sam_design_font_family",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_font_family"
     },
     {
       "relation": "contains",
@@ -3931,9 +3995,9 @@
       "source_file": "Design.md",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_typography",
-      "target": "portfolio_sam_design_hierarchy",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_hierarchy"
     },
     {
       "relation": "contains",
@@ -3941,9 +4005,9 @@
       "source_file": "Design.md",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_typography",
-      "target": "portfolio_sam_design_principles",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_principles"
     },
     {
       "relation": "contains",
@@ -3951,9 +4015,9 @@
       "source_file": "Design.md",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_typography",
-      "target": "portfolio_sam_design_note_on_font_substitutes",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_note_on_font_substitutes"
     },
     {
       "relation": "contains",
@@ -3961,9 +4025,9 @@
       "source_file": "Design.md",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_layout",
-      "target": "portfolio_sam_design_spacing_system",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_spacing_system"
     },
     {
       "relation": "contains",
@@ -3971,9 +4035,9 @@
       "source_file": "Design.md",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_layout",
-      "target": "portfolio_sam_design_grid_container",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_grid_container"
     },
     {
       "relation": "contains",
@@ -3981,9 +4045,9 @@
       "source_file": "Design.md",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_layout",
-      "target": "portfolio_sam_design_whitespace_philosophy",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_whitespace_philosophy"
     },
     {
       "relation": "contains",
@@ -3991,9 +4055,9 @@
       "source_file": "Design.md",
       "source_location": "L118",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_elevation_depth",
-      "target": "portfolio_sam_design_decorative_depth",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_decorative_depth"
     },
     {
       "relation": "contains",
@@ -4001,9 +4065,9 @@
       "source_file": "Design.md",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_shapes",
-      "target": "portfolio_sam_design_border_radius_scale",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_border_radius_scale"
     },
     {
       "relation": "contains",
@@ -4011,9 +4075,9 @@
       "source_file": "Design.md",
       "source_location": "L136",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_shapes",
-      "target": "portfolio_sam_design_photography_geometry",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_photography_geometry"
     },
     {
       "relation": "contains",
@@ -4021,9 +4085,9 @@
       "source_file": "Design.md",
       "source_location": "L141",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_components",
-      "target": "portfolio_sam_design_top_navigation",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_top_navigation"
     },
     {
       "relation": "contains",
@@ -4031,9 +4095,9 @@
       "source_file": "Design.md",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_components",
-      "target": "portfolio_sam_design_buttons",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_buttons"
     },
     {
       "relation": "contains",
@@ -4041,9 +4105,9 @@
       "source_file": "Design.md",
       "source_location": "L159",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_components",
-      "target": "portfolio_sam_design_cards_containers",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_cards_containers"
     },
     {
       "relation": "contains",
@@ -4051,9 +4115,9 @@
       "source_file": "Design.md",
       "source_location": "L177",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_components",
-      "target": "portfolio_sam_design_inputs_forms",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_inputs_forms"
     },
     {
       "relation": "contains",
@@ -4061,9 +4125,9 @@
       "source_file": "Design.md",
       "source_location": "L183",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_components",
-      "target": "portfolio_sam_design_tags_badges",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_tags_badges"
     },
     {
       "relation": "contains",
@@ -4071,9 +4135,9 @@
       "source_file": "Design.md",
       "source_location": "L191",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_components",
-      "target": "portfolio_sam_design_tab_filter",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_tab_filter"
     },
     {
       "relation": "contains",
@@ -4081,9 +4145,9 @@
       "source_file": "Design.md",
       "source_location": "L195",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_components",
-      "target": "portfolio_sam_design_cta_footer",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_cta_footer"
     },
     {
       "relation": "contains",
@@ -4091,9 +4155,9 @@
       "source_file": "Design.md",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_do_s_and_don_ts",
-      "target": "portfolio_sam_design_do",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_do"
     },
     {
       "relation": "contains",
@@ -4101,9 +4165,9 @@
       "source_file": "Design.md",
       "source_location": "L213",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_do_s_and_don_ts",
-      "target": "portfolio_sam_design_don_t",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_don_t"
     },
     {
       "relation": "contains",
@@ -4111,9 +4175,9 @@
       "source_file": "Design.md",
       "source_location": "L223",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_responsive_behavior",
-      "target": "portfolio_sam_design_breakpoints",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_breakpoints"
     },
     {
       "relation": "contains",
@@ -4121,9 +4185,9 @@
       "source_file": "Design.md",
       "source_location": "L232",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_responsive_behavior",
-      "target": "portfolio_sam_design_touch_targets",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_touch_targets"
     },
     {
       "relation": "contains",
@@ -4131,9 +4195,9 @@
       "source_file": "Design.md",
       "source_location": "L238",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_responsive_behavior",
-      "target": "portfolio_sam_design_collapsing_strategy",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_collapsing_strategy"
     },
     {
       "relation": "contains",
@@ -4141,9 +4205,9 @@
       "source_file": "Design.md",
       "source_location": "L246",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_sam_design_responsive_behavior",
-      "target": "portfolio_sam_design_image_behavior",
-      "confidence_score": 1.0
+      "target": "portfolio_sam_design_image_behavior"
     },
     {
       "relation": "contains",
@@ -4154,6 +4218,36 @@
       "confidence_score": 1.0,
       "source": "agents_md",
       "target": "portfolio_sam_agents_this_is_not_the_next_js_you_know"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/header.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "components_header_nav"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/header.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "components_header_header"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/header.tsx",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "components_header_socialpills"
     },
     {
       "relation": "contains",
@@ -4444,5 +4538,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "41cabc9966f1a886871e035d452afa69435dbfab"
+  "built_at_commit": "4f561b08d509ae0433b6b17d624ab1b6fd2abcde"
 }

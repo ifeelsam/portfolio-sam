@@ -16,7 +16,7 @@ export function Section({
   className = "",
 }: SectionProps) {
   return (
-    <section id={id} className={`scroll-mt-20 py-10 md:py-12 ${className}`}>
+    <section id={id} className={`scroll-mt-6 py-10 md:py-12 ${className}`}>
       <header className="mb-8">
         <p className="site-label">{label}</p>
         <h2 className="site-section-title mt-2">{title}</h2>
