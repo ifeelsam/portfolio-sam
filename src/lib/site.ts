@@ -170,7 +170,7 @@ export const allProjects: Project[] = [
     language: "TypeScript",
     tags: ["Sui", "Next.js", "Dashboard"],
     status: "live",
-    logo: "/logos/github.png",
+    logo: "/logos/avenox.png",
   },
   {
     name: "Oliver",
