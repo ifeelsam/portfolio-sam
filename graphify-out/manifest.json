@@ -16,36 +16,36 @@
     "hash": "38179730fa452dd2717391a965539aac"
   },
   "/Users/sam/Projects/portfolio-sam/src/app/layout.tsx": {
-    "mtime": 1780050915.075419,
-    "hash": "5961c147440a043e33c00af74d73f720"
+    "mtime": 1780084004.9220598,
+    "hash": "517c7b70d4df6b52dd4ae2d777647bc8"
   },
   "/Users/sam/Projects/portfolio-sam/src/app/page.tsx": {
-    "mtime": 1780050915.0754592,
-    "hash": "d36639eaabcedc890eb0ba4696b3ba94"
+    "mtime": 1780084180.588811,
+    "hash": "ee3553331d3d011375f2a39893531d49"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/featured-projects.tsx": {
-    "mtime": 1780059634.8200696,
-    "hash": "7958fbdcf2b4f881e142b2fd88af3d57"
+    "mtime": 1780083973.663821,
+    "hash": "ae3e7fbf9299647bde8b5dd1c404fe2d"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/hero.tsx": {
-    "mtime": 1780072354.3189507,
-    "hash": "25f068563d2dc45d401ae97ccbf45c95"
+    "mtime": 1780099572.2392128,
+    "hash": "fdb94b6646155b0580e2f6285f43a3cb"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/experience.tsx": {
-    "mtime": 1779983799.688791,
-    "hash": "5901113775bfc7b564f1f8c7b6be910f"
+    "mtime": 1780083982.3539782,
+    "hash": "d49d5c95c70011286cfc362c7a0c0eb3"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/scroll-progress.tsx": {
     "mtime": 1780065124.7745948,
     "hash": "82860d3c6669ce65b172b42d32687f33"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/site-shell.tsx": {
-    "mtime": 1780072839.5123146,
+    "mtime": 1780083935.0674496,
     "hash": "1a6801fb87d7624416a617f71f4ca287"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/contact.tsx": {
-    "mtime": 1779983452.5203986,
-    "hash": "94459810dd15322413997d14caf10ffb"
+    "mtime": 1780083987.3525112,
+    "hash": "6e965977739c7bc7ace6b216f968a55c"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/section.tsx": {
     "mtime": 1780065124.774604,
@@ -56,11 +56,11 @@
     "hash": "04f502966a82b9c0f77082d0ce2444fd"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/footer.tsx": {
-    "mtime": 1780050914.96483,
+    "mtime": 1780083935.0674694,
     "hash": "e017fcec492c4e328e9533e4a35a94e7"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/social-pills.tsx": {
-    "mtime": 1780050915.0784776,
+    "mtime": 1780083935.0676005,
     "hash": "b32bbc14cb06c40a383af95e87b4f106"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/avatar.tsx": {
@@ -84,12 +84,12 @@
     "hash": "87472a7e9fa2748b5248be0c78cdfce9"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/about.tsx": {
-    "mtime": 1779983452.495057,
-    "hash": "2fe2c0a688aa9b5342d495c866f25faa"
+    "mtime": 1780083998.3545299,
+    "hash": "530801b91b02ef7c05a04f7b993c2425"
   },
   "/Users/sam/Projects/portfolio-sam/src/lib/site.ts": {
-    "mtime": 1780050915.0820055,
-    "hash": "2a1aad529a0a2ca83578206a216f0015"
+    "mtime": 1780116534.4812376,
+    "hash": "28a2f4be947c0ddbdfee15e731b92f44"
   },
   "/Users/sam/Projects/portfolio-sam/brand.md": {
     "mtime": 1780050914.965138,

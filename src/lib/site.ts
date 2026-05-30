@@ -162,6 +162,17 @@ export const allProjects: Project[] = [
     logo: "/logos/github.png",
   },
   {
+    name: "AvenoX",
+    description:
+      "Wallet-gated deployment dashboard on Sui — connect, deploy, and manage with Neon or Neo-Brutalism themes.",
+    href: "https://github.com/ifeelsam/avenox",
+    demo: "https://dash.avenox.xyz",
+    language: "TypeScript",
+    tags: ["Sui", "Next.js", "Dashboard"],
+    status: "live",
+    logo: "/logos/github.png",
+  },
+  {
     name: "Oliver",
     description: "Web3 platform on Arc Network.",
     href: "https://github.com/ifeelsam/oliver",
@@ -186,17 +197,6 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
-    org: "Superteam",
-    role: "Member · 2× grant recipient",
-    period: "2024 — Present",
-    location: "Remote",
-    href: "https://superteam.fun",
-    logo: "/logos/superteam.png",
-    badge: "2× grants",
-    detail:
-      "Active in the Solana ecosystem through projects, collaborations, and community initiatives — awarded two Superteam grants.",
-  },
-  {
     org: "Arcium",
     role: "Fellowship recipient",
     period: "Jul — Aug 2025",
@@ -206,6 +206,17 @@ export const experiences: Experience[] = [
     badge: "Fellowship",
     detail:
       "Selected for the Arcium Fellowship — built privacy-preserving applications on Solana using confidential MPC, with mentorship from the Arcium team.",
+  },
+  {
+    org: "Superteam",
+    role: "Member · 2× grant recipient",
+    period: "2024 — Present",
+    location: "Remote",
+    href: "https://in.superteam.fun/#members",
+    logo: "/logos/superteam.png",
+    badge: "2× grants",
+    detail:
+      "Active in the Solana ecosystem through projects, collaborations, and community initiatives — awarded two Superteam grants.",
   },
   {
     org: "Solana Turbin3",
@@ -243,5 +254,5 @@ export const stack = [
 export const proofStats = [
   { label: "Public repos", value: "103+" },
   { label: "GitHub since", value: site.memberSince },
-  { label: "Live demos", value: "6" },
+  { label: "Live demos", value: "7" },
 ] as const;

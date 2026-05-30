@@ -387,7 +387,7 @@
       "source_file": "src/components/command-palette.tsx",
       "source_location": "L300",
       "id": "components_command_palette_commandpalettetrigger",
-      "community": 3,
+      "community": 1,
       "norm_label": "commandpalettetrigger()"
     },
     {
@@ -628,7 +628,7 @@
       "label": "SocialStat",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L23",
+      "source_location": "L21",
       "id": "lib_site_socialstat",
       "community": 3,
       "norm_label": "socialstat"
@@ -637,7 +637,7 @@
       "label": "SocialProfile",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L28",
+      "source_location": "L26",
       "id": "lib_site_socialprofile",
       "community": 3,
       "norm_label": "socialprofile"
@@ -646,7 +646,7 @@
       "label": "socialProfiles",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L39",
+      "source_location": "L37",
       "id": "lib_site_socialprofiles",
       "community": 3,
       "norm_label": "socialprofiles"
@@ -655,7 +655,7 @@
       "label": "ProjectStatus",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L64",
+      "source_location": "L62",
       "id": "lib_site_projectstatus",
       "community": 3,
       "norm_label": "projectstatus"
@@ -664,7 +664,7 @@
       "label": "Project",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L66",
+      "source_location": "L64",
       "id": "lib_site_project",
       "community": 3,
       "norm_label": "project"
@@ -673,7 +673,7 @@
       "label": "featuredProjects",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L78",
+      "source_location": "L77",
       "id": "lib_site_featuredprojects",
       "community": 5,
       "norm_label": "featuredprojects"
@@ -691,7 +691,7 @@
       "label": "Experience",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L175",
+      "source_location": "L186",
       "id": "lib_site_experience",
       "community": 3,
       "norm_label": "experience"
@@ -700,7 +700,7 @@
       "label": "experiences",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L187",
+      "source_location": "L198",
       "id": "lib_site_experiences",
       "community": 3,
       "norm_label": "experiences"
@@ -709,7 +709,7 @@
       "label": "stack",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L232",
+      "source_location": "L243",
       "id": "lib_site_stack",
       "community": 3,
       "norm_label": "stack"
@@ -718,7 +718,7 @@
       "label": "proofStats",
       "file_type": "code",
       "source_file": "src/lib/site.ts",
-      "source_location": "L243",
+      "source_location": "L254",
       "id": "lib_site_proofstats",
       "community": 7,
       "norm_label": "proofstats"
@@ -909,7 +909,7 @@
       "source_file": "Design.md",
       "source_location": "L22",
       "id": "portfolio_sam_design_colors",
-      "community": 14,
+      "community": 15,
       "norm_label": "colors"
     },
     {
@@ -918,7 +918,7 @@
       "source_file": "Design.md",
       "source_location": "L24",
       "id": "portfolio_sam_design_brand_accent",
-      "community": 14,
+      "community": 15,
       "norm_label": "brand & accent"
     },
     {
@@ -927,7 +927,7 @@
       "source_file": "Design.md",
       "source_location": "L29",
       "id": "portfolio_sam_design_surface",
-      "community": 14,
+      "community": 15,
       "norm_label": "surface"
     },
     {
@@ -936,7 +936,7 @@
       "source_file": "Design.md",
       "source_location": "L39",
       "id": "portfolio_sam_design_text",
-      "community": 14,
+      "community": 15,
       "norm_label": "text"
     },
     {
@@ -945,7 +945,7 @@
       "source_file": "Design.md",
       "source_location": "L47",
       "id": "portfolio_sam_design_semantic",
-      "community": 14,
+      "community": 15,
       "norm_label": "semantic"
     },
     {
@@ -2166,9 +2166,9 @@
       "source_file": "src/components/hero.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_hero_tsx",
-      "target": "src_components_hero_toolbar_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_hero_toolbar_tsx"
     },
     {
       "relation": "imports",
@@ -2177,9 +2177,9 @@
       "source_file": "src/components/hero.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_hero_tsx",
-      "target": "components_hero_toolbar_herotoolbar",
-      "confidence_score": 1.0
+      "target": "components_hero_toolbar_herotoolbar"
     },
     {
       "relation": "imports_from",
@@ -2235,6 +2235,17 @@
       "confidence_score": 1.0,
       "source": "src_components_hero_tsx",
       "target": "src_lib_site_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/hero.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_hero_tsx",
+      "target": "lib_site_featuredprojects",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -2480,9 +2491,9 @@
       "source_file": "src/components/site-shell.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_site_shell_tsx",
-      "target": "src_components_scroll_progress_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_scroll_progress_tsx"
     },
     {
       "relation": "imports_from",
@@ -2502,9 +2513,9 @@
       "source_file": "src/components/site-shell.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_site_shell_tsx",
-      "target": "components_scroll_progress_scrollprogress",
-      "confidence_score": 1.0
+      "target": "components_scroll_progress_scrollprogress"
     },
     {
       "relation": "imports",
@@ -3197,9 +3208,9 @@
       "source_file": "src/components/hero-toolbar.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_hero_toolbar_tsx",
-      "target": "src_components_theme_toggle_tsx",
-      "confidence_score": 1.0
+      "target": "src_components_theme_toggle_tsx"
     },
     {
       "relation": "imports",
@@ -3208,9 +3219,9 @@
       "source_file": "src/components/hero-toolbar.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_hero_toolbar_tsx",
-      "target": "components_theme_toggle_themetoggle",
-      "confidence_score": 1.0
+      "target": "components_theme_toggle_themetoggle"
     },
     {
       "relation": "contains",
@@ -3218,9 +3229,9 @@
       "source_file": "src/components/hero-toolbar.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_hero_toolbar_tsx",
-      "target": "components_hero_toolbar_herotoolbar",
-      "confidence_score": 1.0
+      "target": "components_hero_toolbar_herotoolbar"
     },
     {
       "relation": "contains",
@@ -4538,5 +4549,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4f561b08d509ae0433b6b17d624ab1b6fd2abcde"
+  "built_at_commit": "6aa564a0587f0078047d487e2df5753165211de2"
 }
