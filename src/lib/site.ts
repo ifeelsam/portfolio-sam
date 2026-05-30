@@ -2,8 +2,6 @@ export const site = {
   name: "Sam",
   handle: "ifeelsam",
   title: "Full-stack Solana engineer & builder",
-  tagline:
-    "I build products where privacy, on-chain systems, and polished interfaces meet, from agent observability on Solana to RWA and protocol tooling.",
   building: {
     label: "Mortem",
     href: "https://www.mortemlabs.com/",
@@ -72,6 +70,7 @@ export type Project = {
   tags: string[];
   status: ProjectStatus;
   logo?: string;
+  x?: string;
   logoShape?: "circle" | "square";
 };
 
@@ -87,6 +86,7 @@ export const featuredProjects: Project[] = [
     status: "building",
     logo: "/logos/mortem.svg",
     logoShape: "square",
+    x: "https://x.com/mortemlabs",
   },
   {
     name: "CipherScore",

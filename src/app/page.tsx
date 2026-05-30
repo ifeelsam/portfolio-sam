@@ -13,8 +13,8 @@ export default function Home() {
       <Experience />
       <FeaturedProjects />
       <About />
-      <Contact />
-      <Footer />
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </SiteShell>
   );
 }
