@@ -110,6 +110,21 @@ export const featuredProjects: Project[] = [
     logo: "/logos/pikavault.png",
   },
   {
+    name: "AvenoX",
+    description:
+      "Wallet-gated deployment dashboard on Sui — connect, deploy, and manage with Neon or Neo-Brutalism themes.",
+    href: "https://github.com/ifeelsam/avenox",
+    demo: "https://dash.avenox.xyz",
+    language: "TypeScript",
+    tags: ["Sui", "Next.js", "Dashboard"],
+    status: "live",
+    logo: "/logos/avenox.png",
+  },
+];
+
+export const allProjects: Project[] = [
+  ...featuredProjects,
+  {
     name: "Vynix",
     description: "RWA marketplace for collectibles with a modern trading UI.",
     href: "https://github.com/ifeelsam/Vynix",
@@ -119,10 +134,6 @@ export const featuredProjects: Project[] = [
     status: "live",
     logo: "/logos/vynix.png",
   },
-];
-
-export const allProjects: Project[] = [
-  ...featuredProjects,
   {
     name: "Tracer",
     description: "Observability and debugging for TypeScript AI agents on EVM.",
@@ -160,17 +171,6 @@ export const allProjects: Project[] = [
     tags: ["Product", "Web"],
     status: "live",
     logo: "/logos/github.png",
-  },
-  {
-    name: "AvenoX",
-    description:
-      "Wallet-gated deployment dashboard on Sui — connect, deploy, and manage with Neon or Neo-Brutalism themes.",
-    href: "https://github.com/ifeelsam/avenox",
-    demo: "https://dash.avenox.xyz",
-    language: "TypeScript",
-    tags: ["Sui", "Next.js", "Dashboard"],
-    status: "live",
-    logo: "/logos/avenox.png",
   },
   {
     name: "Oliver",
