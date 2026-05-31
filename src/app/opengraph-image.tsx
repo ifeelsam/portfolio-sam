@@ -56,7 +56,7 @@ export default function OpengraphImage() {
               letterSpacing: "-0.03em",
             }}
           >
-            Full-stack Solana engineer & builder
+            Full stack Solana dev
           </div>
           <div style={{ display: "flex", fontSize: 34, color: "#a3a3a3" }}>
             Building Mortem · Arcium Fellow · 2× Superteam grants
