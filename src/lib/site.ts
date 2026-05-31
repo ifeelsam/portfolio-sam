@@ -160,7 +160,7 @@ export const allProjects: Project[] = [
     language: "TypeScript",
     tags: ["Docs", "Protocol"],
     status: "live",
-    logo: "/logos/github.png",
+    logo: "/logos/kord.png",
   },
   {
     name: "Wisp",
