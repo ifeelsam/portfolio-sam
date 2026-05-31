@@ -43,11 +43,17 @@ function repoFromHref(href: string) {
   }
 }
 
-function ProjectRow({ project }: { project: Project }) {
+function ProjectRow({
+  project,
+  hidden,
+}: {
+  project: Project;
+  hidden?: boolean;
+}) {
   const url = project.demo ?? project.href;
 
   return (
-    <li>
+    <li className={hidden ? "hidden" : undefined} aria-hidden={hidden}>
       <a
         href={url}
         target="_blank"
@@ -86,9 +92,10 @@ function ProjectRow({ project }: { project: Project }) {
   );
 }
 
+const featuredNames = new Set(featuredProjects.map((p) => p.name));
+
 export function FeaturedProjects() {
   const [tab, setTab] = useState<Tab>("featured");
-  const projects = tab === "featured" ? featuredProjects : allProjects;
 
   return (
     <Section
@@ -120,8 +127,12 @@ export function FeaturedProjects() {
       </div>
 
       <ul className="divide-y divide-border rounded-xl border border-border">
-        {projects.map((project) => (
-          <ProjectRow key={project.name} project={project} />
+        {allProjects.map((project) => (
+          <ProjectRow
+            key={project.name}
+            project={project}
+            hidden={tab === "featured" && !featuredNames.has(project.name)}
+          />
         ))}
       </ul>
 

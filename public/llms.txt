@@ -1,0 +1,31 @@
+# Sam (@ifeelsam)
+
+> Full-stack Solana engineer and builder. Currently building Mortem (agent trading observability on Solana). Arcium Fellow and 2× Superteam grant recipient. Works across privacy-preserving finance, AI agent observability, and polished TypeScript/Next.js interfaces.
+
+## About
+- Name: Sam 
+- Handle: @ifeelsam (GitHub and X)
+- Role: Full-stack Solana engineer & builder
+- Location: India
+- Stack: TypeScript, React, Next.js, Solana, EVM, Kotlin, Rust, Tailwind
+
+## Links
+- Portfolio: https://ifeelsam.vercel.app
+- GitHub: https://github.com/ifeelsam
+- X / Twitter: https://x.com/ifeelsam
+
+## Selected projects
+- Mortem Protocol (building) — Catch bad agent trading decisions on Solana; trace failures, prove root cause, fix the logic. https://github.com/mortemlabs/mortem-protocol — demo https://www.mortemlabs.com
+- CipherScore (live) — Privacy-first credit scoring; verifiable scores without exposing raw financial data. https://github.com/ifeelsam/CipherScore
+- PikaVault (live) — Vault frontend with wallet flows and production-ready deposits. https://github.com/ifeelsam/pika-fe
+- AvenoX (live) — Wallet-gated deployment dashboard on Sui. https://github.com/ifeelsam/avenox
+- Vynix (live) — RWA marketplace for collectibles. https://github.com/ifeelsam/Vynix
+- Tracer (live) — Observability and debugging for TypeScript AI agents on EVM. https://github.com/ifeelsam/Tracer
+- OuterTune (live) — Material 3 Android music player. https://github.com/ifeelsam/OuterTune
+- Kord (live) — Protocol documentation and developer experience site. https://github.com/ifeelsam/Kord-docs
+
+## Experience
+- Arcium Fellowship (Jul–Aug 2025) — Built privacy-preserving applications on Solana using confidential MPC.
+- Superteam (2024–present) — Member and 2× grant recipient in the Solana ecosystem.
+- Solana Turbin3 (2024) — Builder cohort graduate; Solana architecture and mainnet shipping.
+- Open source (2023–present) — Maintainer and contributor across DeFi, AI agent observability, and Android.
