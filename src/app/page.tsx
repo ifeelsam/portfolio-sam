@@ -15,7 +15,7 @@ export default function Home() {
       <Experience />
       <FeaturedProjects />
       <About />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </SiteShell>
   );
