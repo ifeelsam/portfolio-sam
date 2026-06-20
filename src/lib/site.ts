@@ -2,7 +2,7 @@ export const site = {
   name: "Sam",
   handle: "ifeelsam",
   title: "Full-stack Solana engineer & builder",
-  url: "https://ifeelsam.vercel.app",
+  url: "https://ifeelsam.dev",
   location: "India",
   building: {
     label: "Mortem",

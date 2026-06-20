@@ -10,7 +10,7 @@
 - Stack: TypeScript, React, Next.js, Solana, EVM, Kotlin, Rust, Tailwind
 
 ## Links
-- Portfolio: https://ifeelsam.vercel.app
+- Portfolio: https://ifeelsam.dev
 - GitHub: https://github.com/ifeelsam
 - X / Twitter: https://x.com/ifeelsam
 
