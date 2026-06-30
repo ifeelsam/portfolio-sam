@@ -4,8 +4,8 @@
     "hash": "239f3ebf717465dc636818a1a619398d"
   },
   "/Users/sam/Projects/portfolio-sam/next-env.d.ts": {
-    "mtime": 1780065483.7341175,
-    "hash": "d0f8375ae1199dc7acd3977fc33b78b8"
+    "mtime": 1782853349.4191074,
+    "hash": "2a74d3909800ca5467fa83b0ab4a4890"
   },
   "/Users/sam/Projects/portfolio-sam/eslint.config.mjs": {
     "mtime": 1779795898.0720482,
@@ -15,17 +15,49 @@
     "mtime": 1779967513.6394324,
     "hash": "38179730fa452dd2717391a965539aac"
   },
+  "/Users/sam/Projects/portfolio-sam/src/app/robots.ts": {
+    "mtime": 1780240498.334498,
+    "hash": "4b997a25af5989aad06cbe0e2eb42a29"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/app/apple-icon.tsx": {
+    "mtime": 1780240593.5924058,
+    "hash": "871c76e90cc500becc3246c78459796e"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/app/icon.tsx": {
+    "mtime": 1780240589.126933,
+    "hash": "5f91a27da89dfc3b50e07dee5d7b876c"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/app/opengraph-image.tsx": {
+    "mtime": 1780247140.6088023,
+    "hash": "710cfd74f9aed29e5d8e818c6c43b057"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/app/sitemap.ts": {
+    "mtime": 1782853261.4321942,
+    "hash": "b911c93c062058755e168232014a25ad"
+  },
   "/Users/sam/Projects/portfolio-sam/src/app/layout.tsx": {
-    "mtime": 1780084004.9220598,
-    "hash": "517c7b70d4df6b52dd4ae2d777647bc8"
+    "mtime": 1780240482.1636226,
+    "hash": "c3d85740a18263289698ea2d23793aee"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/app/manifest.ts": {
+    "mtime": 1780240598.9747694,
+    "hash": "5d370c3a228dfd01dc0892b855416215"
   },
   "/Users/sam/Projects/portfolio-sam/src/app/page.tsx": {
-    "mtime": 1780084180.588811,
-    "hash": "ee3553331d3d011375f2a39893531d49"
+    "mtime": 1780340047.4576638,
+    "hash": "1c09c523e2b7464b1261d0d6e6720575"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/app/projects/page.tsx": {
+    "mtime": 1782853183.4421883,
+    "hash": "516ef2cbdde5376bc64cfd3c39995e75"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/app/projects/[slug]/page.tsx": {
+    "mtime": 1782853342.4726648,
+    "hash": "76e8c212f21f5e8b2cc830662d7dd13a"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/featured-projects.tsx": {
-    "mtime": 1780083973.663821,
-    "hash": "ae3e7fbf9299647bde8b5dd1c404fe2d"
+    "mtime": 1782853208.1033394,
+    "hash": "f4c9e002d3a129ccc640343c108b55c4"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/hero.tsx": {
     "mtime": 1780099572.2392128,
@@ -52,8 +84,12 @@
     "hash": "41ea3fe71ec7a634696688da3b5bda32"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/command-palette.tsx": {
-    "mtime": 1780050915.0868514,
-    "hash": "04f502966a82b9c0f77082d0ce2444fd"
+    "mtime": 1782853253.025975,
+    "hash": "ee6621f89d87fdcb3cdb24dde4981c64"
+  },
+  "/Users/sam/Projects/portfolio-sam/src/components/json-ld.tsx": {
+    "mtime": 1782853277.8556857,
+    "hash": "22dc38d1dce962fbbc21c268fb43fea7"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/footer.tsx": {
     "mtime": 1780083935.0674694,
@@ -76,8 +112,8 @@
     "hash": "728d17812b3c96fb3617327f36aa8447"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/theme-toggle.tsx": {
-    "mtime": 1780072493.3604362,
-    "hash": "fa34acbd265e30641721413a958a39ac"
+    "mtime": 1780246529.0339696,
+    "hash": "a3e15c0b13ef5db3f4b1339ca531d309"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/org-logo.tsx": {
     "mtime": 1780050915.0785663,
@@ -88,8 +124,8 @@
     "hash": "530801b91b02ef7c05a04f7b993c2425"
   },
   "/Users/sam/Projects/portfolio-sam/src/lib/site.ts": {
-    "mtime": 1780116534.4812376,
-    "hash": "28a2f4be947c0ddbdfee15e731b92f44"
+    "mtime": 1782853128.142114,
+    "hash": "488112b7c57e9c3250f6c04d4510a154"
   },
   "/Users/sam/Projects/portfolio-sam/brand.md": {
     "mtime": 1780050914.965138,
@@ -111,6 +147,10 @@
     "mtime": 1779982384.7628782,
     "hash": "fa202a0cf8d43834cc119be34a7880ae"
   },
+  "/Users/sam/Projects/portfolio-sam/public/llms.txt": {
+    "mtime": 1781981393.7694483,
+    "hash": "da28f8dc1fdd20b2575293a97d3bd9a1"
+  },
   "/Users/sam/Projects/portfolio-sam/public/file.svg": {
     "mtime": 1779795898.0726392,
     "hash": "d09f95206c3fa0bb9bd9fefabfd0ea71"
@@ -119,21 +159,9 @@
     "mtime": 1779804642.9816177,
     "hash": "7caa667a025d341d48c75fe9409d5033"
   },
-  "/Users/sam/Projects/portfolio-sam/public/vercel.svg": {
-    "mtime": 1779795898.0727613,
-    "hash": "c0af2f507b369b085b35ef4bbe3bcf1e"
-  },
-  "/Users/sam/Projects/portfolio-sam/public/next.svg": {
-    "mtime": 1779795898.0722697,
-    "hash": "8e061864f388b47f33a1c3780831193e"
-  },
   "/Users/sam/Projects/portfolio-sam/public/globe.svg": {
     "mtime": 1779795898.0725586,
     "hash": "2aaafa6a49b6563925fe440891e32717"
-  },
-  "/Users/sam/Projects/portfolio-sam/public/window.svg": {
-    "mtime": 1779795898.0726533,
-    "hash": "a2760511c65806022ad20adf74370ff3"
   },
   "/Users/sam/Projects/portfolio-sam/public/logos/vynix.png": {
     "mtime": 1779804644.170658,
@@ -146,6 +174,10 @@
   "/Users/sam/Projects/portfolio-sam/public/logos/mortem.png": {
     "mtime": 1779805591.0217464,
     "hash": "c43fee3d662dffb85ddb38a4497a4279"
+  },
+  "/Users/sam/Projects/portfolio-sam/public/logos/kord.png": {
+    "mtime": 1780239760.8713214,
+    "hash": "5a3c10a7fd511018278a2f83d50724f5"
   },
   "/Users/sam/Projects/portfolio-sam/public/logos/cipherscore.png": {
     "mtime": 1779804643.9456637,
@@ -162,6 +194,10 @@
   "/Users/sam/Projects/portfolio-sam/public/logos/pikavault.png": {
     "mtime": 1779804643.6966894,
     "hash": "4e2d631d82de74c584002f931cdeb7d7"
+  },
+  "/Users/sam/Projects/portfolio-sam/public/logos/avenox.png": {
+    "mtime": 1780175205.215289,
+    "hash": "454001c315ce623dfc5fbdbef9afdde2"
   },
   "/Users/sam/Projects/portfolio-sam/public/logos/turbin3.png": {
     "mtime": 1779804643.443482,

@@ -3,9 +3,11 @@
 import {
   allProjects,
   featuredProjects,
+  projectPath,
   site,
 } from "@/lib/site";
 import { ArrowUpRight, Mail, Search } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 type PaletteItem = {
@@ -14,6 +16,8 @@ type PaletteItem = {
   hint?: string;
   href: string;
   external?: boolean;
+  /** Internal app route — navigated via the router rather than hash scroll. */
+  route?: boolean;
   group: string;
 };
 
@@ -52,11 +56,11 @@ const linkItems: PaletteItem[] = [
 
 function projectToItem(project: (typeof featuredProjects)[number]): PaletteItem {
   return {
-    id: project.name.toLowerCase().replace(/\s+/g, "-"),
+    id: project.slug,
     label: project.name,
     hint: project.tags.slice(0, 2).join(" · "),
-    href: project.demo ?? project.href,
-    external: true,
+    href: projectPath(project.slug),
+    route: true,
     group: "Projects",
   };
 }
@@ -68,6 +72,7 @@ const allItems: PaletteItem[] = [
 ];
 
 export function CommandPalette() {
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
@@ -169,6 +174,8 @@ export function CommandPalette() {
         if (item) {
           if (item.external) {
             window.open(item.href, "_blank", "noopener,noreferrer");
+          } else if (item.route) {
+            router.push(item.href);
           } else {
             document.querySelector(item.href)?.scrollIntoView({ behavior: "smooth" });
           }
@@ -179,7 +186,7 @@ export function CommandPalette() {
 
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [open, flatFiltered, activeIndex, close]);
+  }, [open, flatFiltered, activeIndex, close, router]);
 
   useEffect(() => {
     const el = listRef.current?.querySelector(`[data-index="${activeIndex}"]`);
@@ -251,7 +258,10 @@ export function CommandPalette() {
                               : "text-muted-foreground hover:bg-muted/50 hover:text-foreground"
                           }`}
                           onClick={(e) => {
-                            if (!item.external) {
+                            if (item.route) {
+                              e.preventDefault();
+                              router.push(item.href);
+                            } else if (!item.external) {
                               e.preventDefault();
                               document.querySelector(item.href)?.scrollIntoView({ behavior: "smooth" });
                             }

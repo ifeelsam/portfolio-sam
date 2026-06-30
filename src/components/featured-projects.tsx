@@ -5,9 +5,11 @@ import { Section } from "@/components/section";
 import {
   allProjects,
   featuredProjects,
+  projectPath,
   type Project,
 } from "@/lib/site";
 import { ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 
 type Tab = "featured" | "all";
@@ -50,14 +52,10 @@ function ProjectRow({
   project: Project;
   hidden?: boolean;
 }) {
-  const url = project.demo ?? project.href;
-
   return (
     <li className={hidden ? "hidden" : undefined} aria-hidden={hidden}>
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener noreferrer"
+      <Link
+        href={projectPath(project.slug)}
         className="group flex items-start gap-4 rounded-lg px-2 py-4 transition-colors hover:bg-muted/25 sm:px-3"
       >
         {project.logo && (
@@ -87,7 +85,7 @@ function ProjectRow({
         </span>
 
         <ArrowUpRight className="mt-1 h-4 w-4 shrink-0 text-muted-foreground transition-colors group-hover:text-foreground" />
-      </a>
+      </Link>
     </li>
   );
 }

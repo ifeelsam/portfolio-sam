@@ -1,4 +1,4 @@
-import { allProjects, experiences, site, stack } from "@/lib/site";
+import { allProjects, experiences, projectPath, site, stack } from "@/lib/site";
 
 export function JsonLd() {
   const personId = `${site.url}/#person`;
@@ -57,8 +57,9 @@ export function JsonLd() {
           "@type": "SoftwareSourceCode",
           name: project.name,
           description: project.description,
+          url: `${site.url}${projectPath(project.slug)}`,
           codeRepository: project.href,
-          ...(project.demo ? { url: project.demo } : {}),
+          ...(project.demo ? { sameAs: project.demo } : {}),
           ...(project.language
             ? { programmingLanguage: project.language }
             : {}),

@@ -64,8 +64,11 @@ export const socialProfiles: SocialProfile[] = [
 export type ProjectStatus = "live" | "building" | "archived";
 
 export type Project = {
+  slug: string;
   name: string;
   description: string;
+  /** Longer, page-level summary used on the project's own page. */
+  overview?: string;
   href: string;
   demo?: string;
   language?: string;
@@ -78,9 +81,12 @@ export type Project = {
 
 export const featuredProjects: Project[] = [
   {
+    slug: "mortem-protocol",
     name: "Mortem Protocol",
     description:
       "Catch bad agent trading decisions on Solana — trace failures, prove root cause, fix the logic.",
+    overview:
+      "Mortem Protocol is an observability and post-mortem layer for autonomous trading agents on Solana. It captures agent decisions, traces failures back to their root cause, and gives builders the tooling to prove what went wrong so the underlying logic can be fixed.",
     href: "https://github.com/mortemlabs/mortem-protocol",
     demo: "https://www.mortemlabs.com",
     language: "TypeScript",
@@ -91,9 +97,12 @@ export const featuredProjects: Project[] = [
     x: "https://x.com/mortemlabs",
   },
   {
+    slug: "cipherscore",
     name: "CipherScore",
     description:
       "Privacy-first credit scoring — verifiable scores without exposing raw financial data.",
+    overview:
+      "CipherScore is a privacy-first credit scoring system. It produces verifiable credit scores without exposing the underlying raw financial data, so lenders can trust a score while users keep their personal data private.",
     href: "https://github.com/ifeelsam/CipherScore",
     demo: "https://cipherscore.xyz",
     language: "TypeScript",
@@ -102,8 +111,11 @@ export const featuredProjects: Project[] = [
     logo: "/logos/cipherscore.png",
   },
   {
+    slug: "pikavault",
     name: "PikaVault",
     description: "Vault frontend with wallet flows and production-ready deposits.",
+    overview:
+      "PikaVault is a production-ready vault frontend with complete wallet connection flows and deposit handling, built for a smooth on-chain deposit experience.",
     href: "https://github.com/ifeelsam/pika-fe",
     demo: "https://www.pikavault.xyz",
     language: "TypeScript",
@@ -112,9 +124,12 @@ export const featuredProjects: Project[] = [
     logo: "/logos/pikavault.png",
   },
   {
+    slug: "avenox",
     name: "AvenoX",
     description:
       "Wallet-gated deployment dashboard on Sui — connect, deploy, and manage with Neon or Neo-Brutalism themes.",
+    overview:
+      "AvenoX is a wallet-gated deployment dashboard on Sui. Connect a wallet, then deploy and manage your projects from one place — with selectable Neon and Neo-Brutalism themes.",
     href: "https://github.com/ifeelsam/avenox",
     demo: "https://dash.avenox.xyz",
     language: "TypeScript",
@@ -127,8 +142,11 @@ export const featuredProjects: Project[] = [
 export const allProjects: Project[] = [
   ...featuredProjects,
   {
+    slug: "vynix",
     name: "Vynix",
     description: "RWA marketplace for collectibles with a modern trading UI.",
+    overview:
+      "Vynix is a real-world-asset (RWA) marketplace for collectibles, pairing tokenized ownership with a modern trading interface.",
     href: "https://github.com/ifeelsam/Vynix",
     demo: "https://vynix-prod.vercel.app",
     language: "TypeScript",
@@ -137,8 +155,11 @@ export const allProjects: Project[] = [
     logo: "/logos/vynix.png",
   },
   {
+    slug: "tracer",
     name: "Tracer",
     description: "Observability and debugging for TypeScript AI agents on EVM.",
+    overview:
+      "Tracer brings observability and debugging to TypeScript AI agents running on EVM chains, surfacing what an agent did and why.",
     href: "https://github.com/ifeelsam/Tracer",
     language: "TypeScript",
     tags: ["AI Agents", "EVM"],
@@ -146,8 +167,11 @@ export const allProjects: Project[] = [
     logo: "/logos/github.png",
   },
   {
+    slug: "outertune",
     name: "OuterTune",
     description: "Material 3 Android music player — local files and YouTube Music.",
+    overview:
+      "OuterTune is a Material 3 Android music player that plays both local files and YouTube Music in a single, modern interface.",
     href: "https://github.com/ifeelsam/OuterTune",
     language: "Kotlin",
     tags: ["Android", "Open Source"],
@@ -155,8 +179,11 @@ export const allProjects: Project[] = [
     logo: "/logos/github.png",
   },
   {
+    slug: "kord",
     name: "Kord",
     description: "Protocol documentation and developer experience site.",
+    overview:
+      "Kord is the documentation and developer-experience site for the Kord protocol, focused on clear, navigable protocol docs.",
     href: "https://github.com/ifeelsam/Kord-docs",
     demo: "https://kord-protocol.vercel.app",
     language: "TypeScript",
@@ -165,8 +192,11 @@ export const allProjects: Project[] = [
     logo: "/logos/kord.png",
   },
   {
+    slug: "wisp",
     name: "Wisp",
     description: "Lightweight web app with a focused, minimal UX.",
+    overview:
+      "Wisp is a lightweight web app built around a focused, minimal user experience.",
     href: "https://github.com/ifeelsam/wisp",
     demo: "https://whispx.vercel.app",
     language: "TypeScript",
@@ -175,8 +205,11 @@ export const allProjects: Project[] = [
     logo: "/logos/github.png",
   },
   {
+    slug: "oliver",
     name: "Oliver",
     description: "Web3 platform on Arc Network.",
+    overview:
+      "Oliver is a web3 platform built on the Arc Network. This project is archived.",
     href: "https://github.com/ifeelsam/oliver",
     language: "TypeScript",
     tags: ["Web3", "Arc"],
@@ -184,6 +217,13 @@ export const allProjects: Project[] = [
     logo: "/logos/github.png",
   },
 ];
+
+/** Canonical path for a project's own page. */
+export const projectPath = (slug: string) => `/projects/${slug}`;
+
+export function getProjectBySlug(slug: string): Project | undefined {
+  return allProjects.find((project) => project.slug === slug);
+}
 
 export type Experience = {
   org: string;
