@@ -63,6 +63,11 @@ export const socialProfiles: SocialProfile[] = [
 
 export type ProjectStatus = "live" | "building" | "archived";
 
+export type ProjectMetric = {
+  label: string;
+  value: string;
+};
+
 export type Project = {
   slug: string;
   name: string;
@@ -77,6 +82,7 @@ export type Project = {
   logo?: string;
   x?: string;
   logoShape?: "circle" | "square";
+  metrics?: ProjectMetric[];
 };
 
 export const featuredProjects: Project[] = [
@@ -109,6 +115,12 @@ export const featuredProjects: Project[] = [
     tags: ["Web3", "Privacy", "API"],
     status: "live",
     logo: "/logos/cipherscore.png",
+    x: "https://x.com/cipherscore",
+    metrics: [
+      { label: "Users signed up", value: "250+" },
+      { label: "Proofs generated", value: "High volume" },
+      { label: "X followers", value: "80+" },
+    ],
   },
   {
     slug: "pikavault",
@@ -136,6 +148,12 @@ export const featuredProjects: Project[] = [
     tags: ["Sui", "Next.js", "Dashboard"],
     status: "live",
     logo: "/logos/avenox.png",
+    metrics: [
+      {
+        label: "Hackathon",
+        value: "EthGlobal Delhi · Walrus bounty winner",
+      },
+    ],
   },
 ];
 

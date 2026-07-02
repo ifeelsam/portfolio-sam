@@ -164,6 +164,22 @@ export default async function ProjectPage({
           {project.overview ?? project.description}
         </p>
 
+        {project.metrics && project.metrics.length > 0 && (
+          <dl className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3">
+            {project.metrics.map((metric) => (
+              <div
+                key={metric.label}
+                className="rounded-lg border border-border bg-muted/30 px-4 py-3"
+              >
+                <dt className="site-label">{metric.label}</dt>
+                <dd className="mt-1.5 text-sm font-medium leading-snug text-foreground">
+                  {metric.value}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        )}
+
         <div className="mt-8 flex flex-wrap gap-3">
           {project.demo && (
             <a

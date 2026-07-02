@@ -82,6 +82,20 @@ function ProjectRow({
           <span className="mt-2 block text-sm leading-relaxed text-muted-foreground">
             {project.description}
           </span>
+          {project.metrics && project.metrics.length > 0 && (
+            <span className="mt-2 flex flex-wrap gap-1.5">
+              {project.metrics.map((metric) => (
+                <span
+                  key={metric.label}
+                  className="rounded-md border border-border bg-muted/40 px-2 py-0.5 text-[0.6875rem] text-muted-foreground"
+                >
+                  <span className="font-medium text-foreground">{metric.value}</span>
+                  {" · "}
+                  {metric.label}
+                </span>
+              ))}
+            </span>
+          )}
         </span>
 
         <ArrowUpRight className="mt-1 h-4 w-4 shrink-0 text-muted-foreground transition-colors group-hover:text-foreground" />

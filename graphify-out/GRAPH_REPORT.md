@@ -1,16 +1,16 @@
-# Graph Report - portfolio-sam  (2026-07-01)
+# Graph Report - portfolio-sam  (2026-07-02)
 
 ## Corpus Check
-- 37 files · ~90,666 words
+- 37 files · ~90,796 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 212 nodes · 353 edges · 18 communities (12 shown, 6 thin omitted)
+- 213 nodes · 354 edges · 18 communities (12 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e2cc10b4`
+- Built from commit: `4f8a8a67`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -63,16 +63,16 @@ Cohesion: 0.25
 Nodes (7): code:bash (npm install), code:bash (npm run build), Customize, Deploy, Develop, Links, Sam — Developer Portfolio
 
 ### Community 1 - "Community 1"
-Cohesion: 0.12
-Nodes (16): Avatar(), channels, links, nav, SocialPills(), HeroToolbar(), GitHubIcon(), XIcon() (+8 more)
+Cohesion: 0.14
+Nodes (13): Avatar(), CommandPaletteTrigger(), nav, SocialPills(), HeroToolbar(), GitHubIcon(), XIcon(), icons (+5 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.12
-Nodes (8): geistMono, geistSans, inter, metadata, size, Footer(), site, metadata
+Cohesion: 0.33
+Nodes (4): geistMono, geistSans, inter, metadata
 
 ### Community 3 - "Community 3"
-Cohesion: 0.13
-Nodes (14): allItems, CommandPaletteTrigger(), linkItems, PaletteItem, sectionItems, Work(), allProjects, Experience (+6 more)
+Cohesion: 0.18
+Nodes (8): allItems, linkItems, PaletteItem, sectionItems, Work(), featuredHero, featuredSecondary, moreProjects
 
 ### Community 4 - "Community 4"
 Cohesion: 0.15
@@ -87,36 +87,36 @@ Cohesion: 0.22
 Nodes (9): CommandPalette(), CursorSpotlight(), Header(), buildMandalaDots(), Dot, mandalaDots, polar(), ring() (+1 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.14
-Nodes (14): About(), Contact(), Experience(), githubGraphUrl(), Hero(), JsonLd(), Projects(), Proof() (+6 more)
+Cohesion: 0.09
+Nodes (25): size, About(), channels, Contact(), links, Experience(), githubGraphUrl(), Hero() (+17 more)
 
 ### Community 14 - "Community 14"
 Cohesion: 0.05
 Nodes (38): Border Radius Scale, Brand & Accent, Breakpoints, Buttons, Cards & Containers, Collapsing Strategy, Colors, Components (+30 more)
 
 ### Community 15 - "Community 15"
-Cohesion: 0.12
-Nodes (18): projectToItem(), featuredNames, FeaturedProjects(), ProjectRow(), repoFromHref(), Tab, OrgLogo(), OrgLogoProps (+10 more)
+Cohesion: 0.1
+Nodes (21): projectToItem(), featuredNames, FeaturedProjects(), ProjectRow(), repoFromHref(), Tab, Footer(), OrgLogo() (+13 more)
 
 ## Knowledge Gaps
-- **78 isolated node(s):** `config`, `eslintConfig`, `nextConfig`, `size`, `size` (+73 more)
+- **79 isolated node(s):** `config`, `eslintConfig`, `nextConfig`, `size`, `size` (+74 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `site` connect `Community 2` to `Community 1`, `Community 3`, `Community 7`, `Community 15`?**
+- **Why does `site` connect `Community 7` to `Community 1`, `Community 2`, `Community 3`, `Community 15`?**
   _High betweenness centrality (0.039) - this node is a cross-community bridge._
-- **Why does `projectPath()` connect `Community 15` to `Community 2`, `Community 3`, `Community 7`?**
+- **Why does `projectPath()` connect `Community 15` to `Community 3`, `Community 7`?**
   _High betweenness centrality (0.012) - this node is a cross-community bridge._
 - **What connects `config`, `eslintConfig`, `nextConfig` to the rest of the system?**
-  _78 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _79 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.12 - nodes in this community are weakly interconnected._
-- **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.12 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.13 - nodes in this community are weakly interconnected._
-- **Should `Community 7` be split into smaller, more focused modules?**
   _Cohesion score 0.14 - nodes in this community are weakly interconnected._
+- **Should `Community 7` be split into smaller, more focused modules?**
+  _Cohesion score 0.09 - nodes in this community are weakly interconnected._
+- **Should `Community 14` be split into smaller, more focused modules?**
+  _Cohesion score 0.05 - nodes in this community are weakly interconnected._
+- **Should `Community 15` be split into smaller, more focused modules?**
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
