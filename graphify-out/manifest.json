@@ -67,13 +67,9 @@
     "mtime": 1780083982.3539782,
     "hash": "d49d5c95c70011286cfc362c7a0c0eb3"
   },
-  "/Users/sam/Projects/portfolio-sam/src/components/scroll-progress.tsx": {
-    "mtime": 1780065124.7745948,
-    "hash": "82860d3c6669ce65b172b42d32687f33"
-  },
   "/Users/sam/Projects/portfolio-sam/src/components/site-shell.tsx": {
-    "mtime": 1780083935.0674496,
-    "hash": "1a6801fb87d7624416a617f71f4ca287"
+    "mtime": 1783014693.894679,
+    "hash": "64c901f4a561a216b62de41d7cad09f1"
   },
   "/Users/sam/Projects/portfolio-sam/src/components/contact.tsx": {
     "mtime": 1780083987.3525112,
@@ -124,7 +120,7 @@
     "hash": "530801b91b02ef7c05a04f7b993c2425"
   },
   "/Users/sam/Projects/portfolio-sam/src/lib/site.ts": {
-    "mtime": 1783003969.5333505,
+    "mtime": 1783014671.9464564,
     "hash": "d1be614a7c63a11651150c9ff7de6e29"
   },
   "/Users/sam/Projects/portfolio-sam/brand.md": {

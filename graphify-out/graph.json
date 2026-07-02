@@ -472,24 +472,6 @@
       "norm_label": "experience()"
     },
     {
-      "label": "scroll-progress.tsx",
-      "file_type": "code",
-      "source_file": "src/components/scroll-progress.tsx",
-      "source_location": "L1",
-      "id": "src_components_scroll_progress_tsx",
-      "community": 6,
-      "norm_label": "scroll-progress.tsx"
-    },
-    {
-      "label": "ScrollProgress()",
-      "file_type": "code",
-      "source_file": "src/components/scroll-progress.tsx",
-      "source_location": "L5",
-      "id": "components_scroll_progress_scrollprogress",
-      "community": 6,
-      "norm_label": "scrollprogress()"
-    },
-    {
       "label": "site-shell.tsx",
       "file_type": "code",
       "source_file": "src/components/site-shell.tsx",
@@ -502,7 +484,7 @@
       "label": "SiteShell()",
       "file_type": "code",
       "source_file": "src/components/site-shell.tsx",
-      "source_location": "L4",
+      "source_location": "L3",
       "id": "components_site_shell_siteshell",
       "community": 15,
       "norm_label": "siteshell()"
@@ -1550,6 +1532,24 @@
       "id": "claude_md",
       "community": 13,
       "norm_label": "claude.md"
+    },
+    {
+      "label": "scroll-progress.tsx",
+      "file_type": "code",
+      "source_file": "src/components/scroll-progress.tsx",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "scroll-progress.tsx",
+      "id": "src_components_scroll_progress_tsx"
+    },
+    {
+      "label": "ScrollProgress()",
+      "file_type": "code",
+      "source_file": "src/components/scroll-progress.tsx",
+      "source_location": "L5",
+      "community": 6,
+      "norm_label": "scrollprogress()",
+      "id": "components_scroll_progress_scrollprogress"
     },
     {
       "label": "header.tsx",
@@ -3448,60 +3448,6 @@
       "target": "components_experience_githubgraphurl"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/scroll-progress.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_scroll_progress_tsx",
-      "target": "components_scroll_progress_scrollprogress"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/site-shell.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_site_shell_tsx",
-      "target": "src_components_scroll_progress_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/header.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_header_tsx",
-      "target": "src_components_scroll_progress_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/site-shell.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_site_shell_tsx",
-      "target": "components_scroll_progress_scrollprogress"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/header.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_header_tsx",
-      "target": "components_scroll_progress_scrollprogress"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -3532,6 +3478,28 @@
       "confidence_score": 1.0,
       "source": "src_components_site_shell_tsx",
       "target": "components_site_shell_siteshell"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/site-shell.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_site_shell_tsx",
+      "target": "src_components_scroll_progress_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/site-shell.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_site_shell_tsx",
+      "target": "components_scroll_progress_scrollprogress"
     },
     {
       "relation": "imports_from",
@@ -5334,6 +5302,38 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/components/scroll-progress.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_scroll_progress_tsx",
+      "target": "components_scroll_progress_scrollprogress"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/header.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "src_components_scroll_progress_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/header.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_header_tsx",
+      "target": "components_scroll_progress_scrollprogress"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/components/header.tsx",
       "source_location": "L9",
       "weight": 1.0,
@@ -5650,5 +5650,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f0d5b66bbd0fce55e7e29aca028618fb5f55866e"
+  "built_at_commit": "390b34fabb6098849fd9e7879a17bb5a8a67cca4"
 }
