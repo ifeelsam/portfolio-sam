@@ -10,12 +10,12 @@ const inter = Inter({
 });
 
 const description =
-  "Sam (@ifeelsam) is a full-stack Solana engineer building Mortem — agent trading observability. Arcium Fellow, 2× Superteam grant recipient. Work spans privacy-preserving finance, AI agents, and TypeScript/Next.js.";
+  "Sam (@ifeelsam) is a full-stack Solana engineer building Mortem | agent trading observability. Arcium Fellow, 2× Superteam grant recipient. Work spans privacy-preserving finance, AI agents, and TypeScript/Next.js.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Sam (@ifeelsam) — Full-stack Solana Engineer & Builder",
+    default: "Sam (@ifeelsam) | Fullstack Solana Engineer",
     template: "%s · Sam (@ifeelsam)",
   },
   description,
@@ -39,16 +39,16 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Sam (@ifeelsam) — Full-stack Solana Engineer & Builder",
+    title: "Sam (@ifeelsam) | Fullstack Solana Engineer",
     description,
     url: site.url,
-    siteName: "Sam — ifeelsam",
+    siteName: "Sam | ifeelsam",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sam (@ifeelsam) — Full-stack Solana Engineer & Builder",
+    title: "Sam (@ifeelsam) | Fullstack Solana Engineer",
     description,
     creator: "@ifeelsam",
     site: "@ifeelsam",
