@@ -223,6 +223,20 @@ export const allProjects: Project[] = [
     logo: "/logos/github.png",
   },
   {
+    slug: "couchmatch",
+    name: "CouchMatch",
+    description:
+      "Pick what to watch together — swipe, match, and stop arguing over the remote.",
+    overview:
+      "CouchMatch helps groups decide what to watch. Sign in, swipe through options, and match on something everyone wants to press play on.",
+    href: "https://github.com/ifeelsam/CouchMatch",
+    demo: "https://couchmatch.vercel.app",
+    language: "TypeScript",
+    tags: ["Product", "Next.js", "Supabase"],
+    status: "live",
+    logo: "/logos/github.png",
+  },
+  {
     slug: "oliver",
     name: "Oliver",
     description: "Web3 platform on Arc Network.",
@@ -314,5 +328,5 @@ export const stack = [
 export const proofStats = [
   { label: "Public repos", value: "103+" },
   { label: "GitHub since", value: site.memberSince },
-  { label: "Live demos", value: "7" },
+  { label: "Live demos", value: "8" },
 ] as const;
