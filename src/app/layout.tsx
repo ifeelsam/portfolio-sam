@@ -15,7 +15,7 @@ const description =
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Sam (@ifeelsam) | Fullstack Solana Engineer",
+    default: "Sam (@ifeelsam) · Fullstack Solana Engineer",
     template: "%s · Sam (@ifeelsam)",
   },
   description,
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "ifeelsam",
     "Solana engineer",
     "Solana developer",
-    "full-stack engineer",
+    "fullstack engineer",
     "AI agents",
     "web3 developer",
     "Mortem",
